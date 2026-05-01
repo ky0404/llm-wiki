@@ -1,0 +1,4668 @@
+{
+  "last_updated": "2026-05-01T14:11:58.000000",
+  "edges": [
+    {
+      "from": "AGENTS.md",
+      "to": "skills/wiki-maintainer.md"
+    },
+    {
+      "from": "AGENTS.md",
+      "to": "skills/context-engineer.md"
+    },
+    {
+      "from": "AGENTS.md",
+      "to": "skills/prompt-structurer.md"
+    },
+    {
+      "from": "AGENTS.md",
+      "to": "my-learning-path/index.md"
+    },
+    {
+      "from": "AGENTS.md",
+      "to": "wiki/index.md"
+    },
+    {
+      "from": "AGENTS.md",
+      "to": "log.md"
+    },
+    {
+      "from": "index.md",
+      "to": "sources/CLAUDE.md"
+    },
+    {
+      "from": "index.md",
+      "to": "sources/README.zh.md"
+    },
+    {
+      "from": "index.md",
+      "to": "sources/llm-wiki.md"
+    },
+    {
+      "from": "index.md",
+      "to": "sources/llm-wiki-核心思想.md"
+    },
+    {
+      "from": "index.md",
+      "to": "sources/transformer-paper.md"
+    },
+    {
+      "from": "index.md",
+      "to": "sources/understanding-model-context-protocol-mcp.md"
+    },
+    {
+      "from": "index.md",
+      "to": "sources/function-calling-openai-api.md"
+    },
+    {
+      "from": "index.md",
+      "to": "sources/提示工程学习笔记.md"
+    },
+    {
+      "from": "index.md",
+      "to": "sources/近年-ai-应用技术串讲与优质文档分享.md"
+    },
+    {
+      "from": "index.md",
+      "to": "sources/1706.03762v7.md"
+    },
+    {
+      "from": "index.md",
+      "to": "sources/2005.11401v4.md"
+    },
+    {
+      "from": "index.md",
+      "to": "sources/2106.09685v2.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/cag.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/参数高效微调.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/dpr.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/ingest.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/query.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/lint.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/llm-编码最佳实践.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/目标驱动编程.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/memex.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/超文本.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/wikilinks.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/知识管理.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/提示词工程之书-摘要.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/注意力机制.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/多头注意力.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/缩放点积注意力.md"
+    },
+    {
+      "from": "index.md",
+      "to": "concepts/低秩分解.md"
+    },
+    {
+      "from": "index.md",
+      "to": "entities/andrej-karpathy.md"
+    },
+    {
+      "from": "index.md",
+      "to": "entities/cursor-ide.md"
+    },
+    {
+      "from": "index.md",
+      "to": "entities/obsidian.md"
+    },
+    {
+      "from": "index.md",
+      "to": "entities/vannevar-bush.md"
+    },
+    {
+      "from": "index.md",
+      "to": "entities/marp.md"
+    },
+    {
+      "from": "index.md",
+      "to": "entities/dataview.md"
+    },
+    {
+      "from": "index.md",
+      "to": "entities/qmd.md"
+    },
+    {
+      "from": "index.md",
+      "to": "entities/microsoft.md"
+    },
+    {
+      "from": "index.md",
+      "to": "entities/facebook-ai-research.md"
+    },
+    {
+      "from": "index.md",
+      "to": "entities/google-brain.md"
+    },
+    {
+      "from": "index.md",
+      "to": "entities/ashish-vaswani.md"
+    },
+    {
+      "from": "index.md",
+      "to": "entities/noam-shazeer.md"
+    },
+    {
+      "from": "index.md",
+      "to": "entities/patrick-lewis.md"
+    },
+    {
+      "from": "index.md",
+      "to": "entities/edward-hu.md"
+    },
+    {
+      "from": "index.md",
+      "to": "synthesis/llm-工作流对比.md"
+    },
+    {
+      "from": "index.md",
+      "to": "synthesis/提示技术对比-种子.md"
+    },
+    {
+      "from": "index.md",
+      "to": "synthesis/llm-wiki-upgrade-plan.md"
+    },
+    {
+      "from": "index.md",
+      "to": "synthesis/architecture-options.md"
+    },
+    {
+      "from": "index.md",
+      "to": "synthesis/data-model-design.md"
+    },
+    {
+      "from": "index.md",
+      "to": "synthesis/api-surface-design.md"
+    },
+    {
+      "from": "index.md",
+      "to": "synthesis/roadmap-6-12-months.md"
+    },
+    {
+      "from": "index.md",
+      "to": "synthesis/testing-qa-strategy.md"
+    },
+    {
+      "from": "index.md",
+      "to": "synthesis/security-compliance.md"
+    },
+    {
+      "from": "index.md",
+      "to": "synthesis/migration-plan.md"
+    },
+    {
+      "from": "index.md",
+      "to": "synthesis/risk-mitigation.md"
+    },
+    {
+      "from": "index.md",
+      "to": "synthesis/cost-estimation.md"
+    },
+    {
+      "from": "index.md",
+      "to": "synthesis/bert-in-rag.md"
+    },
+    {
+      "from": "index.md",
+      "to": "log.md"
+    },
+    {
+      "from": "index.md",
+      "to": "AGENTS.md"
+    },
+    {
+      "from": "index.md",
+      "to": "my-learning-path/index.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/llm-编码最佳实践.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/目标驱动编程.md"
+    },
+    {
+      "from": "log.md",
+      "to": "entities/andrej-karpathy.md"
+    },
+    {
+      "from": "log.md",
+      "to": "entities/cursor-ide.md"
+    },
+    {
+      "from": "log.md",
+      "to": "entities/obsidian.md"
+    },
+    {
+      "from": "log.md",
+      "to": "entities/vannevar-bush.md"
+    },
+    {
+      "from": "log.md",
+      "to": "synthesis/llm-工作流对比.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/memex.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/超文本.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/wikilinks.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/知识管理.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/提示词工程之书-摘要.md"
+    },
+    {
+      "from": "log.md",
+      "to": "entities/marp.md"
+    },
+    {
+      "from": "log.md",
+      "to": "entities/dataview.md"
+    },
+    {
+      "from": "log.md",
+      "to": "entities/qmd.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/参数高效微调.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/检索增强生成.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/dpr.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/注意力机制.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/多头注意力.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/缩放点积注意力.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/低秩分解.md"
+    },
+    {
+      "from": "log.md",
+      "to": "entities/ashish-vaswani.md"
+    },
+    {
+      "from": "log.md",
+      "to": "entities/noam-shazeer.md"
+    },
+    {
+      "from": "log.md",
+      "to": "entities/patrick-lewis.md"
+    },
+    {
+      "from": "log.md",
+      "to": "entities/edward-hu.md"
+    },
+    {
+      "from": "log.md",
+      "to": "synthesis/llm-wiki-upgrade-plan.md"
+    },
+    {
+      "from": "log.md",
+      "to": "synthesis/architecture-options.md"
+    },
+    {
+      "from": "log.md",
+      "to": "synthesis/data-model-design.md"
+    },
+    {
+      "from": "log.md",
+      "to": "synthesis/api-surface-design.md"
+    },
+    {
+      "from": "log.md",
+      "to": "synthesis/roadmap-6-12-months.md"
+    },
+    {
+      "from": "log.md",
+      "to": "synthesis/testing-qa-strategy.md"
+    },
+    {
+      "from": "log.md",
+      "to": "synthesis/security-compliance.md"
+    },
+    {
+      "from": "log.md",
+      "to": "synthesis/migration-plan.md"
+    },
+    {
+      "from": "log.md",
+      "to": "synthesis/risk-mitigation.md"
+    },
+    {
+      "from": "log.md",
+      "to": "synthesis/cost-estimation.md"
+    },
+    {
+      "from": "log.md",
+      "to": "entities/patrick-lewis.md"
+    },
+    {
+      "from": "log.md",
+      "to": "entities/ashish-vaswani.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/bert.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/bert.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "log.md",
+      "to": "synthesis/bert-in-rag.md"
+    },
+    {
+      "from": "log.md",
+      "to": "index.md"
+    },
+    {
+      "from": "log.md",
+      "to": "index-cache.json.md"
+    },
+    {
+      "from": "log.md",
+      "to": "entities/patrick-lewis.md"
+    },
+    {
+      "from": "log.md",
+      "to": "entities/ashish-vaswani.md"
+    },
+    {
+      "from": "log.md",
+      "to": "entities/ashish-vaswani.md"
+    },
+    {
+      "from": "log.md",
+      "to": "entities/patrick-lewis.md"
+    },
+    {
+      "from": "log.md",
+      "to": "index-cache.json.md"
+    },
+    {
+      "from": "log.md",
+      "to": "wikilink.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/bert.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/mcp.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/gpt.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/mcp.md"
+    },
+    {
+      "from": "log.md",
+      "to": "synthesis/bert-in-rag.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/mcp.md"
+    },
+    {
+      "from": "log.md",
+      "to": "链接.md"
+    },
+    {
+      "from": "log.md",
+      "to": "链接.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/dpr.md"
+    },
+    {
+      "from": "log.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "log.md",
+      "to": "entities/patrick-lewis.md"
+    },
+    {
+      "from": "log.md",
+      "to": "entities/ashish-vaswani.md"
+    },
+    {
+      "from": "log.md",
+      "to": "wikilink.md"
+    },
+    {
+      "from": "log.md",
+      "to": "sources/rag.md"
+    },
+    {
+      "from": "log.md",
+      "to": "sources/2005.11401v4.md"
+    },
+    {
+      "from": "log.md",
+      "to": "index-cache.json.md"
+    },
+    {
+      "from": "concepts/bert.md",
+      "to": "concepts/gpt.md"
+    },
+    {
+      "from": "concepts/bert.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "concepts/bert.md",
+      "to": "concepts/参数高效微调.md"
+    },
+    {
+      "from": "concepts/bert.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "concepts/bert.md",
+      "to": "concepts/gpt.md"
+    },
+    {
+      "from": "concepts/bert.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "concepts/bert.md",
+      "to": "sources/transformer-paper.md"
+    },
+    {
+      "from": "concepts/cag.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/cag.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "concepts/cag.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/cag.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "concepts/dpr.md",
+      "to": "entities/facebook-ai-research.md"
+    },
+    {
+      "from": "concepts/dpr.md",
+      "to": "synthesis/dpr-industrial-adoption.md"
+    },
+    {
+      "from": "concepts/function-calling.md",
+      "to": "entities/openai.md"
+    },
+    {
+      "from": "concepts/function-calling.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "concepts/function-calling.md",
+      "to": "sources/Function calling  OpenAI API.md"
+    },
+    {
+      "from": "concepts/gpt.md",
+      "to": "concepts/bert.md"
+    },
+    {
+      "from": "concepts/gpt.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "concepts/gpt.md",
+      "to": "concepts/参数高效微调.md"
+    },
+    {
+      "from": "concepts/gpt.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "concepts/gpt.md",
+      "to": "concepts/bert.md"
+    },
+    {
+      "from": "concepts/gpt.md",
+      "to": "sources/transformer-paper.md"
+    },
+    {
+      "from": "concepts/ingest.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/ingest.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/ingest.md",
+      "to": "concepts/query.md"
+    },
+    {
+      "from": "concepts/ingest.md",
+      "to": "concepts/lint.md"
+    },
+    {
+      "from": "concepts/lint.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/lint.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/lint.md",
+      "to": "concepts/ingest.md"
+    },
+    {
+      "from": "concepts/lint.md",
+      "to": "concepts/query.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "concepts/cag.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "AGENTS.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "concepts/ingest.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "concepts/query.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "concepts/lint.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "entities/vannevar-bush.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "entities/obsidian.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "entities/marp.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "entities/dataview.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "entities/qmd.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "concepts/cag.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "concepts/ingest.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "concepts/query.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "concepts/lint.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "entities/vannevar-bush.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "entities/obsidian.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "entities/marp.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "entities/dataview.md"
+    },
+    {
+      "from": "concepts/llm-wiki.md",
+      "to": "synthesis/graph-audit-20260430.md"
+    },
+    {
+      "from": "concepts/llm-编码最佳实践.md",
+      "to": "sources/CLAUDE.md"
+    },
+    {
+      "from": "concepts/llm-编码最佳实践.md",
+      "to": "sources/CLAUDE.md"
+    },
+    {
+      "from": "concepts/llm-编码最佳实践.md",
+      "to": "concepts/目标驱动编程.md"
+    },
+    {
+      "from": "concepts/llm-编码最佳实践.md",
+      "to": "entities/andrej-karpathy.md"
+    },
+    {
+      "from": "concepts/llm-编码最佳实践.md",
+      "to": "entities/cursor-ide.md"
+    },
+    {
+      "from": "concepts/llm.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/llm.md",
+      "to": "concepts/wikilinks.md"
+    },
+    {
+      "from": "concepts/llm.md",
+      "to": "sources/CLAUDE.md"
+    },
+    {
+      "from": "concepts/llm.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/llm.md",
+      "to": "sources/CLAUDE.md"
+    },
+    {
+      "from": "concepts/llm.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/llm.md",
+      "to": "sources/CLAUDE.md"
+    },
+    {
+      "from": "concepts/llm.md",
+      "to": "concepts/目标驱动编程.md"
+    },
+    {
+      "from": "concepts/llm.md",
+      "to": "concepts/cag.md"
+    },
+    {
+      "from": "concepts/llm.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "concepts/mcp.md",
+      "to": "sources/understanding-model-context-protocol-mcp.md"
+    },
+    {
+      "from": "concepts/mcp.md",
+      "to": "synthesis/llm-工作流对比.md"
+    },
+    {
+      "from": "concepts/memex.md",
+      "to": "entities/vannevar-bush.md"
+    },
+    {
+      "from": "concepts/memex.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/memex.md",
+      "to": "concepts/wikilinks.md"
+    },
+    {
+      "from": "concepts/memex.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "concepts/memex.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "concepts/memex.md",
+      "to": "entities/obsidian.md"
+    },
+    {
+      "from": "concepts/memex.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/memex.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "concepts/memex.md",
+      "to": "entities/vannevar-bush.md"
+    },
+    {
+      "from": "concepts/memex.md",
+      "to": "concepts/超文本.md"
+    },
+    {
+      "from": "concepts/memex.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/memex.md",
+      "to": "concepts/知识管理.md"
+    },
+    {
+      "from": "concepts/memex.md",
+      "to": "sources/llm-wiki.md"
+    },
+    {
+      "from": "concepts/prompt-engineering.md",
+      "to": "skills/prompt-structurer.md"
+    },
+    {
+      "from": "concepts/prompt-engineering.md",
+      "to": "sources/Best practices for prompt engineering with the OpenAI API.md"
+    },
+    {
+      "from": "concepts/query.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/query.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/query.md",
+      "to": "concepts/ingest.md"
+    },
+    {
+      "from": "concepts/query.md",
+      "to": "concepts/lint.md"
+    },
+    {
+      "from": "concepts/rag.md",
+      "to": "concepts/cag.md"
+    },
+    {
+      "from": "concepts/rag.md",
+      "to": "concepts/cag.md"
+    },
+    {
+      "from": "concepts/rag.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/rlhf.md",
+      "to": "entities/openai.md"
+    },
+    {
+      "from": "concepts/rlhf.md",
+      "to": "entities/anthropic.md"
+    },
+    {
+      "from": "concepts/rlhf.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "concepts/transformer.md",
+      "to": "concepts/bert.md"
+    },
+    {
+      "from": "concepts/transformer.md",
+      "to": "concepts/gpt.md"
+    },
+    {
+      "from": "concepts/transformer.md",
+      "to": "concepts/参数高效微调.md"
+    },
+    {
+      "from": "concepts/transformer.md",
+      "to": "sources/transformer-paper.md"
+    },
+    {
+      "from": "concepts/transformer.md",
+      "to": "entities/google-brain.md"
+    },
+    {
+      "from": "concepts/transformer.md",
+      "to": "entities/google-research.md"
+    },
+    {
+      "from": "concepts/wikilinks.md",
+      "to": "entities/obsidian.md"
+    },
+    {
+      "from": "concepts/wikilinks.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/wikilinks.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "concepts/wikilinks.md",
+      "to": "entities/obsidian.md"
+    },
+    {
+      "from": "concepts/wikilinks.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/wikilinks.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "concepts/低秩分解.md",
+      "to": "concepts/参数高效微调.md"
+    },
+    {
+      "from": "concepts/低秩分解.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "concepts/参数高效微调.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "concepts/多头注意力.md",
+      "to": "concepts/注意力机制.md"
+    },
+    {
+      "from": "concepts/多头注意力.md",
+      "to": "concepts/缩放点积注意力.md"
+    },
+    {
+      "from": "concepts/多头注意力.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "concepts/多头注意力.md",
+      "to": "sources/transformer-paper.md"
+    },
+    {
+      "from": "concepts/提示词工程之书-摘要.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "concepts/提示词工程之书-摘要.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "concepts/提示词工程之书-摘要.md",
+      "to": "sources/CLAUDE.md"
+    },
+    {
+      "from": "concepts/提示词工程之书-摘要.md",
+      "to": "concepts/目标驱动编程.md"
+    },
+    {
+      "from": "concepts/提示词工程之书-摘要.md",
+      "to": "synthesis/提示技术对比-种子.md"
+    },
+    {
+      "from": "concepts/检索增强生成.md",
+      "to": "entities/facebook-ai-research.md"
+    },
+    {
+      "from": "concepts/注意力机制.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "concepts/注意力机制.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "concepts/注意力机制.md",
+      "to": "concepts/多头注意力.md"
+    },
+    {
+      "from": "concepts/注意力机制.md",
+      "to": "entities/ashish-vaswani.md"
+    },
+    {
+      "from": "concepts/注意力机制.md",
+      "to": "sources/transformer-paper.md"
+    },
+    {
+      "from": "concepts/目标驱动编程.md",
+      "to": "sources/CLAUDE.md"
+    },
+    {
+      "from": "concepts/目标驱动编程.md",
+      "to": "entities/andrej-karpathy.md"
+    },
+    {
+      "from": "concepts/目标驱动编程.md",
+      "to": "sources/CLAUDE.md"
+    },
+    {
+      "from": "concepts/目标驱动编程.md",
+      "to": "entities/andrej-karpathy.md"
+    },
+    {
+      "from": "concepts/目标驱动编程.md",
+      "to": "concepts/llm-编码最佳实践.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "entities/obsidian.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "concepts/wikilinks.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "concepts/ingest.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "concepts/query.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "concepts/lint.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "entities/vannevar-bush.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "entities/obsidian.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "entities/qmd.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "entities/dataview.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "concepts/wikilinks.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "concepts/lint.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "entities/obsidian.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "concepts/wikilinks.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "entities/vannevar-bush.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "concepts/ingest.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "concepts/query.md"
+    },
+    {
+      "from": "concepts/知识管理.md",
+      "to": "concepts/lint.md"
+    },
+    {
+      "from": "concepts/缩放点积注意力.md",
+      "to": "concepts/注意力机制.md"
+    },
+    {
+      "from": "concepts/缩放点积注意力.md",
+      "to": "concepts/多头注意力.md"
+    },
+    {
+      "from": "concepts/缩放点积注意力.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "concepts/缩放点积注意力.md",
+      "to": "sources/transformer-paper.md"
+    },
+    {
+      "from": "concepts/超文本.md",
+      "to": "entities/vannevar-bush.md"
+    },
+    {
+      "from": "concepts/超文本.md",
+      "to": "concepts/wikilinks.md"
+    },
+    {
+      "from": "concepts/超文本.md",
+      "to": "entities/obsidian.md"
+    },
+    {
+      "from": "concepts/超文本.md",
+      "to": "concepts/wikilinks.md"
+    },
+    {
+      "from": "concepts/超文本.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/超文本.md",
+      "to": "concepts/wikilinks.md"
+    },
+    {
+      "from": "concepts/超文本.md",
+      "to": "entities/vannevar-bush.md"
+    },
+    {
+      "from": "concepts/超文本.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "concepts/超文本.md",
+      "to": "entities/obsidian.md"
+    },
+    {
+      "from": "concepts/超文本.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/超文本.md",
+      "to": "concepts/wikilinks.md"
+    },
+    {
+      "from": "concepts/超文本.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/超文本.md",
+      "to": "entities/vannevar-bush.md"
+    },
+    {
+      "from": "concepts/超文本.md",
+      "to": "concepts/memex.md"
+    },
+    {
+      "from": "concepts/超文本.md",
+      "to": "concepts/wikilinks.md"
+    },
+    {
+      "from": "concepts/超文本.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "concepts/超文本.md",
+      "to": "entities/obsidian.md"
+    },
+    {
+      "from": "concepts/超文本.md",
+      "to": "concepts/知识管理.md"
+    },
+    {
+      "from": "entities/andrej-karpathy.md",
+      "to": "sources/CLAUDE.md"
+    },
+    {
+      "from": "entities/andrej-karpathy.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "entities/andrej-karpathy.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "entities/andrej-karpathy.md",
+      "to": "sources/CLAUDE.md"
+    },
+    {
+      "from": "entities/andrej-karpathy.md",
+      "to": "sources/CLAUDE.md"
+    },
+    {
+      "from": "entities/andrej-karpathy.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "entities/andrej-karpathy.md",
+      "to": "concepts/目标驱动编程.md"
+    },
+    {
+      "from": "entities/anthropic.md",
+      "to": "skills/context-engineer.md"
+    },
+    {
+      "from": "entities/anthropic.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "entities/ashish-vaswani.md",
+      "to": "sources/transformer-paper.md"
+    },
+    {
+      "from": "entities/ashish-vaswani.md",
+      "to": "sources/transformer-paper.md"
+    },
+    {
+      "from": "entities/ashish-vaswani.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "entities/ashish-vaswani.md",
+      "to": "entities/google-brain.md"
+    },
+    {
+      "from": "entities/ashish-vaswani.md",
+      "to": "entities/patrick-lewis.md"
+    },
+    {
+      "from": "entities/cohere.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "entities/cohere.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "entities/cursor-ide.md",
+      "to": "sources/CLAUDE.md"
+    },
+    {
+      "from": "entities/cursor-ide.md",
+      "to": "sources/CLAUDE.md"
+    },
+    {
+      "from": "entities/cursor-ide.md",
+      "to": "concepts/llm-编码最佳实践.md"
+    },
+    {
+      "from": "entities/cursor-ide.md",
+      "to": "sources/CLAUDE.md"
+    },
+    {
+      "from": "entities/cursor-ide.md",
+      "to": "concepts/llm-编码最佳实践.md"
+    },
+    {
+      "from": "entities/cursor-ide.md",
+      "to": "entities/andrej-karpathy.md"
+    },
+    {
+      "from": "entities/dataview.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "entities/dataview.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "entities/dataview.md",
+      "to": "entities/obsidian.md"
+    },
+    {
+      "from": "entities/dataview.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "entities/dataview.md",
+      "to": "concepts/wikilinks.md"
+    },
+    {
+      "from": "entities/edward-hu.md",
+      "to": "concepts/参数高效微调.md"
+    },
+    {
+      "from": "entities/edward-hu.md",
+      "to": "concepts/低秩分解.md"
+    },
+    {
+      "from": "entities/edward-hu.md",
+      "to": "entities/microsoft.md"
+    },
+    {
+      "from": "entities/facebook-ai-research.md",
+      "to": "sources/transformer-paper.md"
+    },
+    {
+      "from": "entities/facebook-ai-research.md",
+      "to": "concepts/检索增强生成.md"
+    },
+    {
+      "from": "entities/google-brain.md",
+      "to": "sources/transformer-paper.md"
+    },
+    {
+      "from": "entities/google-brain.md",
+      "to": "sources/transformer-paper.md"
+    },
+    {
+      "from": "entities/google-brain.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "entities/google-research.md",
+      "to": "entities/google-brain.md"
+    },
+    {
+      "from": "entities/google-research.md",
+      "to": "entities/ashish-vaswani.md"
+    },
+    {
+      "from": "entities/google-research.md",
+      "to": "entities/noam-shazeer.md"
+    },
+    {
+      "from": "entities/google-research.md",
+      "to": "entities/patrick-lewis.md"
+    },
+    {
+      "from": "entities/google-research.md",
+      "to": "entities/edward-hu.md"
+    },
+    {
+      "from": "entities/google-research.md",
+      "to": "sources/transformer-paper.md"
+    },
+    {
+      "from": "entities/google-research.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "entities/google-research.md",
+      "to": "concepts/bert.md"
+    },
+    {
+      "from": "entities/google-research.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "entities/google-research.md",
+      "to": "concepts/参数高效微调.md"
+    },
+    {
+      "from": "entities/huggingface.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "entities/huggingface.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "entities/huggingface.md",
+      "to": "entities/langchain.md"
+    },
+    {
+      "from": "entities/langchain.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "entities/langchain.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "entities/langchain.md",
+      "to": "sources/Context Engineering.md"
+    },
+    {
+      "from": "entities/marp.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "entities/marp.md",
+      "to": "entities/obsidian.md"
+    },
+    {
+      "from": "entities/marp.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "entities/marp.md",
+      "to": "concepts/wikilinks.md"
+    },
+    {
+      "from": "entities/meta-ai.md",
+      "to": "sources/2005.11401v4.md"
+    },
+    {
+      "from": "entities/meta-ai.md",
+      "to": "entities/facebook-ai-research.md"
+    },
+    {
+      "from": "entities/microsoft.md",
+      "to": "concepts/参数高效微调.md"
+    },
+    {
+      "from": "entities/milvus.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "entities/milvus.md",
+      "to": "concepts/dpr.md"
+    },
+    {
+      "from": "entities/noam-shazeer.md",
+      "to": "sources/transformer-paper.md"
+    },
+    {
+      "from": "entities/noam-shazeer.md",
+      "to": "sources/transformer-paper.md"
+    },
+    {
+      "from": "entities/noam-shazeer.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "entities/noam-shazeer.md",
+      "to": "concepts/缩放点积注意力.md"
+    },
+    {
+      "from": "entities/noam-shazeer.md",
+      "to": "concepts/多头注意力.md"
+    },
+    {
+      "from": "entities/noam-shazeer.md",
+      "to": "entities/google-brain.md"
+    },
+    {
+      "from": "entities/obsidian.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "entities/obsidian.md",
+      "to": "concepts/wikilinks.md"
+    },
+    {
+      "from": "entities/obsidian.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "entities/obsidian.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "entities/obsidian.md",
+      "to": "entities/marp.md"
+    },
+    {
+      "from": "entities/obsidian.md",
+      "to": "entities/dataview.md"
+    },
+    {
+      "from": "entities/obsidian.md",
+      "to": "concepts/wikilinks.md"
+    },
+    {
+      "from": "entities/openai.md",
+      "to": "sources/Function calling  OpenAI API.md"
+    },
+    {
+      "from": "entities/openai.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "entities/patrick-lewis.md",
+      "to": "concepts/检索增强生成.md"
+    },
+    {
+      "from": "entities/patrick-lewis.md",
+      "to": "concepts/dpr.md"
+    },
+    {
+      "from": "entities/patrick-lewis.md",
+      "to": "entities/facebook-ai-research.md"
+    },
+    {
+      "from": "entities/patrick-lewis.md",
+      "to": "entities/ashish-vaswani.md"
+    },
+    {
+      "from": "entities/pinecone.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "entities/pinecone.md",
+      "to": "concepts/dpr.md"
+    },
+    {
+      "from": "entities/qdrant.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "entities/qdrant.md",
+      "to": "concepts/dpr.md"
+    },
+    {
+      "from": "entities/qdrant.md",
+      "to": "entities/huggingface.md"
+    },
+    {
+      "from": "entities/qmd.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "entities/qmd.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "entities/qmd.md",
+      "to": "concepts/mcp.md"
+    },
+    {
+      "from": "entities/vannevar-bush.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "entities/vannevar-bush.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "entities/vannevar-bush.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "entities/vannevar-bush.md",
+      "to": "concepts/wikilinks.md"
+    },
+    {
+      "from": "entities/vannevar-bush.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "entities/vannevar-bush.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "entities/vannevar-bush.md",
+      "to": "concepts/memex.md"
+    },
+    {
+      "from": "entities/vannevar-bush.md",
+      "to": "concepts/超文本.md"
+    },
+    {
+      "from": "entities/vannevar-bush.md",
+      "to": "concepts/知识管理.md"
+    },
+    {
+      "from": "my-learning-path/index.md",
+      "to": "my-learning-path/theory.md"
+    },
+    {
+      "from": "my-learning-path/index.md",
+      "to": "my-learning-path/ai-audit.md"
+    },
+    {
+      "from": "my-learning-path/index.md",
+      "to": "my-learning-path/practice.md"
+    },
+    {
+      "from": "my-learning-path/index.md",
+      "to": "my-learning-path/interview.md"
+    },
+    {
+      "from": "my-learning-path/ai-audit/index.md",
+      "to": "my-learning-path/index.md"
+    },
+    {
+      "from": "my-learning-path/ai-audit/index.md",
+      "to": "skills/context-engineer.md"
+    },
+    {
+      "from": "my-learning-path/interview/index.md",
+      "to": "my-learning-path/index.md"
+    },
+    {
+      "from": "my-learning-path/interview/index.md",
+      "to": "skills/context-engineer.md"
+    },
+    {
+      "from": "my-learning-path/interview/reviews/rrf-parameter-tuning.md",
+      "to": "my-learning-path/theory/rag-theory.md"
+    },
+    {
+      "from": "my-learning-path/interview/reviews/rrf-parameter-tuning.md",
+      "to": "my-learning-path/theory/rag-theory.md"
+    },
+    {
+      "from": "my-learning-path/interview/reviews/rrf-parameter-tuning.md",
+      "to": "my-learning-path/interview/technical-questions/rag-hybrid-retrieval.md"
+    },
+    {
+      "from": "my-learning-path/interview/technical-questions/rag-hybrid-retrieval.md",
+      "to": "my-learning-path/interview/index.md"
+    },
+    {
+      "from": "my-learning-path/interview/technical-questions/rag-hybrid-retrieval.md",
+      "to": "my-learning-path/practice/open-source-doc-agent/hybrid-retrieval-optimization.md"
+    },
+    {
+      "from": "my-learning-path/practice/index.md",
+      "to": "my-learning-path/index.md"
+    },
+    {
+      "from": "my-learning-path/practice/index.md",
+      "to": "skills/prompt-structurer.md"
+    },
+    {
+      "from": "my-learning-path/practice/technical-weapons.md",
+      "to": "my-learning-path/theory/rag-theory.md"
+    },
+    {
+      "from": "my-learning-path/practice/technical-weapons.md",
+      "to": "my-learning-path/practice/open-source-doc-agent/hybrid-retrieval-optimization.md"
+    },
+    {
+      "from": "my-learning-path/practice/technical-weapons.md",
+      "to": "my-learning-path/interview/technical-questions/rag-hybrid-retrieval.md"
+    },
+    {
+      "from": "my-learning-path/practice/wiki-rag-optimization.md",
+      "to": "my-learning-path/theory/rag-theory.md"
+    },
+    {
+      "from": "my-learning-path/practice/wiki-rag-optimization.md",
+      "to": "my-learning-path/practice/technical-weapons.md"
+    },
+    {
+      "from": "my-learning-path/practice/code-graph-agent/index.md",
+      "to": "my-learning-path/theory/rag-theory.md"
+    },
+    {
+      "from": "my-learning-path/practice/code-graph-agent/index.md",
+      "to": "my-learning-path/practice/wiki-rag-optimization.md"
+    },
+    {
+      "from": "my-learning-path/practice/code-graph-agent/index.md",
+      "to": "my-learning-path/practice/technical-weapons.md"
+    },
+    {
+      "from": "my-learning-path/practice/code-graph-agent/graph/edges.md",
+      "to": "my-learning-path/practice/code-graph-agent/graph/nodes.md"
+    },
+    {
+      "from": "my-learning-path/practice/code-graph-agent/graph/edges.md",
+      "to": "my-learning-path/practice/code-graph-agent/index.md"
+    },
+    {
+      "from": "my-learning-path/practice/code-graph-agent/graph/edges.md",
+      "to": "my-learning-path/theory/rag-theory.md"
+    },
+    {
+      "from": "my-learning-path/practice/code-graph-agent/graph/nodes.md",
+      "to": "my-learning-path/practice/code-graph-agent/index.md"
+    },
+    {
+      "from": "my-learning-path/practice/code-graph-agent/graph/nodes.md",
+      "to": "my-learning-path/theory/rag-theory.md"
+    },
+    {
+      "from": "my-learning-path/practice/code-graph-agent/graph/rag-knowledge-graph.md",
+      "to": "my-learning-path/practice/code-graph-agent/graph/nodes.md"
+    },
+    {
+      "from": "my-learning-path/practice/code-graph-agent/graph/rag-knowledge-graph.md",
+      "to": "my-learning-path/practice/code-graph-agent/graph/edges.md"
+    },
+    {
+      "from": "my-learning-path/practice/code-graph-agent/graph/rag-knowledge-graph.md",
+      "to": "my-learning-path/theory/rag-theory.md"
+    },
+    {
+      "from": "my-learning-path/practice/code-graph-agent/qa/test_results.md",
+      "to": "my-learning-path/practice/code-graph-agent/index.md"
+    },
+    {
+      "from": "my-learning-path/practice/code-graph-agent/qa/test_results.md",
+      "to": "my-learning-path/theory/rag-theory.md"
+    },
+    {
+      "from": "my-learning-path/practice/code-graph-agent/upgrade/test_results.md",
+      "to": "my-learning-path/practice/code-graph-agent/index.md"
+    },
+    {
+      "from": "my-learning-path/practice/code-graph-agent/upgrade/fast-test/feature_test_report.md",
+      "to": "my-learning-path/practice/code-graph-agent/index.md"
+    },
+    {
+      "from": "my-learning-path/practice/code-graph-agent/upgrade/fast-test/feature_test_report.md",
+      "to": "my-learning-path/practice/code-graph-agent/upgrade/fast-test/test_results.md"
+    },
+    {
+      "from": "my-learning-path/practice/code-graph-agent/upgrade/fast-test/feature_test_report.md",
+      "to": "my-learning-path/practice/code-graph-agent/upgrade/fast-test/yuanxinyeyu_analysis.md"
+    },
+    {
+      "from": "my-learning-path/practice/code-graph-agent/upgrade/fast-test/yuanxinyeyu_analysis.md",
+      "to": "my-learning-path/practice/code-graph-agent/index.md"
+    },
+    {
+      "from": "my-learning-path/practice/code-graph-agent/upgrade/fast-test/yuanxinyeyu_analysis.md",
+      "to": "my-learning-path/practice/code-graph-agent/upgrade/fast-test/test_results.md"
+    },
+    {
+      "from": "my-learning-path/practice/open-source-doc-agent/hybrid-retrieval-optimization.md",
+      "to": "my-learning-path/theory/index.md"
+    },
+    {
+      "from": "my-learning-path/practice/open-source-doc-agent/hybrid-retrieval-optimization.md",
+      "to": "my-learning-path/practice/index.md"
+    },
+    {
+      "from": "my-learning-path/practice/open-source-doc-agent/hybrid-retrieval-optimization.md",
+      "to": "my-learning-path/interview/technical-questions/rag-hybrid-retrieval.md"
+    },
+    {
+      "from": "my-learning-path/theory/index.md",
+      "to": "my-learning-path/index.md"
+    },
+    {
+      "from": "my-learning-path/theory/index.md",
+      "to": "skills/wiki-maintainer.md"
+    },
+    {
+      "from": "my-learning-path/theory/rag-theory.md",
+      "to": "my-learning-path/practice/open-source-doc-agent/hybrid-retrieval-optimization.md"
+    },
+    {
+      "from": "my-learning-path/theory/rag-theory.md",
+      "to": "my-learning-path/interview/technical-questions/rag-hybrid-retrieval.md"
+    },
+    {
+      "from": "sources/1706.03762v7.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "sources/1706.03762v7.md",
+      "to": "entities/ashish-vaswani.md"
+    },
+    {
+      "from": "sources/1706.03762v7.md",
+      "to": "entities/noam-shazeer.md"
+    },
+    {
+      "from": "sources/1706.03762v7.md",
+      "to": "entities/google-research.md"
+    },
+    {
+      "from": "sources/1706.03762v7.md",
+      "to": "entities/google-brain.md"
+    },
+    {
+      "from": "sources/1706.03762v7.md",
+      "to": "entities/google-research.md"
+    },
+    {
+      "from": "sources/2005.11401v4.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "sources/2005.11401v4.md",
+      "to": "concepts/dpr.md"
+    },
+    {
+      "from": "sources/2005.11401v4.md",
+      "to": "entities/patrick-lewis.md"
+    },
+    {
+      "from": "sources/2005.11401v4.md",
+      "to": "entities/meta-ai.md"
+    },
+    {
+      "from": "sources/2106.09685v2.md",
+      "to": "concepts/参数高效微调.md"
+    },
+    {
+      "from": "sources/2106.09685v2.md",
+      "to": "concepts/低秩分解.md"
+    },
+    {
+      "from": "sources/2106.09685v2.md",
+      "to": "entities/microsoft.md"
+    },
+    {
+      "from": "sources/2106.09685v2.md",
+      "to": "entities/edward-hu.md"
+    },
+    {
+      "from": "sources/2106.09685v2.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "sources/2106.09685v2.md",
+      "to": "entities/microsoft.md"
+    },
+    {
+      "from": "sources/agent-skills-overview.md",
+      "to": "concepts/agent-skills.md"
+    },
+    {
+      "from": "sources/agent-skills-overview.md",
+      "to": "entities/anthropic.md"
+    },
+    {
+      "from": "sources/agent-skills-overview.md",
+      "to": "sources/equipping-agents-for-the-real-world-with-agent-skills.md"
+    },
+    {
+      "from": "sources/agent-skills.md",
+      "to": "concepts/agent-skills.md"
+    },
+    {
+      "from": "sources/agent-skills.md",
+      "to": "entities/anthropic.md"
+    },
+    {
+      "from": "sources/agent-skills.md",
+      "to": "sources/agent-skills-overview.md"
+    },
+    {
+      "from": "sources/ai-agent-workflow-design-patterns-overview.md",
+      "to": "concepts/react.md"
+    },
+    {
+      "from": "sources/ai-agent-workflow-design-patterns-overview.md",
+      "to": "concepts/agent.md"
+    },
+    {
+      "from": "sources/ai-agent-workflow-design-patterns-overview.md",
+      "to": "sources/ai-agent-主流设计模式.md"
+    },
+    {
+      "from": "sources/ai-agent-主流设计模式.md",
+      "to": "concepts/react.md"
+    },
+    {
+      "from": "sources/ai-agent-主流设计模式.md",
+      "to": "concepts/agent.md"
+    },
+    {
+      "from": "sources/ai-agent-主流设计模式.md",
+      "to": "sources/ai-agent-workflow-design-patterns-overview.md"
+    },
+    {
+      "from": "sources/best-practices-prompt-engineering-openai.md",
+      "to": "concepts/提示词工程.md"
+    },
+    {
+      "from": "sources/best-practices-prompt-engineering-openai.md",
+      "to": "entities/openai.md"
+    },
+    {
+      "from": "sources/CLAUDE.md",
+      "to": "entities/andrej-karpathy.md"
+    },
+    {
+      "from": "sources/CLAUDE.md",
+      "to": "concepts/llm-编码最佳实践.md"
+    },
+    {
+      "from": "sources/CLAUDE.md",
+      "to": "concepts/目标驱动编程.md"
+    },
+    {
+      "from": "sources/Context Engineering.md",
+      "to": "skills/context-engineer.md"
+    },
+    {
+      "from": "sources/Context Engineering.md",
+      "to": "entities/langchain.md"
+    },
+    {
+      "from": "sources/Context Engineering.md",
+      "to": "concepts/prompt-engineering.md"
+    },
+    {
+      "from": "sources/Context Engineering.md",
+      "to": "entities/anthropic.md"
+    },
+    {
+      "from": "sources/context-engineering.md",
+      "to": "concepts/上下文工程.md"
+    },
+    {
+      "from": "sources/context-engineering.md",
+      "to": "entities/langchain.md"
+    },
+    {
+      "from": "sources/context-engineering.md",
+      "to": "sources/浅谈上下文工程.md"
+    },
+    {
+      "from": "sources/context-engineering.md",
+      "to": "sources/effective-context-engineering-ai-agents.md"
+    },
+    {
+      "from": "sources/deep-search-deep-research.md",
+      "to": "concepts/检索增强生成.md"
+    },
+    {
+      "from": "sources/deep-search-deep-research.md",
+      "to": "concepts/知识图谱.md"
+    },
+    {
+      "from": "sources/deep-search-deep-research.md",
+      "to": "concepts/智能体.md"
+    },
+    {
+      "from": "sources/deep-search-deep-research.md",
+      "to": "entities/deepseek.md"
+    },
+    {
+      "from": "sources/deep-search-deep-research.md",
+      "to": "entities/kimi.md"
+    },
+    {
+      "from": "sources/effective-context-engineering-ai-agents.md",
+      "to": "concepts/上下文工程.md"
+    },
+    {
+      "from": "sources/effective-context-engineering-ai-agents.md",
+      "to": "entities/anthropic.md"
+    },
+    {
+      "from": "sources/effective-context-engineering-ai-agents.md",
+      "to": "sources/context-engineering.md"
+    },
+    {
+      "from": "sources/effective-context-engineering-ai-agents.md",
+      "to": "sources/浅谈上下文工程.md"
+    },
+    {
+      "from": "sources/elements-of-a-prompt.md",
+      "to": "concepts/提示词工程.md"
+    },
+    {
+      "from": "sources/elements-of-a-prompt.md",
+      "to": "sources/prompt-engineering-tools.md"
+    },
+    {
+      "from": "sources/equipping-agents-for-the-real-world-with-agent-skills.md",
+      "to": "concepts/上下文工程.md"
+    },
+    {
+      "from": "sources/equipping-agents-for-the-real-world-with-agent-skills.md",
+      "to": "entities/anthropic.md"
+    },
+    {
+      "from": "sources/equipping-agents-for-the-real-world-with-agent-skills.md",
+      "to": "concepts/agent-skills.md"
+    },
+    {
+      "from": "sources/equipping-agents-for-the-real-world-with-agent-skills.md",
+      "to": "sources/工程技术-在智能体优先的世界中利用-codex.md"
+    },
+    {
+      "from": "sources/Function calling  OpenAI API.md",
+      "to": "concepts/function-calling.md"
+    },
+    {
+      "from": "sources/Function calling  OpenAI API.md",
+      "to": "entities/openai.md"
+    },
+    {
+      "from": "sources/Function calling  OpenAI API.md",
+      "to": "concepts/prompt-engineering.md"
+    },
+    {
+      "from": "sources/function-calling-openai-api.md",
+      "to": "concepts/llm-编码最佳实践.md"
+    },
+    {
+      "from": "sources/function-calling-openai-api.md",
+      "to": "synthesis/提示技术对比-种子.md"
+    },
+    {
+      "from": "sources/high-level-rag-learning-notes.md",
+      "to": "concepts/检索增强生成.md"
+    },
+    {
+      "from": "sources/high-level-rag-learning-notes.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "sources/high-level-rag-learning-notes.md",
+      "to": "concepts/参数高效微调.md"
+    },
+    {
+      "from": "sources/langgraph-agent-application.md",
+      "to": "entities/langchain.md"
+    },
+    {
+      "from": "sources/langgraph-agent-application.md",
+      "to": "concepts/智能体.md"
+    },
+    {
+      "from": "sources/langgraph-agent-application.md",
+      "to": "concepts/reasoning-act.md"
+    },
+    {
+      "from": "sources/llm-wiki-核心思想.md",
+      "to": "entities/andrej-karpathy.md"
+    },
+    {
+      "from": "sources/llm-wiki.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "sources/llm-wiki.md",
+      "to": "concepts/cag.md"
+    },
+    {
+      "from": "sources/llm-wiki.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "sources/llm-wiki.md",
+      "to": "concepts/ingest.md"
+    },
+    {
+      "from": "sources/llm-wiki.md",
+      "to": "concepts/query.md"
+    },
+    {
+      "from": "sources/llm-wiki.md",
+      "to": "concepts/lint.md"
+    },
+    {
+      "from": "sources/llm-wiki.md",
+      "to": "entities/obsidian.md"
+    },
+    {
+      "from": "sources/llm-wiki.md",
+      "to": "entities/vannevar-bush.md"
+    },
+    {
+      "from": "sources/mcp-in-action.md",
+      "to": "entities/claude.md"
+    },
+    {
+      "from": "sources/mcp-in-action.md",
+      "to": "concepts/智能体.md"
+    },
+    {
+      "from": "sources/mcp-in-action.md",
+      "to": "entities/model-context-protocol.md"
+    },
+    {
+      "from": "sources/prompt-advanced-chain.md",
+      "to": "concepts/提示词工程.md"
+    },
+    {
+      "from": "sources/prompt-advanced-chain.md",
+      "to": "concepts/结构化提示词.md"
+    },
+    {
+      "from": "sources/prompt-advanced-chain.md",
+      "to": "entities/langchain.md"
+    },
+    {
+      "from": "sources/prompt-engineering-tools.md",
+      "to": "entities/langchain.md"
+    },
+    {
+      "from": "sources/prompt-engineering-tools.md",
+      "to": "concepts/提示词工程.md"
+    },
+    {
+      "from": "sources/prompt-engineering-tools.md",
+      "to": "entities/langchain.md"
+    },
+    {
+      "from": "sources/prompt-engineering-tools.md",
+      "to": "sources/prompted-products.md"
+    },
+    {
+      "from": "sources/prompted-products.md",
+      "to": "concepts/提示词工程.md"
+    },
+    {
+      "from": "sources/prompted-products.md",
+      "to": "sources/prompt-engineering-tools.md"
+    },
+    {
+      "from": "sources/python-pdf-parser-libraries.md",
+      "to": "concepts/检索增强生成.md"
+    },
+    {
+      "from": "sources/python-pdf-parser-libraries.md",
+      "to": "concepts/高级-rag.md"
+    },
+    {
+      "from": "sources/python-pdf-parser-libraries.md",
+      "to": "entities/llamaindex.md"
+    },
+    {
+      "from": "sources/README.zh.md",
+      "to": "sources/CLAUDE.md"
+    },
+    {
+      "from": "sources/README.zh.md",
+      "to": "entities/andrej-karpathy.md"
+    },
+    {
+      "from": "sources/README.zh.md",
+      "to": "concepts/llm-编码最佳实践.md"
+    },
+    {
+      "from": "sources/README.zh.md",
+      "to": "concepts/目标驱动编程.md"
+    },
+    {
+      "from": "sources/README.zh.md",
+      "to": "entities/cursor-ide.md"
+    },
+    {
+      "from": "sources/structured-prompt-system.md",
+      "to": "concepts/提示词工程.md"
+    },
+    {
+      "from": "sources/structured-prompt-system.md",
+      "to": "concepts/结构化提示词.md"
+    },
+    {
+      "from": "sources/structured-prompt-system.md",
+      "to": "entities/langgpt.md"
+    },
+    {
+      "from": "sources/transformer-paper.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "sources/transformer-paper.md",
+      "to": "concepts/注意力机制.md"
+    },
+    {
+      "from": "sources/transformer-paper.md",
+      "to": "concepts/多头注意力.md"
+    },
+    {
+      "from": "sources/transformer-paper.md",
+      "to": "concepts/缩放点积注意力.md"
+    },
+    {
+      "from": "sources/transformer-paper.md",
+      "to": "entities/ashish-vaswani.md"
+    },
+    {
+      "from": "sources/transformer-paper.md",
+      "to": "entities/noam-shazeer.md"
+    },
+    {
+      "from": "sources/transformer-paper.md",
+      "to": "entities/google-brain.md"
+    },
+    {
+      "from": "sources/understanding-model-context-protocol-mcp.md",
+      "to": "concepts/mcp.md"
+    },
+    {
+      "from": "sources/understanding-model-context-protocol-mcp.md",
+      "to": "synthesis/llm-工作流对比.md"
+    },
+    {
+      "from": "sources/你不知道的-agent.md",
+      "to": "concepts/agent.md"
+    },
+    {
+      "from": "sources/你不知道的-agent.md",
+      "to": "concepts/function-calling.md"
+    },
+    {
+      "from": "sources/你不知道的-agent.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "sources/你不知道的-agent.md",
+      "to": "sources/工程技术-在智能体优先的世界中利用-codex.md"
+    },
+    {
+      "from": "sources/你不知道的-agent.md",
+      "to": "sources/浅谈上下文工程.md"
+    },
+    {
+      "from": "sources/大模型应用开发框架-langchain-学习笔记-二.md",
+      "to": "entities/langchain.md"
+    },
+    {
+      "from": "sources/大模型应用开发框架-langchain-学习笔记-二.md",
+      "to": "concepts/function-calling.md"
+    },
+    {
+      "from": "sources/大模型应用开发框架-langchain-学习笔记-二.md",
+      "to": "concepts/agent.md"
+    },
+    {
+      "from": "sources/大模型应用开发框架-langchain-学习笔记-二.md",
+      "to": "concepts/react.md"
+    },
+    {
+      "from": "sources/如何写好prompt-结构化.md",
+      "to": "concepts/提示词工程.md"
+    },
+    {
+      "from": "sources/如何写好prompt-结构化.md",
+      "to": "sources/elements-of-a-prompt.md"
+    },
+    {
+      "from": "sources/工程技术-在智能体优先的世界中利用-codex.md",
+      "to": "entities/openai.md"
+    },
+    {
+      "from": "sources/工程技术-在智能体优先的世界中利用-codex.md",
+      "to": "concepts/上下文工程.md"
+    },
+    {
+      "from": "sources/工程技术-在智能体优先的世界中利用-codex.md",
+      "to": "concepts/agent.md"
+    },
+    {
+      "from": "sources/工程技术-在智能体优先的世界中利用-codex.md",
+      "to": "sources/equipping-agents-for-the-real-world-with-agent-skills.md"
+    },
+    {
+      "from": "sources/提示工程学习笔记.md",
+      "to": "concepts/提示词工程之书-摘要.md"
+    },
+    {
+      "from": "sources/提示工程学习笔记.md",
+      "to": "synthesis/提示技术对比-种子.md"
+    },
+    {
+      "from": "sources/浅谈上下文工程.md",
+      "to": "concepts/上下文工程.md"
+    },
+    {
+      "from": "sources/浅谈上下文工程.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "sources/浅谈上下文工程.md",
+      "to": "entities/anthropic.md"
+    },
+    {
+      "from": "sources/浅谈上下文工程.md",
+      "to": "sources/工程技术-在智能体优先的世界中利用-codex.md"
+    },
+    {
+      "from": "sources/浅谈上下文工程.md",
+      "to": "sources/equipping-agents-for-the-real-world-with-agent-skills.md"
+    },
+    {
+      "from": "sources/结构化提示词知识库.md",
+      "to": "concepts/提示词工程.md"
+    },
+    {
+      "from": "sources/结构化提示词知识库.md",
+      "to": "sources/如何写好prompt-结构化.md"
+    },
+    {
+      "from": "sources/近年-ai-应用技术串讲与优质文档分享.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "sources/近年-ai-应用技术串讲与优质文档分享.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "sources/近年-ai-应用技术串讲与优质文档分享.md",
+      "to": "concepts/提示词工程之书-摘要.md"
+    },
+    {
+      "from": "sources/近年-ai-应用技术串讲与优质文档分享.md",
+      "to": "synthesis/llm-工作流对比.md"
+    },
+    {
+      "from": "sources/近年-ai-应用技术串讲与优质文档分享.md",
+      "to": "synthesis/提示技术对比-种子.md"
+    },
+    {
+      "from": "synthesis/api-surface-design.md",
+      "to": "synthesis/llm-wiki-upgrade-plan.md"
+    },
+    {
+      "from": "synthesis/api-surface-design.md",
+      "to": "synthesis/architecture-options.md"
+    },
+    {
+      "from": "synthesis/api-surface-design.md",
+      "to": "synthesis/data-model-design.md"
+    },
+    {
+      "from": "synthesis/api-surface-design.md",
+      "to": "synthesis/testing-qa-strategy.md"
+    },
+    {
+      "from": "synthesis/architecture-options.md",
+      "to": "synthesis/llm-wiki-upgrade-plan.md"
+    },
+    {
+      "from": "synthesis/architecture-options.md",
+      "to": "synthesis/data-model-design.md"
+    },
+    {
+      "from": "synthesis/architecture-options.md",
+      "to": "synthesis/roadmap-6-12-months.md"
+    },
+    {
+      "from": "synthesis/architecture-options.md",
+      "to": "synthesis/cost-estimation.md"
+    },
+    {
+      "from": "synthesis/bert-in-rag.md",
+      "to": "entities/ashish-vaswani.md"
+    },
+    {
+      "from": "synthesis/bert-in-rag.md",
+      "to": "entities/patrick-lewis.md"
+    },
+    {
+      "from": "synthesis/bert-in-rag.md",
+      "to": "concepts/dpr.md"
+    },
+    {
+      "from": "synthesis/bert-in-rag.md",
+      "to": "concepts/bert.md"
+    },
+    {
+      "from": "synthesis/bert-in-rag.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "synthesis/bert-in-rag.md",
+      "to": "concepts/dpr.md"
+    },
+    {
+      "from": "synthesis/bert-in-rag.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "synthesis/bert-in-rag.md",
+      "to": "entities/ashish-vaswani.md"
+    },
+    {
+      "from": "synthesis/bert-in-rag.md",
+      "to": "entities/patrick-lewis.md"
+    },
+    {
+      "from": "synthesis/bert-in-rag.md",
+      "to": "sources/transformer-paper.md"
+    },
+    {
+      "from": "synthesis/bert-in-rag.md",
+      "to": "sources/2005.11401v4.md"
+    },
+    {
+      "from": "synthesis/cost-estimation.md",
+      "to": "synthesis/llm-wiki-upgrade-plan.md"
+    },
+    {
+      "from": "synthesis/cost-estimation.md",
+      "to": "synthesis/architecture-options.md"
+    },
+    {
+      "from": "synthesis/cost-estimation.md",
+      "to": "synthesis/roadmap-6-12-months.md"
+    },
+    {
+      "from": "synthesis/data-model-design.md",
+      "to": "concepts/wikilinks.md"
+    },
+    {
+      "from": "synthesis/data-model-design.md",
+      "to": "synthesis/llm-wiki-upgrade-plan.md"
+    },
+    {
+      "from": "synthesis/data-model-design.md",
+      "to": "synthesis/architecture-options.md"
+    },
+    {
+      "from": "synthesis/data-model-design.md",
+      "to": "synthesis/api-surface-design.md"
+    },
+    {
+      "from": "synthesis/dpr-industrial-adoption.md",
+      "to": "concepts/dpr.md"
+    },
+    {
+      "from": "synthesis/dpr-industrial-adoption.md",
+      "to": "concepts/rag.md"
+    },
+    {
+      "from": "synthesis/dpr-industrial-adoption.md",
+      "to": "concepts/llm.md"
+    },
+    {
+      "from": "synthesis/dpr-industrial-adoption.md",
+      "to": "concepts/参数高效微调.md"
+    },
+    {
+      "from": "synthesis/dpr-industrial-adoption.md",
+      "to": "entities/patrick-lewis.md"
+    },
+    {
+      "from": "synthesis/dpr-industrial-adoption.md",
+      "to": "entities/ashish-vaswani.md"
+    },
+    {
+      "from": "synthesis/knowledge-base-evolution-rules-20260430.md",
+      "to": "AGENTS.md"
+    },
+    {
+      "from": "synthesis/knowledge-base-evolution-rules-20260430.md",
+      "to": "synthesis/knowledge-base-health-report-20260430.md"
+    },
+    {
+      "from": "synthesis/knowledge-base-evolution-rules-20260430.md",
+      "to": "synthesis/graph-audit-20260430.md"
+    },
+    {
+      "from": "synthesis/knowledge-base-health-report-20260430.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "synthesis/knowledge-base-health-report-20260430.md",
+      "to": "concepts/transformer.md"
+    },
+    {
+      "from": "synthesis/knowledge-base-health-report-20260430.md",
+      "to": "synthesis/graph-audit-20260430.md"
+    },
+    {
+      "from": "synthesis/knowledge-base-health-report-20260430.md",
+      "to": "synthesis/knowledge-base-evolution-rules-20260430.md"
+    },
+    {
+      "from": "synthesis/llm-工作流对比.md",
+      "to": "sources/CLAUDE.md"
+    },
+    {
+      "from": "synthesis/llm-工作流对比.md",
+      "to": "concepts/llm-wiki.md"
+    },
+    {
+      "from": "synthesis/llm-工作流对比.md",
+      "to": "concepts/目标驱动编程.md"
+    },
+    {
+      "from": "synthesis/llm-工作流对比.md",
+      "to": "entities/andrej-karpathy.md"
+    },
+    {
+      "from": "synthesis/llm-工作流对比.md",
+      "to": "entities/obsidian.md"
+    },
+    {
+      "from": "synthesis/llm-工作流对比.md",
+      "to": "entities/cursor-ide.md"
+    },
+    {
+      "from": "synthesis/migration-plan.md",
+      "to": "synthesis/llm-wiki-upgrade-plan.md"
+    },
+    {
+      "from": "synthesis/migration-plan.md",
+      "to": "synthesis/architecture-options.md"
+    },
+    {
+      "from": "synthesis/migration-plan.md",
+      "to": "synthesis/data-model-design.md"
+    },
+    {
+      "from": "synthesis/migration-plan.md",
+      "to": "synthesis/testing-qa-strategy.md"
+    },
+    {
+      "from": "synthesis/pdf-parser-benchmark.md",
+      "to": "sources/python-pdf-parser-libraries.md"
+    },
+    {
+      "from": "synthesis/pdf-parser-benchmark.md",
+      "to": "scripts/pdf_parser.py.md"
+    },
+    {
+      "from": "synthesis/risk-mitigation.md",
+      "to": "synthesis/llm-wiki-upgrade-plan.md"
+    },
+    {
+      "from": "synthesis/risk-mitigation.md",
+      "to": "synthesis/security-compliance.md"
+    },
+    {
+      "from": "synthesis/risk-mitigation.md",
+      "to": "synthesis/architecture-options.md"
+    },
+    {
+      "from": "synthesis/risk-mitigation.md",
+      "to": "synthesis/roadmap-6-12-months.md"
+    },
+    {
+      "from": "synthesis/roadmap-6-12-months.md",
+      "to": "synthesis/llm-wiki-upgrade-plan.md"
+    },
+    {
+      "from": "synthesis/roadmap-6-12-months.md",
+      "to": "synthesis/architecture-options.md"
+    },
+    {
+      "from": "synthesis/roadmap-6-12-months.md",
+      "to": "synthesis/risk-mitigation.md"
+    },
+    {
+      "from": "synthesis/roadmap-6-12-months.md",
+      "to": "synthesis/testing-qa-strategy.md"
+    },
+    {
+      "from": "synthesis/security-compliance.md",
+      "to": "synthesis/llm-wiki-upgrade-plan.md"
+    },
+    {
+      "from": "synthesis/security-compliance.md",
+      "to": "synthesis/architecture-options.md"
+    },
+    {
+      "from": "synthesis/security-compliance.md",
+      "to": "synthesis/testing-qa-strategy.md"
+    },
+    {
+      "from": "synthesis/security-compliance.md",
+      "to": "synthesis/risk-mitigation.md"
+    },
+    {
+      "from": "synthesis/testing-qa-strategy.md",
+      "to": "synthesis/llm-wiki-upgrade-plan.md"
+    },
+    {
+      "from": "synthesis/testing-qa-strategy.md",
+      "to": "synthesis/roadmap-6-12-months.md"
+    },
+    {
+      "from": "synthesis/testing-qa-strategy.md",
+      "to": "synthesis/security-compliance.md"
+    },
+    {
+      "from": "synthesis/从提示工程到上下文工程的演进路线图.md",
+      "to": "sources/elements-of-a-prompt.md"
+    },
+    {
+      "from": "synthesis/从提示工程到上下文工程的演进路线图.md",
+      "to": "sources/如何写好prompt-结构化.md"
+    },
+    {
+      "from": "synthesis/从提示工程到上下文工程的演进路线图.md",
+      "to": "sources/best-practices-prompt-engineering-openai.md"
+    },
+    {
+      "from": "synthesis/从提示工程到上下文工程的演进路线图.md",
+      "to": "sources/function-calling-openai-api.md"
+    },
+    {
+      "from": "synthesis/从提示工程到上下文工程的演进路线图.md",
+      "to": "sources/大模型应用开发框架-langchain-学习笔记-二.md"
+    },
+    {
+      "from": "synthesis/从提示工程到上下文工程的演进路线图.md",
+      "to": "sources/ai-agent-主流设计模式.md"
+    },
+    {
+      "from": "synthesis/从提示工程到上下文工程的演进路线图.md",
+      "to": "sources/ai-agent-workflow-design-patterns-overview.md"
+    },
+    {
+      "from": "synthesis/从提示工程到上下文工程的演进路线图.md",
+      "to": "sources/浅谈上下文工程.md"
+    },
+    {
+      "from": "synthesis/从提示工程到上下文工程的演进路线图.md",
+      "to": "sources/context-engineering.md"
+    },
+    {
+      "from": "synthesis/从提示工程到上下文工程的演进路线图.md",
+      "to": "sources/effective-context-engineering-ai-agents.md"
+    },
+    {
+      "from": "synthesis/从提示工程到上下文工程的演进路线图.md",
+      "to": "sources/agent-skills-overview.md"
+    },
+    {
+      "from": "synthesis/从提示工程到上下文工程的演进路线图.md",
+      "to": "sources/agent-skills.md"
+    },
+    {
+      "from": "synthesis/从提示工程到上下文工程的演进路线图.md",
+      "to": "sources/工程技术-在智能体优先的世界中利用-codex.md"
+    },
+    {
+      "from": "synthesis/从提示工程到上下文工程的演进路线图.md",
+      "to": "sources/结构化提示词知识库.md"
+    },
+    {
+      "from": "synthesis/提示技术对比-种子.md",
+      "to": "concepts/提示词工程之书-摘要.md"
+    }
+  ],
+  "metadata": {
+    "description": "Karpathy token optimization: 三级渐进披露缓存文件 - 已修复"
+  },
+  "files": {
+    "AGENTS.md": {
+      "title": "朱奎烨的个人 LLM Wiki 自治智能体",
+      "type": "agent-constitution",
+      "tags": [
+        "agent",
+        "wiki",
+        "autonomy",
+        "constitution"
+      ],
+      "summary": "你是本知识库的管理员，负责将 raw/ 中素材编译为 wiki/ 下结构化页面，并持续维护 index-cache.json。"
+    },
+    "index.md": {
+      "title": "Wiki 主目录",
+      "type": "index",
+      "tags": [
+        "wiki",
+        "主目录"
+      ],
+      "summary": "本 Wiki 由 OpenCode 与国产大模型驱动，自动维护结构化知识图谱。"
+    },
+    "log.md": {
+      "title": "Wiki 操作日志",
+      "type": "synthesis",
+      "tags": [
+        "log"
+      ],
+      "summary": "- 2026-04-28 初始化干净骨架，集成 Graphify + 三级缓存"
+    },
+    "concepts/bert.md": {
+      "title": "BERT",
+      "type": "concept",
+      "tags": [
+        "NLP",
+        "transformer",
+        "language-model"
+      ],
+      "summary": "BERT（Bidirectional Encoder Representations from Transformers）是由Google开发的基于Transformer的双向语言模型，能够同时考虑左右上下文。"
+    },
+    "concepts/cag.md": {
+      "title": "CAG（编译增强生成）",
+      "type": "concept",
+      "tags": [
+        "方法论",
+        "知识管理",
+        "llm"
+      ],
+      "summary": "CAG（Compilation-Augmented Generation，编译增强生成）是 [[concepts/llm-wiki]] 采用的知识管理方法。"
+    },
+    "concepts/dpr.md": {
+      "title": "DPR",
+      "type": "concept",
+      "tags": [
+        "检索",
+        "密集检索"
+      ],
+      "summary": "使用密集向量表示的检索方法，基于双编码器架构。"
+    },
+    "concepts/gpt.md": {
+      "title": "GPT",
+      "type": "concept",
+      "tags": [
+        "NLP",
+        "transformer",
+        "language-model",
+        "generative"
+      ],
+      "summary": "GPT（Generative Pre-trained Transformer）是由OpenAI开发的基于Transformer的自回归语言模型，仅使用解码器部分，通过左上下文生成文本。"
+    },
+    "concepts/ingest.md": {
+      "title": "ingest（摄入）",
+      "type": "concept",
+      "tags": [
+        "操作",
+        "知识管理"
+      ],
+      "summary": "ingest 是 [[concepts/llm-wiki]] 系统的关键操作之一，指将新素材纳入知识库的过程。"
+    },
+    "concepts/lint.md": {
+      "title": "lint（健康检查）",
+      "type": "concept",
+      "tags": [
+        "操作",
+        "维护",
+        "质量"
+      ],
+      "summary": "lint 是 [[concepts/llm-wiki]] 系统的关键操作之一，指对知识库进行健康检查和维护。"
+    },
+    "concepts/llm-wiki.md": {
+      "title": "LLM Wiki",
+      "type": "concept",
+      "tags": [
+        "wiki",
+        "知识管理",
+        "方法论"
+      ],
+      "summary": "LLM Wiki 是一种基于编译增强生成（CAG）的知识管理系统，由 Karpathy 方法论提出。"
+    },
+    "concepts/llm-编码最佳实践.md": {
+      "title": "LLM 编码最佳实践",
+      "type": "concept",
+      "tags": [
+        "llm",
+        "coding",
+        "guidelines",
+        "best-practices"
+      ],
+      "summary": "LLM 编码最佳实践是一套指导原则，旨在解决 LLM 在代码生成和维护中的常见问题，提高代码质量和开发效率。"
+    },
+    "concepts/llm.md": {
+      "title": "LLM",
+      "type": "concept",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "language",
+        "model"
+      ],
+      "summary": "LLM（Large Language Model，大型语言模型）是基于深度学习的自然语言处理模型，能够理解、生成和操作人类语言。它们在大量文本数据上训练，可以执行各种语言任务。"
+    },
+    "concepts/mcp.md": {
+      "title": "Model Context Protocol (MCP)",
+      "type": "concept",
+      "tags": [
+        "AI",
+        "protocol",
+        "integration"
+      ],
+      "summary": "Model Context Protocol (MCP) 是一个开放标准，旨在定义 AI 应用与外部资源和工具的通信方式，解决 AI 系统获取数据的统一接入问题。"
+    },
+    "concepts/memex.md": {
+      "title": "Memex",
+      "type": "concept",
+      "tags": [
+        "history",
+        "concept",
+        "information",
+        "technology"
+      ],
+      "summary": "Memex（Memory Extender，记忆扩展器）是 [[entities/vannevar-bush]] 在 1945 年的文章《As We May Think》中提出的概念设备，被认为是超文本和现代信息检索系统的前身。"
+    },
+    "concepts/query.md": {
+      "title": "query（查询）",
+      "type": "concept",
+      "tags": [
+        "操作",
+        "知识管理"
+      ],
+      "summary": "query 是 [[concepts/llm-wiki]] 系统的关键操作之一，指从知识库中检索和回答问题。"
+    },
+    "concepts/rag.md": {
+      "title": "RAG（检索增强生成）",
+      "type": "concept",
+      "tags": [
+        "方法论",
+        "知识管理",
+        "llm"
+      ],
+      "summary": "RAG（Retrieval-Augmented Generation，检索增强生成）是传统的 AI 知识处理方法。"
+    },
+    "concepts/transformer.md": {
+      "title": "Transformer",
+      "type": "concept",
+      "tags": [
+        "模型架构",
+        "深度学习",
+        "nlp"
+      ],
+      "summary": "基于纯注意力机制的序列到序列架构。"
+    },
+    "concepts/wikilinks.md": {
+      "title": "wikilinks",
+      "type": "concept",
+      "tags": [
+        "formatting",
+        "linking",
+        "markdown",
+        "obsidian"
+      ],
+      "summary": "wikilinks（维基链接）是一种 Markdown 扩展语法，用于创建页面间的双向链接，格式为 `[[页面名称]]`。这是 [[entities/obsidian]] 和其他知识管理工具中常用的链接格式。"
+    },
+    "concepts/低秩分解.md": {
+      "title": "低秩分解",
+      "type": "concept",
+      "tags": [
+        "数学",
+        "线性代数",
+        "机器学习"
+      ],
+      "summary": "低秩分解是将一个矩阵表示为两个或多个低秩矩阵乘积的技术，用于压缩和近似表示高维数据。"
+    },
+    "concepts/参数高效微调.md": {
+      "title": "参数高效微调",
+      "type": "concept",
+      "tags": [
+        "微调",
+        "lora",
+        "adapter"
+      ],
+      "summary": "在保持大语言模型参数冻结的前提下，通过添加少量可训练参数实现模型适配的技术。"
+    },
+    "concepts/多头注意力.md": {
+      "title": "多头注意力",
+      "type": "concept",
+      "tags": [
+        "深度学习",
+        "nlp",
+        "注意力机制"
+      ],
+      "summary": "多头注意力是注意力机制的一种扩展，通过并行运行多个注意力头，让模型能够同时关注输入序列的不同表示子空间。"
+    },
+    "concepts/提示词工程之书-摘要.md": {
+      "title": "提示词工程之书摘要",
+      "type": "concept",
+      "tags": [
+        "prompt-engineering",
+        "llm",
+        "techniques"
+      ],
+      "summary": "提示词工程（Prompt Engineering）是优化与大型语言模型（[[concepts/llm]]）交互的技术，通过精心设计输入提示来获得更好的输出结果。"
+    },
+    "concepts/检索增强生成.md": {
+      "title": "检索增强生成",
+      "type": "concept",
+      "tags": [
+        "rag",
+        "检索",
+        "nlp"
+      ],
+      "summary": "结合参数化记忆（语言模型）和非参数化记忆（向量检索）的混合架构。"
+    },
+    "concepts/注意力机制.md": {
+      "title": "注意力机制",
+      "type": "concept",
+      "tags": [
+        "深度学习",
+        "模型架构",
+        "transformer"
+      ],
+      "summary": "注意力机制是一种神经网络技术，允许模型在处理序列数据时，动态地关注输入序列的不同部分。"
+    },
+    "concepts/目标驱动编程.md": {
+      "title": "目标驱动编程",
+      "type": "concept",
+      "tags": [
+        "programming",
+        "methodology",
+        "llm",
+        "guidelines"
+      ],
+      "summary": "目标驱动编程是一种编程方法论，强调将指令式任务转化为可验证的目标，让 LLM（或程序员）能够独立循环执行直到达成目标，而不是逐步指导具体操作。"
+    },
+    "concepts/知识管理.md": {
+      "title": "知识管理",
+      "type": "concept",
+      "tags": [
+        "knowledge",
+        "management",
+        "system",
+        "methodology"
+      ],
+      "summary": "知识管理是系统性地捕获、组织、存储、检索和分享知识的过程，旨在提高组织的学习能力、决策质量和创新能力。"
+    },
+    "concepts/缩放点积注意力.md": {
+      "title": "缩放点积注意力",
+      "type": "concept",
+      "tags": [
+        "深度学习",
+        "nlp",
+        "注意力机制"
+      ],
+      "summary": "缩放点积注意力是 Transformer 架构中使用的注意力机制，通过缩放点积来稳定梯度，提高训练稳定性。"
+    },
+    "concepts/超文本.md": {
+      "title": "超文本",
+      "type": "concept",
+      "tags": [
+        "technology",
+        "web",
+        "linking",
+        "information"
+      ],
+      "summary": "超文本是一种非线性的文本组织方式，通过链接将相关信息连接起来，允许用户以非顺序方式浏览和访问信息。它是万维网（World Wide Web）的基础技术。"
+    },
+    "entities/andrej-karpathy.md": {
+      "title": "Andrej Karpathy",
+      "type": "entity",
+      "tags": [
+        "person",
+        "researcher",
+        "ai",
+        "llm"
+      ],
+      "summary": "Andrej Karpathy 是 AI 研究员和工程师，以其在深度学习、计算机视觉和大型语言模型方面的工作而闻名。他是 OpenAI 的前研究总监，也是斯坦福大学 CS231n 课程的讲师。"
+    },
+    "entities/ashish-vaswani.md": {
+      "title": "Ashish Vaswani",
+      "type": "entity",
+      "tags": [
+        "研究人员",
+        "ai",
+        "transformer"
+      ],
+      "summary": "Google Brain 研究员，Transformer 架构的主要贡献者之一。"
+    },
+    "entities/cursor-ide.md": {
+      "title": "Cursor IDE",
+      "type": "entity",
+      "tags": [
+        "tool",
+        "ide",
+        "editor",
+        "llm"
+      ],
+      "summary": "Cursor 是一款专为 AI 辅助编程设计的集成开发环境（IDE），内置了强大的 AI 功能，支持与 LLM 深度集成进行代码生成、重构和调试。"
+    },
+    "entities/dataview.md": {
+      "title": "Dataview",
+      "type": "entity",
+      "tags": [
+        "tool",
+        "plugin",
+        "obsidian",
+        "query"
+      ],
+      "summary": "Dataview 是一个 Obsidian 插件，允许用户在 Markdown 文件的 YAML frontmatter 上运行查询，生成动态表格、列表和视图。"
+    },
+    "entities/edward-hu.md": {
+      "title": "Edward Hu",
+      "type": "entity",
+      "tags": [
+        "研究人员",
+        "ai",
+        "lora"
+      ],
+      "summary": "Microsoft 研究员，LoRA（低秩适应）方法的主要贡献者。"
+    },
+    "entities/facebook-ai-research.md": {
+      "title": "Facebook AI Research",
+      "type": "entity",
+      "tags": [
+        "公司",
+        "人工智能",
+        "研究院"
+      ],
+      "summary": "Meta 旗下 AI 研究机构，在NLP领域有重要贡献。"
+    },
+    "entities/google-brain.md": {
+      "title": "Google Brain",
+      "type": "entity",
+      "tags": [
+        "公司",
+        "人工智能",
+        "研究院"
+      ],
+      "summary": "Google 旗下 AI 研究团队，Transformer 架构发源地。"
+    },
+    "entities/google-research.md": {
+      "title": "Google Research",
+      "type": "entity",
+      "tags": [
+        "AI",
+        "research",
+        "organization"
+      ],
+      "summary": "Google Research 是谷歌的人工智能研究分支，负责推动机器学习、深度学习和相关领域的基础研究和应用开发。"
+    },
+    "entities/marp.md": {
+      "title": "Marp",
+      "type": "entity",
+      "tags": [
+        "tool",
+        "presentation",
+        "markdown"
+      ],
+      "summary": "Marp（Markdown Presentation Ecosystem）是一个基于 Markdown 的幻灯片制作工具，允许用户使用 Markdown 语法创建演示文稿。"
+    },
+    "entities/microsoft.md": {
+      "title": "Microsoft",
+      "type": "entity",
+      "tags": [
+        "公司",
+        "人工智能",
+        "研究院"
+      ],
+      "summary": "全球领先的科技公司，在 AI 领域有深厚积累。"
+    },
+    "entities/noam-shazeer.md": {
+      "title": "Noam Shazeer",
+      "type": "entity",
+      "tags": [
+        "研究人员",
+        "ai",
+        "transformer"
+      ],
+      "summary": "Google Brain 研究员，Transformer 架构的关键贡献者。"
+    },
+    "entities/obsidian.md": {
+      "title": "Obsidian",
+      "type": "entity",
+      "tags": [
+        "tool",
+        "note-taking",
+        "knowledge-management",
+        "markdown"
+      ],
+      "summary": "Obsidian 是一款基于 Markdown 的知识管理和笔记应用，使用本地文件存储，支持双向链接、图形视图和丰富的插件生态系统。在 [[concepts/llm-wiki]] 系统中，Obsidian 被用作\"IDE\"，而 LLM 是\"程序员\"。"
+    },
+    "entities/patrick-lewis.md": {
+      "title": "Patrick Lewis",
+      "type": "entity",
+      "tags": [
+        "研究人员",
+        "ai",
+        "rag"
+      ],
+      "summary": "Facebook AI Research (FAIR) 研究员，RAG（检索增强生成）论文的第一作者。"
+    },
+    "entities/qmd.md": {
+      "title": "qmd",
+      "type": "entity",
+      "tags": [
+        "tool",
+        "search",
+        "engine",
+        "local"
+      ],
+      "summary": "qmd 是一个本地 Markdown 文件搜索引擎，提供混合 BM25/向量搜索和 LLM 重新排名功能，完全在设备上运行。"
+    },
+    "entities/vannevar-bush.md": {
+      "title": "Vannevar Bush",
+      "type": "entity",
+      "tags": [
+        "person",
+        "scientist",
+        "inventor",
+        "memex"
+      ],
+      "summary": "Vannevar Bush（1890-1974）是美国工程师、发明家和科学管理者，以其在二战期间的工作和 1945 年的文章《As We May Think》而闻名。在这篇文章中，他提出了 Memex 的概念，这是一种个人知识存储设备，被认为是超文本和万维网的前身。"
+    },
+    "sources/1706.03762v7.md": {
+      "title": "Attention Is All You Need",
+      "type": "source",
+      "tags": [
+        "论文",
+        "transformer",
+        "注意力机制"
+      ],
+      "summary": "提出 Transformer 架构，完全基于注意力机制，摒弃循环和卷积结构，实现并行化训练。"
+    },
+    "sources/transformer-paper.md": {
+      "title": "Attention Is All You Need",
+      "type": "source",
+      "tags": [
+        "论文",
+        "transformer",
+        "注意力机制"
+      ],
+      "summary": "提出 Transformer 架构，完全基于注意力机制，摒弃循环和卷积结构，实现并行化训练。"
+    },
+    "sources/2005.11401v4.md": {
+      "title": "RAG 检索增强生成",
+      "type": "source",
+      "tags": [
+        "论文",
+        "rag",
+        "检索增强"
+      ],
+      "summary": "提出 RAG 模型，结合预训练的参数化（seq2seq）和非参数化（检索）记忆，实现知识密集型任务的高性能。"
+    },
+    "sources/2106.09685v2.md": {
+      "title": "LoRA 低秩适应",
+      "type": "source",
+      "tags": [
+        "论文",
+        "参数高效微调",
+        "lora"
+      ],
+      "summary": "提出低秩适应（LoRA）方法，通过在 Transformer 各层注入可训练的低秩分解矩阵来适配大语言模型，同时保持预训练权重冻结。"
+    },
+    "sources/CLAUDE.md": {
+      "title": "CLAUDE.md 行为指南",
+      "type": "source",
+      "tags": [
+        "llm",
+        "coding",
+        "guidelines",
+        "best-practices"
+      ],
+      "summary": "CLAUDE.md 是一份旨在减少 LLM 编码常见错误的指南，基于 Andrej Karpathy 的观察总结。该指南包含四个核心原则，强调**谨慎优先于速度**的权衡。"
+    },
+    "sources/function-calling-openai-api.md": {
+      "title": "Function calling | OpenAI API",
+      "type": "source",
+      "tags": [
+        "clippings",
+        "openai",
+        "function-calling"
+      ],
+      "summary": "Function calling（工具调用）使 OpenAI 模型能够连接外部系统并访问训练数据之外的信息。"
+    },
+    "sources/llm-wiki-核心思想.md": {
+      "title": "LLM Wiki 核心理念",
+      "type": "source",
+      "tags": [
+        "方法论",
+        "wiki",
+        "karpathy"
+      ],
+      "summary": "不是 RAG（检索增强生成），而是 **CAG（编译增强生成）**。"
+    },
+    "sources/llm-wiki.md": {
+      "title": "LLM Wiki 核心概念",
+      "type": "source",
+      "tags": [
+        "llm",
+        "wiki",
+        "knowledge-management",
+        "methodology",
+        "cag"
+      ],
+      "summary": "LLM Wiki 是一种基于编译增强生成（CAG）的个人知识库构建模式，与传统 RAG（检索增强生成）有本质区别。核心思想是让 LLM 增量构建和维护一个持久化的 wiki，而不是每次查询时从原始文档重新检索。"
+    },
+    "sources/README.zh.md": {
+      "title": "受 Karpathy 启发的 Claude Code 指南",
+      "type": "source",
+      "tags": [
+        "llm",
+        "coding",
+        "guidelines",
+        "karpathy",
+        "chinese"
+      ],
+      "summary": "这是 CLAUDE.md 指南的中文版本，专门为 Claude Code 设计，旨在解决 LLM 编码中的常见问题。该指南源自 Andrej Karpathy 对 LLM 编码陷阱的观察总结。"
+    },
+    "sources/understanding-model-context-protocol-mcp.md": {
+      "title": "Understanding Model Context Protocol (MCP)",
+      "type": "source",
+      "tags": [
+        "clippings",
+        "mcp",
+        "protocol"
+      ],
+      "summary": "MCP（Model Context Protocol）是一个**开放标准**，旨在定义 AI 应用与外部资源和工具的通信方式，解决 AI 系统获取数据的统一接入问题。"
+    },
+    "sources/提示工程学习笔记.md": {
+      "title": "提示工程学习笔记",
+      "type": "source",
+      "tags": [
+        "clippings",
+        "prompt-engineering"
+      ],
+      "summary": "提示工程是专注于提示词开发和优化的学科，帮助用户将大模型用于各种应用场景。"
+    },
+    "sources/近年-ai-应用技术串讲与优质文档分享.md": {
+      "title": "近年 AI 应用技术串讲与优质文档分享",
+      "type": "source",
+      "tags": [
+        "clippings",
+        "ai-tech"
+      ],
+      "summary": "- **LLM**：大语言模型基础"
+    },
+    "synthesis/llm-工作流对比.md": {
+      "title": "LLM 工作流对比分析",
+      "type": "synthesis",
+      "tags": [
+        "llm",
+        "workflow",
+        "comparison",
+        "coding",
+        "knowledge-management"
+      ],
+      "summary": "本文档综合分析三种不同的 LLM 工作流模式：编码指南、知识管理和综合应用。这些模式展示了 LLM 在不同场景下的最佳实践。"
+    },
+    "synthesis/提示技术对比-种子.md": {
+      "title": "提示技术对比分析",
+      "type": "synthesis",
+      "tags": [
+        "对比",
+        "CoT",
+        "Few-Shot",
+        "Zero-Shot"
+      ],
+      "summary": "本页用于存放跨源材料的提示技术对比。当你向 AI 询问类似“对比思维链和少样本提示的优劣”时，它可以自动把分析结果更新到这里。"
+    },
+    "synthesis/llm-wiki-upgrade-plan.md": {
+      "title": "LLM Wiki 端到端升级计划",
+      "type": "synthesis",
+      "tags": [
+        "architecture",
+        "roadmap",
+        "upgrade",
+        "planning"
+      ],
+      "summary": "本计划旨在将现有LLM Wiki系统从基础的文件型知识库升级为具备自检/自纠能力的现代化知识图谱系统。"
+    },
+    "synthesis/architecture-options.md": {
+      "title": "架构方案对比与选型",
+      "type": "synthesis",
+      "tags": [
+        "architecture",
+        "comparison",
+        "deployment"
+      ],
+      "summary": "对比3种架构方案（本地优先、混合、云端为主），针对8GB显存环境给出选型建议。"
+    },
+    "synthesis/data-model-design.md": {
+      "title": "数据模型与图结构设计",
+      "type": "synthesis",
+      "tags": [
+        "data-model",
+        "graph",
+        "vector-db",
+        "schema"
+      ],
+      "summary": "采用混合存储架构：图数据库（Neo4j）存储实体关系，向量数据库（FAISS）存储嵌入。"
+    },
+    "synthesis/api-surface-design.md": {
+      "title": "API 接口设计与规范",
+      "type": "synthesis",
+      "tags": [
+        "api",
+        "openapi",
+        "fastapi",
+        "rest"
+      ],
+      "summary": "采用FastAPI框架构建RESTful API，支持知识库查询、文档摄入、健康检查等操作。"
+    },
+    "synthesis/roadmap-6-12-months.md": {
+      "title": "6-12个月实施路线图",
+      "type": "synthesis",
+      "tags": [
+        "roadmap",
+        "milestones",
+        "project-management"
+      ],
+      "summary": "分阶段实施计划，包括基础架构、核心功能、智能化、生产就绪、扩展与优化5个阶段。"
+    },
+    "synthesis/testing-qa-strategy.md": {
+      "title": "测试策略与质量保证",
+      "type": "synthesis",
+      "tags": [
+        "testing",
+        "qa",
+        "quality",
+        "validation"
+      ],
+      "summary": "采用测试金字塔策略：70%单元测试、20%集成测试、10%端到端测试。"
+    },
+    "synthesis/security-compliance.md": {
+      "title": "安全设计与合规策略",
+      "type": "synthesis",
+      "tags": [
+        "security",
+        "compliance",
+        "privacy",
+        "encryption"
+      ],
+      "summary": "涵盖认证鉴权、数据加密、输入验证、云端安全、审计日志、合规策略等全方位安全措施。"
+    },
+    "synthesis/migration-plan.md": {
+      "title": "迁移计划与实施步骤",
+      "type": "synthesis",
+      "tags": [
+        "migration",
+        "deployment",
+        "rollback"
+      ],
+      "summary": "从现有文件系统+index-cache.json平滑迁移到Neo4j+FAISS+FastAPI新架构。"
+    },
+    "synthesis/risk-mitigation.md": {
+      "title": "风险矩阵与应对措施",
+      "type": "synthesis",
+      "tags": [
+        "risk",
+        "mitigation",
+        "assessment"
+      ],
+      "summary": "识别10大风险（R1-R10），计算风险值并制定应对措施，优先级P0-P2。"
+    },
+    "synthesis/cost-estimation.md": {
+      "title": "成本估算分析",
+      "type": "synthesis",
+      "tags": [
+        "cost",
+        "budget",
+        "estimation",
+        "financial"
+      ],
+      "summary": "详细分析初始投入、月度运营成本、总成本对比（3种方案）、ROI分析等。"
+    },
+    "synthesis/bert-in-rag.md": {
+      "title": "BERT 在 RAG 中的应用与关系",
+      "type": "synthesis",
+      "tags": [
+        "bert",
+        "rag",
+        "retrieval",
+        "dense-retrieval"
+      ],
+      "summary": "BERT 与 RAG 存在紧密技术依存关系，BERT 作为稠密检索编码器是 RAG 检索质量的关键保障。"
+    },
+    "synthesis/graph-audit-20260430.md": {
+      "title": "synthesis graph-audit-20260430",
+      "type": "unknown",
+      "tags": [],
+      "summary": "对68节点305边图谱的深度架构审查，发现10个孤立节点、1个死胡同、1个孤儿节点，评估枢纽健康度并给出重构建议。"
+    },
+    "concepts/A.md": {
+      "title": "concepts A",
+      "type": "unknown",
+      "tags": [],
+      "summary": ""
+    },
+    "entities/B.md": {
+      "title": "entities B",
+      "type": "unknown",
+      "tags": [],
+      "summary": ""
+    },
+    "synthesis/dpr-industrial-adoption.md": {
+      "title": "DPR 工业应用与落地实践",
+      "type": "synthesis",
+      "tags": [
+        "dpr",
+        "rag",
+        "工业实践",
+        "检索"
+      ],
+      "summary": ""
+    },
+    "synthesis/knowledge-base-evolution-rules-20260430.md": {
+      "title": "Knowledge Base Evolution Rules — 2026-04-30",
+      "type": "synthesis",
+      "tags": [
+        "evolution",
+        "rules",
+        "governance",
+        "meta"
+      ],
+      "summary": ""
+    },
+    "synthesis/knowledge-base-health-report-20260430.md": {
+      "title": "Knowledge Base Health Report — 2026-04-30",
+      "type": "synthesis",
+      "tags": [
+        "health",
+        "report",
+        "metrics"
+      ],
+      "summary": ""
+    },
+    "Clippings/Agent Skills Overview.md": {
+      "title": "\"Agent Skills Overview\"",
+      "type": "unknown",
+      "tags": [],
+      "summary": ""
+    },
+    "Clippings/Agent Skills.md": {
+      "title": "\"Agent Skills\"",
+      "type": "unknown",
+      "tags": [],
+      "summary": ""
+    },
+    "Clippings/AI Agent Workflow Design Patterns — An Overview.md": {
+      "title": "\"AI Agent Workflow Design Patterns — An Overview\"",
+      "type": "unknown",
+      "tags": [],
+      "summary": ""
+    },
+    "Clippings/AI Agent 主流的设计模式（ReAct,Reflection,LATS）其实没有很复杂。.md": {
+      "title": "\"AI Agent 主流的设计模式（ReAct,Reflection,LATS）其实没有很复杂。\"",
+      "type": "unknown",
+      "tags": [],
+      "summary": ""
+    },
+    "Clippings/Best practices for prompt engineering with the OpenAI API.md": {
+      "title": "\"Best practices for prompt engineering with the OpenAI API\"",
+      "type": "unknown",
+      "tags": [],
+      "summary": ""
+    },
+    "Clippings/Context Engineering.md": {
+      "title": "\"Context Engineering\"",
+      "type": "unknown",
+      "tags": [],
+      "summary": ""
+    },
+    "Clippings/Effective context engineering for AI agents.md": {
+      "title": "\"Effective context engineering for AI agents\"",
+      "type": "unknown",
+      "tags": [],
+      "summary": ""
+    },
+    "Clippings/⭐ 结构化提示词知识库 - 飞书云文档.md": {
+      "title": "\"⭐ 结构化提示词知识库 - 飞书云文档\"",
+      "type": "unknown",
+      "tags": [],
+      "summary": ""
+    },
+    "sources/elements-of-a-prompt.md": {
+      "title": "\"Elements of a Prompt\"",
+      "type": "source",
+      "tags": [
+        "prompt-engineering",
+        "llm"
+      ],
+      "summary": ""
+    },
+    "sources/equipping-agents-for-the-real-world-with-agent-skills.md": {
+      "title": "\"Equipping agents for the real world with Agent Skills\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "skills",
+        "anthropic",
+        "context-engineering"
+      ],
+      "summary": ""
+    },
+    "sources/prompt-engineering-tools.md": {
+      "title": "\"Prompt Engineering Tools\"",
+      "type": "source",
+      "tags": [
+        "prompt-engineering",
+        "tools",
+        "langchain"
+      ],
+      "summary": ""
+    },
+    "sources/prompted-products.md": {
+      "title": "\"Prompted Products\"",
+      "type": "source",
+      "tags": [
+        "prompt-engineering",
+        "products",
+        "applications"
+      ],
+      "summary": ""
+    },
+    "sources/你不知道的-agent.md": {
+      "title": "\"你不知道的 Agent：原理、架构与工程实践\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "architecture",
+        "engineering",
+        "llm"
+      ],
+      "summary": ""
+    },
+    "sources/大模型应用开发框架-langchain-学习笔记-二.md": {
+      "title": "\"大模型应用开发框架 LangChain 学习笔记（二）\"",
+      "type": "source",
+      "tags": [
+        "langchain",
+        "agent",
+        "function-calling",
+        "framework"
+      ],
+      "summary": ""
+    },
+    "sources/如何写好prompt-结构化.md": {
+      "title": "\"如何写好 Prompt：结构化\"",
+      "type": "source",
+      "tags": [
+        "prompt-engineering",
+        "structure",
+        "best-practices"
+      ],
+      "summary": ""
+    },
+    "sources/工程技术-在智能体优先的世界中利用-codex.md": {
+      "title": "\"工程技术：在智能体优先的世界中利用 Codex\"",
+      "type": "source",
+      "tags": [
+        "codex",
+        "agent",
+        "engineering",
+        "openai",
+        "context-engineering"
+      ],
+      "summary": ""
+    },
+    "sources/浅谈上下文工程.md": {
+      "title": "\"浅谈上下文工程：从提示工程到上下文工程的转变\"",
+      "type": "source",
+      "tags": [
+        "context-engineering",
+        "prompt-engineering",
+        "claude-code",
+        "manus",
+        "kiro"
+      ],
+      "summary": ""
+    },
+    "sources/agent-skills-overview.md": {
+      "title": "\"Agent Skills Overview\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "skills",
+        "open-standard",
+        "anthropic"
+      ],
+      "summary": ""
+    },
+    "sources/agent-skills.md": {
+      "title": "\"Agent Skills（官方文档）\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "skills",
+        "claude",
+        "anthropic",
+        "context"
+      ],
+      "summary": ""
+    },
+    "sources/ai-agent-workflow-design-patterns-overview.md": {
+      "title": "\"AI Agent Workflow Design Patterns — An Overview\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "workflow",
+        "design-patterns",
+        "react",
+        "planning"
+      ],
+      "summary": ""
+    },
+    "sources/ai-agent-主流设计模式.md": {
+      "title": "\"AI Agent 主流的设计模式（ReAct, Reflection, LATS）\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "design-patterns",
+        "react",
+        "reflection",
+        "lats",
+        "planning"
+      ],
+      "summary": ""
+    },
+    "sources/best-practices-prompt-engineering-openai.md": {
+      "title": "\"Best practices for prompt engineering with the OpenAI API\"",
+      "type": "source",
+      "tags": [
+        "prompt-engineering",
+        "openai",
+        "best-practices",
+        "api"
+      ],
+      "summary": ""
+    },
+    "sources/context-engineering.md": {
+      "title": "\"Context Engineering（LangChain 博客）\"",
+      "type": "source",
+      "tags": [
+        "context-engineering",
+        "langchain",
+        "agents",
+        "memory"
+      ],
+      "summary": ""
+    },
+    "sources/effective-context-engineering-ai-agents.md": {
+      "title": "\"Effective context engineering for AI agents（Anthropic 官方）\"",
+      "type": "source",
+      "tags": [
+        "context-engineering",
+        "anthropic",
+        "agents",
+        "compaction",
+        "memory"
+      ],
+      "summary": ""
+    },
+    "sources/结构化提示词知识库.md": {
+      "title": "\"结构化提示词知识库（LangGPT）\"",
+      "type": "source",
+      "tags": [
+        "prompt-engineering",
+        "structure",
+        "langpt",
+        "chinese"
+      ],
+      "summary": ""
+    },
+    "synthesis/从提示工程到上下文工程的演进路线图.md": {
+      "title": "\"从提示工程到上下文工程的演进路线图\"",
+      "type": "synthesis",
+      "tags": [
+        "prompt-engineering",
+        "context-engineering",
+        "agent",
+        "evolution",
+        "roadmap"
+      ],
+      "summary": ""
+    },
+    "skills/context-engineer.md": {
+      "title": "skills context-engineer",
+      "type": "unknown",
+      "tags": [],
+      "summary": ""
+    },
+    "skills/prompt-structurer.md": {
+      "title": "skills prompt-structurer",
+      "type": "unknown",
+      "tags": [],
+      "summary": ""
+    },
+    "skills/wiki-maintainer.md": {
+      "title": "skills wiki-maintainer",
+      "type": "unknown",
+      "tags": [],
+      "summary": ""
+    },
+    "skills.md": {
+      "title": "Wiki核心技能库",
+      "type": "concept",
+      "tags": [
+        "skills",
+        "agent",
+        "wiki",
+        "autonomy"
+      ],
+      "summary": ""
+    },
+    "my-learning-path/index.md": {
+      "title": "我的学习成长路径",
+      "type": "index",
+      "tags": [
+        "learning",
+        "path"
+      ],
+      "summary": ""
+    },
+    "sources/Agent Skills Overview.md": {
+      "title": "\"Agent Skills Overview\"",
+      "type": "source",
+      "tags": [
+        "agent"
+      ],
+      "summary": ""
+    },
+    "sources/Agent Skills.md": {
+      "title": "\"Agent Skills\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "prompt",
+        "rag",
+        "pdf"
+      ],
+      "summary": ""
+    },
+    "sources/AI Agent Workflow Design Patterns — An Overview.md": {
+      "title": "\"AI Agent Workflow Design Patterns — An Overview\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "prompt",
+        "llm",
+        "rag",
+        "langchain",
+        "service",
+        "langgraph",
+        "pdf"
+      ],
+      "summary": ""
+    },
+    "sources/AI Agent 主流的设计模式（ReAct,Reflection,LATS）其实没有很复杂。.md": {
+      "title": "\"AI Agent 主流的设计模式（ReAct,Reflection,LATS）其实没有很复杂。\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "llm",
+        "langchain",
+        "pdf"
+      ],
+      "summary": ""
+    },
+    "sources/Best practices for prompt engineering with the OpenAI API.md": {
+      "title": "\"Best practices for prompt engineering with the OpenAI API\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "prompt",
+        "rag"
+      ],
+      "summary": ""
+    },
+    "sources/Context Engineering.md": {
+      "title": "\"Context Engineering\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "prompt",
+        "llm",
+        "rag",
+        "langchain",
+        "langgraph",
+        "embedding",
+        "pdf"
+      ],
+      "summary": ""
+    },
+    "sources/deep-search-deep-research.md": {
+      "title": "聊聊 Deep Search 和 Deep Research",
+      "type": "source",
+      "tags": [
+        "deep-search",
+        "deep-research",
+        "rag",
+        "ai-search"
+      ],
+      "summary": ""
+    },
+    "sources/Effective context engineering for AI agents.md": {
+      "title": "\"Effective context engineering for AI agents\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "prompt",
+        "llm",
+        "rag",
+        "mcp",
+        "model context",
+        "embedding",
+        "pdf"
+      ],
+      "summary": ""
+    },
+    "sources/Elements of a Prompt.md": {
+      "title": "\"Elements of a Prompt\"",
+      "type": "source",
+      "tags": [
+        "prompt"
+      ],
+      "summary": ""
+    },
+    "sources/Equipping agents for the real world with Agent Skills.md": {
+      "title": "\"Equipping agents for the real world with Agent Skills\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "prompt",
+        "rag",
+        "mcp",
+        "model context",
+        "pdf"
+      ],
+      "summary": ""
+    },
+    "sources/Function calling  OpenAI API.md": {
+      "title": "Function calling OpenAI API",
+      "type": "source",
+      "tags": [
+        "prompt",
+        "rag",
+        "model context"
+      ],
+      "summary": ""
+    },
+    "sources/high-level-rag-learning-notes.md": {
+      "title": "高级 RAG 技术学习笔记",
+      "type": "source",
+      "tags": [
+        "rag",
+        "llamaindex",
+        "knowledge-base"
+      ],
+      "summary": ""
+    },
+    "sources/Java 21 初体验.md": {
+      "title": "\"Java 21 初体验\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "java",
+        "service",
+        "pdf"
+      ],
+      "summary": ""
+    },
+    "sources/langgraph-agent-application.md": {
+      "title": "基于 LangGraph 创建智能体应用",
+      "type": "source",
+      "tags": [
+        "langgraph",
+        "agent",
+        "langchain"
+      ],
+      "summary": ""
+    },
+    "sources/mcp-in-action.md": {
+      "title": "实战 Model Context Protocol",
+      "type": "source",
+      "tags": [
+        "mcp",
+        "protocol",
+        "ai-agent",
+        "tools"
+      ],
+      "summary": ""
+    },
+    "sources/Prompt Engineering Tools.md": {
+      "title": "\"Prompt Engineering Tools\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "prompt",
+        "llm",
+        "langchain",
+        "service",
+        "embedding"
+      ],
+      "summary": ""
+    },
+    "sources/Prompt 进阶 — 提示链（Prompt Chain）和多提示词协同 - 飞书云文档.md": {
+      "title": "\"Prompt 进阶 — 提示链（Prompt Chain）和多提示词协同 - 飞书云文档\"",
+      "type": "source",
+      "tags": [
+        "prompt",
+        "llm",
+        "rag"
+      ],
+      "summary": ""
+    },
+    "sources/prompt-advanced-chain.md": {
+      "title": "Prompt 进阶 — 提示链",
+      "type": "source",
+      "tags": [
+        "prompt",
+        "prompt-engineering",
+        "chain"
+      ],
+      "summary": ""
+    },
+    "sources/Prompted Products.md": {
+      "title": "\"Prompted Products\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "prompt",
+        "rag",
+        "java",
+        "ocr"
+      ],
+      "summary": ""
+    },
+    "sources/python-pdf-parser-libraries.md": {
+      "title": "盘点 Python 中那些 PDF 解析库",
+      "type": "source",
+      "tags": [
+        "pdf",
+        "python",
+        "rag",
+        "data-extraction"
+      ],
+      "summary": ""
+    },
+    "sources/structured-prompt-system.md": {
+      "title": "结构化提示词系统论述",
+      "type": "source",
+      "tags": [
+        "prompt",
+        "prompt-engineering",
+        "langgpt",
+        "structure"
+      ],
+      "summary": ""
+    },
+    "sources/Understanding Model Context Protocol (MCP).md": {
+      "title": "\"Understanding Model Context Protocol (MCP)\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "rag",
+        "mcp",
+        "model context",
+        "service"
+      ],
+      "summary": ""
+    },
+    "sources/⭐ 结构化提示词知识库 - 飞书云文档.md": {
+      "title": "\"⭐ 结构化提示词知识库 - 飞书云文档\"",
+      "type": "source",
+      "tags": [
+        "prompt"
+      ],
+      "summary": ""
+    },
+    "sources/你不知道的 Agent：原理、架构与工程实践.md": {
+      "title": "\"你不知道的 Agent：原理、架构与工程实践\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "prompt",
+        "llm",
+        "rag",
+        "langchain",
+        "mcp",
+        "java"
+      ],
+      "summary": ""
+    },
+    "sources/使用 Arthas 排查线上问题.md": {
+      "title": "\"使用 Arthas 排查线上问题\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "rag",
+        "java",
+        "service",
+        "arthas"
+      ],
+      "summary": ""
+    },
+    "sources/使用 Embedding 技术打造本地知识库助手.md": {
+      "title": "\"使用 Embedding 技术打造本地知识库助手\"",
+      "type": "source",
+      "tags": [
+        "prompt",
+        "llm",
+        "rag",
+        "langchain",
+        "embedding",
+        "pdf"
+      ],
+      "summary": ""
+    },
+    "sources/在 Kubernetes 中调度 GPU 资源.md": {
+      "title": "\"在 Kubernetes 中调度 GPU 资源\"",
+      "type": "source",
+      "tags": [
+        "rag",
+        "k8s",
+        "kubernetes",
+        "gpu",
+        "containerd",
+        "service"
+      ],
+      "summary": ""
+    },
+    "sources/基于 LangGraph 创建智能体应用.md": {
+      "title": "\"基于 LangGraph 创建智能体应用\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "prompt",
+        "llm",
+        "rag",
+        "langchain",
+        "langgraph"
+      ],
+      "summary": ""
+    },
+    "sources/基于结构化数据的文档问答.md": {
+      "title": "\"基于结构化数据的文档问答\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "prompt",
+        "llm",
+        "rag",
+        "langchain",
+        "embedding",
+        "llama"
+      ],
+      "summary": ""
+    },
+    "sources/大模型应用开发框架 LangChain 学习笔记.md": {
+      "title": "\"大模型应用开发框架 LangChain 学习笔记\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "prompt",
+        "llm",
+        "rag",
+        "langchain",
+        "java",
+        "service",
+        "embedding",
+        "llama",
+        "pdf"
+      ],
+      "summary": ""
+    },
+    "sources/大模型应用开发框架 LangChain 学习笔记（二）.md": {
+      "title": "\"大模型应用开发框架 LangChain 学习笔记（二）\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "prompt",
+        "llm",
+        "rag",
+        "langchain",
+        "embedding",
+        "pdf"
+      ],
+      "summary": ""
+    },
+    "sources/如何写好Prompt 结构化.md": {
+      "title": "\"如何写好Prompt 结构化\"",
+      "type": "source",
+      "tags": [
+        "prompt"
+      ],
+      "summary": ""
+    },
+    "sources/学习 Kubernetes 流量管理之 Ingress.md": {
+      "title": "\"学习 Kubernetes 流量管理之 Ingress\"",
+      "type": "source",
+      "tags": [
+        "k8s",
+        "kubernetes",
+        "ingress",
+        "service"
+      ],
+      "summary": ""
+    },
+    "sources/学习 Kubernetes 流量管理之 Service.md": {
+      "title": "\"学习 Kubernetes 流量管理之 Service\"",
+      "type": "source",
+      "tags": [
+        "k8s",
+        "kubernetes",
+        "service"
+      ],
+      "summary": ""
+    },
+    "sources/实战 Model Context Protocol.md": {
+      "title": "\"实战 Model Context Protocol\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "prompt",
+        "llm",
+        "langchain",
+        "mcp",
+        "model context",
+        "java",
+        "langgraph"
+      ],
+      "summary": ""
+    },
+    "sources/容器运行时 containerd 学习笔记.md": {
+      "title": "\"容器运行时 containerd 学习笔记\"",
+      "type": "source",
+      "tags": [
+        "llm",
+        "k8s",
+        "kubernetes",
+        "containerd",
+        "service"
+      ],
+      "summary": ""
+    },
+    "sources/工程技术：在智能体优先的世界中利用 Codex.md": {
+      "title": "\"工程技术：在智能体优先的世界中利用 Codex\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "llm",
+        "service"
+      ],
+      "summary": ""
+    },
+    "sources/开源大模型 Llama 实战.md": {
+      "title": "\"开源大模型 Llama 实战\"",
+      "type": "source",
+      "tags": [
+        "prompt",
+        "llm",
+        "rag",
+        "langchain",
+        "kubernetes",
+        "gpu",
+        "embedding",
+        "llama",
+        "ocr"
+      ],
+      "summary": ""
+    },
+    "sources/提示工程学习笔记（二）.md": {
+      "title": "\"提示工程学习笔记（二）\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "prompt",
+        "llm",
+        "rag",
+        "langchain",
+        "embedding"
+      ],
+      "summary": ""
+    },
+    "sources/浅谈上下文工程｜从 Claude Code 、Manus 和 Kiro 看提示工程到上下文工程的转变.md": {
+      "title": "\"浅谈上下文工程｜从 Claude Code 、Manus 和 Kiro 看提示工程到上下文工程的转变\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "prompt",
+        "llm",
+        "rag",
+        "langchain",
+        "mcp",
+        "langgraph"
+      ],
+      "summary": ""
+    },
+    "sources/盘点 Python 中那些 PDF 解析库.md": {
+      "title": "\"盘点 Python 中那些 PDF 解析库\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "prompt",
+        "llm",
+        "rag",
+        "java",
+        "llama",
+        "pdf",
+        "ocr"
+      ],
+      "summary": ""
+    },
+    "sources/结构化提示词系统论述： 构建高性能 Prompt 之路 - 飞书云文档.md": {
+      "title": "\"结构化提示词系统论述： 构建高性能 Prompt 之路 - 飞书云文档\"",
+      "type": "source",
+      "tags": [
+        "prompt"
+      ],
+      "summary": ""
+    },
+    "sources/聊聊 Deep Search 和 Deep Research.md": {
+      "title": "\"聊聊 Deep Search 和 Deep Research\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "prompt",
+        "llm",
+        "rag",
+        "langchain",
+        "langgraph",
+        "embedding",
+        "llama",
+        "pdf"
+      ],
+      "summary": ""
+    },
+    "sources/近年 AI 应用技术串讲与优质文档分享｜Agent、Skill、OpenClaw、Harness…… - 飞书云文档.md": {
+      "title": "\"近年 AI 应用技术串讲与优质文档分享｜Agent、Skill、OpenClaw、Harness…… - 飞书云文档\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "prompt",
+        "llm",
+        "rag"
+      ],
+      "summary": ""
+    },
+    "sources/高级 RAG 技术学习笔记.md": {
+      "title": "\"高级 RAG 技术学习笔记\"",
+      "type": "source",
+      "tags": [
+        "agent",
+        "prompt",
+        "llm",
+        "rag",
+        "langchain",
+        "service",
+        "langgraph",
+        "embedding",
+        "llama",
+        "pdf"
+      ],
+      "summary": ""
+    },
+    "synthesis/pdf-parser-benchmark.md": {
+      "title": "PDF 解析器性能基准测试报告",
+      "type": "synthesis",
+      "tags": [
+        "pdf",
+        "benchmark",
+        "performance"
+      ],
+      "summary": ""
+    },
+    "my-learning-path/ai-audit/index.md": {
+      "title": "AI审计",
+      "type": "index",
+      "tags": [
+        "ai-audit",
+        "learning"
+      ],
+      "summary": ""
+    },
+    "my-learning-path/interview/index.md": {
+      "title": "求职面试",
+      "type": "index",
+      "tags": [
+        "interview",
+        "job-hunting"
+      ],
+      "summary": ""
+    },
+    "my-learning-path/practice/index.md": {
+      "title": "项目实践",
+      "type": "index",
+      "tags": [
+        "practice",
+        "project"
+      ],
+      "summary": ""
+    },
+    "my-learning-path/theory/index.md": {
+      "title": "理论补全",
+      "type": "index",
+      "tags": [
+        "theory",
+        "learning"
+      ],
+      "summary": ""
+    },
+    "entities/anthropic.md": {
+      "title": "Anthropic",
+      "type": "entity",
+      "tags": [
+        "company",
+        "ai",
+        "llm"
+      ],
+      "summary": ""
+    },
+    "entities/cohere.md": {
+      "title": "Cohere",
+      "type": "entity",
+      "tags": [
+        "company",
+        "ai",
+        "llm"
+      ],
+      "summary": ""
+    },
+    "entities/langchain.md": {
+      "title": "LangChain",
+      "type": "entity",
+      "tags": [
+        "company",
+        "ai",
+        "framework"
+      ],
+      "summary": ""
+    },
+    "entities/meta-ai.md": {
+      "title": "Meta AI",
+      "type": "entity",
+      "tags": [
+        "company",
+        "ai",
+        "research"
+      ],
+      "summary": ""
+    },
+    "entities/openai.md": {
+      "title": "OpenAI",
+      "type": "entity",
+      "tags": [
+        "company",
+        "ai",
+        "llm"
+      ],
+      "summary": ""
+    },
+    "concepts/function-calling.md": {
+      "title": "Function Calling",
+      "type": "concept",
+      "tags": [
+        "ai",
+        "llm",
+        "tool"
+      ],
+      "summary": ""
+    },
+    "concepts/prompt-engineering.md": {
+      "title": "Prompt Engineering",
+      "type": "concept",
+      "tags": [
+        "ai",
+        "prompt",
+        "engineering"
+      ],
+      "summary": ""
+    },
+    "concepts/rlhf.md": {
+      "title": "RLHF",
+      "type": "concept",
+      "tags": [
+        "ai",
+        "llm",
+        "alignment"
+      ],
+      "summary": ""
+    },
+    "entities/huggingface.md": {
+      "title": "Hugging Face",
+      "type": "entity",
+      "tags": [
+        "company",
+        "ai",
+        "open-source"
+      ],
+      "summary": ""
+    },
+    "entities/milvus.md": {
+      "title": "Milvus",
+      "type": "entity",
+      "tags": [
+        "company",
+        "ai",
+        "vector-database"
+      ],
+      "summary": ""
+    },
+    "entities/pinecone.md": {
+      "title": "Pinecone",
+      "type": "entity",
+      "tags": [
+        "company",
+        "ai",
+        "vector-database"
+      ],
+      "summary": ""
+    },
+    "entities/qdrant.md": {
+      "title": "Qdrant",
+      "type": "entity",
+      "tags": [
+        "company",
+        "ai",
+        "vector-database"
+      ],
+      "summary": ""
+    },
+    "D:\\projects\\wiki\\wiki\\my-earning- path\\01- core- theory\\README.md": {
+      "title": "D:\\projects\\wiki\\wiki\\my-earning- path\\01- core- theory\\README",
+      "type": "unknown",
+      "tags": [],
+      "summary": ""
+    },
+    "my-learning-path/practice/openai-agent-doc/hybrid-retrieval-optimization.md": {
+      "title": "开源文档Agent混合检索优化方案",
+      "type": "synthesis",
+      "tags": [
+        "RAG",
+        "hybrid-retrieval",
+        "BM25",
+        "项目实践"
+      ],
+      "summary": ""
+    },
+    "my-learning-path/interview/technical-questions/rag-hybrid-retrieval.md": {
+      "title": "RAG混合检索面试题库",
+      "type": "synthesis",
+      "tags": [
+        "interview",
+        "RAG",
+        "hybrid-retrieval",
+        "面试题"
+      ],
+      "summary": ""
+    },
+    "my-learning-path/practice/open-source-doc-agent/hybrid-retrieval-optimization.md": {
+      "title": "开源文档Agent混合检索优化方案",
+      "type": "synthesis",
+      "tags": [
+        "RAG",
+        "hybrid-retrieval",
+        "BM25",
+        "项目实践"
+      ],
+      "summary": ""
+    },
+    "my-learning-path/theory/rag-theory.md": {
+      "title": "RAG技术原理",
+      "type": "concept",
+      "tags": [
+        "RAG",
+        "retrieval",
+        "LLM",
+        "理论",
+        "need-review"
+      ],
+      "summary": ""
+    },
+    "my-learning-path/interview/reviews/rrf-parameter-tuning.md": {
+      "title": "RRF参数调优面试复盘",
+      "type": "synthesis",
+      "tags": [
+        "interview",
+        "review",
+        "RAG",
+        "RRF"
+      ],
+      "summary": ""
+    },
+    "my-learning-path/ai-audit.md": {
+      "title": "my-learning-path ai-audit",
+      "type": "unknown",
+      "tags": [],
+      "summary": ""
+    },
+    "my-learning-path/interview.md": {
+      "title": "my-learning-path interview",
+      "type": "unknown",
+      "tags": [],
+      "summary": ""
+    },
+    "my-learning-path/practice.md": {
+      "title": "my-learning-path practice",
+      "type": "unknown",
+      "tags": [],
+      "summary": ""
+    },
+    "my-learning-path/theory.md": {
+      "title": "my-learning-path theory",
+      "type": "unknown",
+      "tags": [],
+      "summary": ""
+    },
+    "my-learning-path/practice/technical-weapons.md": {
+      "title": "我的技术武器库",
+      "type": "synthesis",
+      "tags": [
+        "技术武器",
+        "求职",
+        "AI开发",
+        "RAG",
+        "Agent"
+      ],
+      "summary": ""
+    },
+    "my-learning-path/practice/wiki-rag-optimization.md": {
+      "title": "LLM Wiki RAG化自我优化方案",
+      "type": "synthesis",
+      "tags": [
+        "RAG",
+        "wiki",
+        "self-optimization",
+        "知识库"
+      ],
+      "summary": ""
+    },
+    "my-learning-path/practice/code-graph-agent/index.md": {
+      "title": "Code Graph Agent - 代码仓库知识图谱智能体",
+      "type": "project",
+      "tags": [
+        "code-graph",
+        "agent",
+        "RAG",
+        "knowledge-graph",
+        "项目"
+      ],
+      "summary": ""
+    },
+    "my-learning-path/practice/code-graph-agent/graph/edges.md": {
+      "title": "代码仓库知识图谱 - 边定义",
+      "type": "synthesis",
+      "tags": [
+        "code-graph",
+        "edges",
+        "knowledge-graph"
+      ],
+      "summary": ""
+    },
+    "my-learning-path/practice/code-graph-agent/graph/nodes.md": {
+      "title": "代码仓库知识图谱 - 节点定义",
+      "type": "synthesis",
+      "tags": [
+        "code-graph",
+        "nodes",
+        "knowledge-graph"
+      ],
+      "summary": ""
+    },
+    "my-learning-path/practice/code-graph-agent/graph/rag-knowledge-graph.md": {
+      "title": "RAG知识图谱 - 可视化展示",
+      "type": "synthesis",
+      "tags": [
+        "code-graph",
+        "knowledge-graph",
+        "visualization",
+        "RAG"
+      ],
+      "summary": ""
+    },
+    "my-learning-path/practice/code-graph-agent/qa/test_results.md": {
+      "title": "问答测试结果",
+      "type": "synthesis",
+      "tags": [
+        "qa",
+        "test"
+      ],
+      "summary": ""
+    },
+    "my-learning-path/practice/code-graph-agent/highlight/test_result.md": {
+      "title": "图谱路径高亮测试结果",
+      "type": "synthesis",
+      "tags": [
+        "highlight",
+        "graph",
+        "test"
+      ],
+      "summary": ""
+    },
+    "synthesis/graph-audit-20260501.md": {
+      "title": "synthesis graph-audit-20260501",
+      "type": "unknown",
+      "tags": [],
+      "summary": ""
+    },
+    "my-learning-path/practice/code-graph-agent/upgrade/test_results.md": {
+      "title": "代码仓库知识图谱系统升级测试结果",
+      "type": "synthesis",
+      "tags": [
+        "code-graph",
+        "upgrade",
+        "test"
+      ],
+      "summary": ""
+    },
+    "my-learning-path/practice/code-graph-agent/upgrade/fast-test/test_results.md": {
+      "title": "FastAPI仓库极速验证测试",
+      "type": "synthesis",
+      "tags": [
+        "fastapi",
+        "test",
+        "code-graph"
+      ],
+      "summary": ""
+    },
+    "my-learning-path/practice/code-graph-agent/upgrade/fast-test/feature_test_report.md": {
+      "title": "Code Graph Agent 功能测试报告",
+      "type": "synthesis",
+      "tags": [
+        "code-graph",
+        "test",
+        "report"
+      ],
+      "summary": ""
+    },
+    "my-learning-path/practice/code-graph-agent/upgrade/fast-test/yuanxinyeyu_analysis.md": {
+      "title": "YuanXinYeYu仓库代码分析",
+      "type": "synthesis",
+      "tags": [
+        "code-graph",
+        "analysis",
+        "fastapi",
+        "yuanxinyeyu"
+      ],
+      "summary": ""
+    }
+  },
+  "total_files": 190
+}

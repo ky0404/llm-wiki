@@ -1,0 +1,241 @@
+# Comprehensive Garbage Collection Report
+
+## orphan_files (0)
+- (none)
+
+## missing_nodes (56)
+- my-learning-path/theory.md
+- my-learning-path/ai-audit.md
+- my-learning-path/practice.md
+- my-learning-path/interview.md
+- index-cache.json.md
+- index-cache.json.md
+- wikilink.md
+- 链接.md
+- 链接.md
+- wikilink.md
+- sources/rag.md
+- index-cache.json.md
+- agents.md
+- my-learning-path/theory.md
+- my-learning-path/ai-audit.md
+- my-learning-path/practice.md
+- my-learning-path/interview.md
+- concepts/agent-skills.md
+- concepts/agent-skills.md
+- concepts/react.md
+- concepts/agent.md
+- concepts/react.md
+- concepts/agent.md
+- concepts/提示词工程.md
+- concepts/上下文工程.md
+- concepts/知识图谱.md
+- concepts/智能体.md
+- entities/deepseek.md
+- entities/kimi.md
+- concepts/上下文工程.md
+- concepts/提示词工程.md
+- concepts/上下文工程.md
+- concepts/agent-skills.md
+- concepts/智能体.md
+- concepts/reasoning-act.md
+- entities/claude.md
+- concepts/智能体.md
+- entities/model-context-protocol.md
+- concepts/提示词工程.md
+- concepts/结构化提示词.md
+- concepts/提示词工程.md
+- concepts/提示词工程.md
+- concepts/高级-rag.md
+- entities/llamaindex.md
+- concepts/提示词工程.md
+- concepts/结构化提示词.md
+- entities/langgpt.md
+- concepts/agent.md
+- concepts/agent.md
+- concepts/react.md
+- concepts/提示词工程.md
+- concepts/上下文工程.md
+- concepts/agent.md
+- concepts/上下文工程.md
+- concepts/提示词工程.md
+- scripts/pdf_parser.py.md
+
+## self_loops (0)
+- (none)
+
+## duplicate_edges (104)
+- ('log.md', 'entities/patrick-lewis.md')
+- ('log.md', 'entities/ashish-vaswani.md')
+- ('log.md', 'concepts/bert.md')
+- ('log.md', 'concepts/rag.md')
+- ('log.md', 'concepts/rag.md')
+- ('log.md', 'entities/patrick-lewis.md')
+- ('log.md', 'entities/ashish-vaswani.md')
+- ('log.md', 'entities/ashish-vaswani.md')
+- ('log.md', 'entities/patrick-lewis.md')
+- ('log.md', 'index-cache.json.md')
+- ('log.md', 'concepts/bert.md')
+- ('log.md', 'concepts/mcp.md')
+- ('log.md', 'synthesis/bert-in-rag.md')
+- ('log.md', 'concepts/mcp.md')
+- ('log.md', '链接.md')
+- ('log.md', 'concepts/dpr.md')
+- ('log.md', 'concepts/rag.md')
+- ('log.md', 'entities/patrick-lewis.md')
+- ('log.md', 'entities/ashish-vaswani.md')
+- ('log.md', 'wikilink.md')
+- ('log.md', 'index-cache.json.md')
+- ('concepts/bert.md', 'concepts/transformer.md')
+- ('concepts/bert.md', 'concepts/gpt.md')
+- ('concepts/cag.md', 'concepts/llm-wiki.md')
+- ('concepts/cag.md', 'concepts/rag.md')
+- ('concepts/gpt.md', 'concepts/transformer.md')
+- ('concepts/gpt.md', 'concepts/bert.md')
+- ('concepts/ingest.md', 'concepts/llm-wiki.md')
+- ('concepts/lint.md', 'concepts/llm-wiki.md')
+- ('concepts/llm-wiki.md', 'concepts/cag.md')
+- ('concepts/llm-wiki.md', 'concepts/rag.md')
+- ('concepts/llm-wiki.md', 'concepts/ingest.md')
+- ('concepts/llm-wiki.md', 'concepts/query.md')
+- ('concepts/llm-wiki.md', 'concepts/lint.md')
+- ('concepts/llm-wiki.md', 'entities/vannevar-bush.md')
+- ('concepts/llm-wiki.md', 'entities/obsidian.md')
+- ('concepts/llm-wiki.md', 'entities/marp.md')
+- ('concepts/llm-wiki.md', 'entities/dataview.md')
+- ('concepts/llm-编码最佳实践.md', 'sources/CLAUDE.md')
+- ('concepts/llm.md', 'concepts/llm-wiki.md')
+- ('concepts/llm.md', 'sources/CLAUDE.md')
+- ('concepts/llm.md', 'concepts/llm-wiki.md')
+- ('concepts/llm.md', 'sources/CLAUDE.md')
+- ('concepts/memex.md', 'concepts/llm.md')
+- ('concepts/memex.md', 'concepts/llm-wiki.md')
+- ('concepts/memex.md', 'concepts/llm.md')
+- ('concepts/memex.md', 'entities/vannevar-bush.md')
+- ('concepts/memex.md', 'concepts/llm-wiki.md')
+- ('concepts/query.md', 'concepts/llm-wiki.md')
+- ('concepts/rag.md', 'concepts/cag.md')
+- ('concepts/wikilinks.md', 'entities/obsidian.md')
+- ('concepts/wikilinks.md', 'concepts/llm-wiki.md')
+- ('concepts/wikilinks.md', 'concepts/llm.md')
+- ('concepts/提示词工程之书-摘要.md', 'concepts/llm.md')
+- ('concepts/注意力机制.md', 'concepts/transformer.md')
+- ('concepts/目标驱动编程.md', 'sources/CLAUDE.md')
+- ('concepts/目标驱动编程.md', 'entities/andrej-karpathy.md')
+- ('concepts/知识管理.md', 'concepts/llm-wiki.md')
+- ('concepts/知识管理.md', 'concepts/llm-wiki.md')
+- ('concepts/知识管理.md', 'entities/obsidian.md')
+- ('concepts/知识管理.md', 'concepts/wikilinks.md')
+- ('concepts/知识管理.md', 'concepts/llm.md')
+- ('concepts/知识管理.md', 'concepts/lint.md')
+- ('concepts/知识管理.md', 'concepts/llm-wiki.md')
+- ('concepts/知识管理.md', 'entities/obsidian.md')
+- ('concepts/知识管理.md', 'concepts/wikilinks.md')
+- ('concepts/知识管理.md', 'entities/vannevar-bush.md')
+- ('concepts/知识管理.md', 'concepts/ingest.md')
+- ('concepts/知识管理.md', 'concepts/query.md')
+- ('concepts/知识管理.md', 'concepts/lint.md')
+- ('concepts/超文本.md', 'concepts/wikilinks.md')
+- ('concepts/超文本.md', 'concepts/wikilinks.md')
+- ('concepts/超文本.md', 'entities/vannevar-bush.md')
+- ('concepts/超文本.md', 'entities/obsidian.md')
+- ('concepts/超文本.md', 'concepts/llm-wiki.md')
+- ('concepts/超文本.md', 'concepts/wikilinks.md')
+- ('concepts/超文本.md', 'concepts/llm-wiki.md')
+- ('concepts/超文本.md', 'entities/vannevar-bush.md')
+- ('concepts/超文本.md', 'concepts/wikilinks.md')
+- ('concepts/超文本.md', 'concepts/llm-wiki.md')
+- ('concepts/超文本.md', 'entities/obsidian.md')
+- ('entities/andrej-karpathy.md', 'sources/CLAUDE.md')
+- ('entities/andrej-karpathy.md', 'sources/CLAUDE.md')
+- ('entities/andrej-karpathy.md', 'concepts/llm-wiki.md')
+- ('entities/ashish-vaswani.md', 'sources/transformer-paper.md')
+- ('entities/cursor-ide.md', 'sources/CLAUDE.md')
+- ('entities/cursor-ide.md', 'sources/CLAUDE.md')
+- ('entities/cursor-ide.md', 'concepts/llm-编码最佳实践.md')
+- ('entities/dataview.md', 'concepts/llm-wiki.md')
+- ('entities/google-brain.md', 'sources/transformer-paper.md')
+- ('entities/marp.md', 'concepts/llm-wiki.md')
+- ('entities/noam-shazeer.md', 'sources/transformer-paper.md')
+- ('entities/obsidian.md', 'concepts/llm-wiki.md')
+- ('entities/obsidian.md', 'concepts/llm-wiki.md')
+- ('entities/obsidian.md', 'concepts/wikilinks.md')
+- ('entities/vannevar-bush.md', 'concepts/llm-wiki.md')
+- ('entities/vannevar-bush.md', 'concepts/llm-wiki.md')
+- ('entities/vannevar-bush.md', 'concepts/llm-wiki.md')
+- ('sources/1706.03762v7.md', 'entities/google-research.md')
+- ('sources/2106.09685v2.md', 'entities/microsoft.md')
+- ('sources/prompt-engineering-tools.md', 'entities/langchain.md')
+- ('synthesis/bert-in-rag.md', 'concepts/dpr.md')
+- ('synthesis/bert-in-rag.md', 'entities/ashish-vaswani.md')
+- ('synthesis/bert-in-rag.md', 'entities/patrick-lewis.md')
+
+## isolated_nodes (10)
+- Clippings/Effective context engineering for AI agents.md
+- Clippings/Agent Skills.md
+- entities/B.md
+- Clippings/AI Agent 主流的设计模式（ReAct,Reflection,LATS）其实没有很复杂。.md
+- Clippings/⭐ 结构化提示词知识库 - 飞书云文档.md
+- concepts/A.md
+- Clippings/Context Engineering.md
+- Clippings/Best practices for prompt engineering with the OpenAI API.md
+- Clippings/Agent Skills Overview.md
+- Clippings/AI Agent Workflow Design Patterns — An Overview.md
+
+## dangling_edges (56)
+- ('AGENTS.md', 'my-learning-path/theory.md')
+- ('AGENTS.md', 'my-learning-path/ai-audit.md')
+- ('AGENTS.md', 'my-learning-path/practice.md')
+- ('AGENTS.md', 'my-learning-path/interview.md')
+- ('log.md', 'index-cache.json.md')
+- ('log.md', 'index-cache.json.md')
+- ('log.md', 'wikilink.md')
+- ('log.md', '链接.md')
+- ('log.md', '链接.md')
+- ('log.md', 'wikilink.md')
+- ('log.md', 'sources/rag.md')
+- ('log.md', 'index-cache.json.md')
+- ('skills.md', 'agents.md')
+- ('my-learning-path/index.md', 'my-learning-path/theory.md')
+- ('my-learning-path/index.md', 'my-learning-path/ai-audit.md')
+- ('my-learning-path/index.md', 'my-learning-path/practice.md')
+- ('my-learning-path/index.md', 'my-learning-path/interview.md')
+- ('sources/agent-skills-overview.md', 'concepts/agent-skills.md')
+- ('sources/agent-skills.md', 'concepts/agent-skills.md')
+- ('sources/ai-agent-workflow-design-patterns-overview.md', 'concepts/react.md')
+- ('sources/ai-agent-workflow-design-patterns-overview.md', 'concepts/agent.md')
+- ('sources/ai-agent-主流设计模式.md', 'concepts/react.md')
+- ('sources/ai-agent-主流设计模式.md', 'concepts/agent.md')
+- ('sources/best-practices-prompt-engineering-openai.md', 'concepts/提示词工程.md')
+- ('sources/context-engineering.md', 'concepts/上下文工程.md')
+- ('sources/deep-search-deep-research.md', 'concepts/知识图谱.md')
+- ('sources/deep-search-deep-research.md', 'concepts/智能体.md')
+- ('sources/deep-search-deep-research.md', 'entities/deepseek.md')
+- ('sources/deep-search-deep-research.md', 'entities/kimi.md')
+- ('sources/effective-context-engineering-ai-agents.md', 'concepts/上下文工程.md')
+- ('sources/elements-of-a-prompt.md', 'concepts/提示词工程.md')
+- ('sources/equipping-agents-for-the-real-world-with-agent-skills.md', 'concepts/上下文工程.md')
+- ('sources/equipping-agents-for-the-real-world-with-agent-skills.md', 'concepts/agent-skills.md')
+- ('sources/langgraph-agent-application.md', 'concepts/智能体.md')
+- ('sources/langgraph-agent-application.md', 'concepts/reasoning-act.md')
+- ('sources/mcp-in-action.md', 'entities/claude.md')
+- ('sources/mcp-in-action.md', 'concepts/智能体.md')
+- ('sources/mcp-in-action.md', 'entities/model-context-protocol.md')
+- ('sources/prompt-advanced-chain.md', 'concepts/提示词工程.md')
+- ('sources/prompt-advanced-chain.md', 'concepts/结构化提示词.md')
+- ('sources/prompt-engineering-tools.md', 'concepts/提示词工程.md')
+- ('sources/prompted-products.md', 'concepts/提示词工程.md')
+- ('sources/python-pdf-parser-libraries.md', 'concepts/高级-rag.md')
+- ('sources/python-pdf-parser-libraries.md', 'entities/llamaindex.md')
+- ('sources/structured-prompt-system.md', 'concepts/提示词工程.md')
+- ('sources/structured-prompt-system.md', 'concepts/结构化提示词.md')
+- ('sources/structured-prompt-system.md', 'entities/langgpt.md')
+- ('sources/你不知道的-agent.md', 'concepts/agent.md')
+- ('sources/大模型应用开发框架-langchain-学习笔记-二.md', 'concepts/agent.md')
+- ('sources/大模型应用开发框架-langchain-学习笔记-二.md', 'concepts/react.md')
+- ('sources/如何写好prompt-结构化.md', 'concepts/提示词工程.md')
+- ('sources/工程技术-在智能体优先的世界中利用-codex.md', 'concepts/上下文工程.md')
+- ('sources/工程技术-在智能体优先的世界中利用-codex.md', 'concepts/agent.md')
+- ('sources/浅谈上下文工程.md', 'concepts/上下文工程.md')
+- ('sources/结构化提示词知识库.md', 'concepts/提示词工程.md')
+- ('synthesis/pdf-parser-benchmark.md', 'scripts/pdf_parser.py.md')
