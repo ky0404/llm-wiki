@@ -11,10 +11,14 @@
             "id": "99d95b49a3ff461a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "my-learning-path/theory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "theory"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "my-learning-path/theory.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "theory 的反向链接列表"
             }
           },
           {
@@ -177,9 +182,27 @@
   },
   "active": "99d95b49a3ff461a",
   "lastOpenFiles": [
-    "check_orphaned_pages.py",
-    "check_broken_links.py",
-    "check_frontmatter.py",
+    "wiki/api/routes/__pycache__/wiki_route.cpython-310.pyc",
+    "wiki/api/__pycache__/__init__.cpython-310.pyc.126427747868848",
+    "wiki/api/routes/__pycache__/__init__.cpython-310.pyc",
+    "wiki/api/routes/__pycache__",
+    "wiki/api/__pycache__/__init__.cpython-310.pyc",
+    "wiki/api/__pycache__",
+    "wiki/api/routes/__init__.py",
+    "wiki/api/__init__.py",
+    "wiki/api/main.py",
+    "docker-compose.yml",
+    "wiki/api/routes/wiki_route.py",
+    "my-learning-path/index.md",
+    "my-learning-path/interview/index.md",
+    "my-learning-path/interview/technical-questions/rag-hybrid-retrieval.md",
+    "Andrej Karpathy.md",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "提示词工程之书-摘要.md",
+    "skills/wiki-maintainer.md",
+    "skills/prompt-structurer.md",
+    "skills/context-engineer.md",
     "wiki/sources/2106.09685v2.md",
     "raw/1706.03762v7.md",
     "wiki/concepts/注意力机制.md",
@@ -196,23 +219,6 @@
     "wiki/entities/patrick-lewis.md",
     "wiki/entities/noam-shazeer.md",
     "wiki/entities/ashish-vaswani.md",
-    "wiki/concepts/低秩分解.md",
-    "wiki/concepts/缩放点积注意力.md",
-    "wiki/concepts/多头注意力.md",
-    "extract_pdf.py",
-    "wiki/entities/google-brain.md",
-    "wiki/entities/facebook-ai-research.md",
-    "wiki/entities/microsoft.md",
-    "wiki/concepts/检索增强生成.md",
-    "wiki/concepts/transformer.md",
-    "wiki/concepts/参数高效微调.md",
-    "未命名.canvas",
-    "raw/2005.11401v4.pdf",
-    "raw/2106.09685v2.pdf",
-    "raw/1706.03762v7.pdf",
-    "Clippings",
-    "output/graph.mmd",
-    "scripts/generate_graph_and_cache.py",
-    "output/disclosures/提示词工程之书-摘要"
+    "wiki/concepts/低秩分解.md"
   ]
 }
