@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "5590d72eb73bf538",
+    "id": "fad041c14f5af75d",
     "type": "split",
     "children": [
       {
-        "id": "a92252e0a2a1f758",
+        "id": "bbfedae6b5e48155",
         "type": "tabs",
         "children": [
           {
-            "id": "21ac94d36448f5e1",
+            "id": "99d95b49a3ff461a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "my-learning-path/practice/code-graph-agent/index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1fe19f3a9cb3d272",
+    "id": "69f3cc0125b7d25e",
     "type": "split",
     "children": [
       {
-        "id": "c89e237e9ae083e3",
+        "id": "fb95a748fbe62cfb",
         "type": "tabs",
         "children": [
           {
-            "id": "a7d904be2c793e7c",
+            "id": "099845e427c73d08",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +44,7 @@
             }
           },
           {
-            "id": "88111a079b21fbd1",
+            "id": "a12889105f95ac5f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "4f5d3a01cbe71e66",
+            "id": "7f4bf49b151b0f35",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,51 +74,49 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "88ebd5670d4370f4",
+    "id": "ea4f04c247333004",
     "type": "split",
     "children": [
       {
-        "id": "fc8f9c455998082b",
+        "id": "9b58e873f3d283cc",
         "type": "tabs",
         "children": [
           {
-            "id": "6dadc1954474cf44",
+            "id": "df782406e1b8024a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "my-learning-path/practice/code-graph-agent/index.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "index 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
-            "id": "939cc03ffb444c9f",
+            "id": "dd816bd6a3e25f4f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "my-learning-path/practice/code-graph-agent/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "index 的出链列表"
+              "title": "出链"
             }
           },
           {
-            "id": "1b293973627c97cc",
+            "id": "dd5d0db6c5e77ae7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +131,7 @@
             }
           },
           {
-            "id": "535096512db7d36b",
+            "id": "32c6788a3fbf177f",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -151,38 +145,24 @@
             }
           },
           {
-            "id": "d3046204efd65232",
+            "id": "96440635788e4eca",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "my-learning-path/practice/code-graph-agent/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
-            }
-          },
-          {
-            "id": "2b07180d5cf9ddeb",
-            "type": "leaf",
-            "state": {
-              "type": "footnotes",
-              "state": {
-                "file": "my-learning-path/practice/code-graph-agent/index.md"
-              },
-              "icon": "lucide-file-signature",
-              "title": "脚注"
+              "title": "大纲"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,52 +172,47 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false,
-      "workspaces:管理工作区布局": false,
-      "random-note:开始漫游笔记": false,
-      "audio-recorder:开始/结束录音": false,
-      "markdown-importer:打开 Markdown 格式转换器": false
+      "bases:新建数据库": false
     }
   },
-  "active": "21ac94d36448f5e1",
+  "active": "99d95b49a3ff461a",
   "lastOpenFiles": [
-    "提示词工程之书-摘要.md",
-    "wiki",
-    "setup_wiki_complete.sh",
-    "scripts/pdf_parser.py",
-    "scripts/generate_graph_and_disclosures.py",
-    "scripts/generate_graph_and_cache.py",
-    "raw/高级 RAG 技术学习笔记.md",
-    "raw/近年 AI 应用技术串讲与优质文档分享｜Agent、Skill、OpenClaw、Harness…… - 飞书云文档.md",
-    "raw/聊聊 Deep Search 和 Deep Research.md",
-    "raw/结构化提示词系统论述： 构建高性能 Prompt 之路 - 飞书云文档.md",
-    "raw/盘点 Python 中那些 PDF 解析库.md",
-    "raw/浅谈上下文工程｜从 Claude Code 、Manus 和 Kiro 看提示工程到上下文工程的转变.md",
-    "raw/提示工程学习笔记（二）.md",
-    "raw/提示工程学习笔记.md",
-    "raw/开源大模型 Llama 实战.md",
-    "raw/工程技术：在智能体优先的世界中利用 Codex.md",
-    "raw/容器运行时 containerd 学习笔记.md",
-    "raw/实战 Model Context Protocol.md",
-    "raw/学习 Kubernetes 流量管理之 Service.md",
-    "raw/学习 Kubernetes 流量管理之 Ingress.md",
-    "raw/如何写好Prompt 结构化.md",
-    "raw/大模型应用开发框架 LangChain 学习笔记（二）.md",
-    "raw/大模型应用开发框架 LangChain 学习笔记.md",
-    "raw/基于结构化数据的文档问答.md",
-    "raw/基于 LangGraph 创建智能体应用.md",
-    "raw/在 Kubernetes 中调度 GPU 资源.md",
-    "raw/使用 Embedding 技术打造本地知识库助手.md",
-    "raw/使用 Arthas 排查线上问题.md",
-    "raw/你不知道的 Agent：原理、架构与工程实践.md",
-    "raw/⭐ 结构化提示词知识库 - 飞书云文档.md",
-    "raw/llm-wiki.md",
-    "raw/2106.09685v2.pdf",
-    "raw/2005.11401v4.pdf",
-    "raw/1706.03762v7.pdf",
-    "raw",
-    "lint_check.py",
+    "check_orphaned_pages.py",
+    "check_broken_links.py",
+    "check_frontmatter.py",
+    "wiki/sources/2106.09685v2.md",
+    "raw/1706.03762v7.md",
+    "wiki/concepts/注意力机制.md",
+    "wiki/sources/近年-ai-应用技术串讲与优质文档分享.md",
+    "wiki/concepts/llm.md",
+    "wiki/concepts/rag.md",
+    "wiki/concepts/llm-wiki.md",
+    "wiki/entities/dataview.md",
+    "wiki/index.md",
+    "wiki/synthesis/llm-工作流对比.md",
+    "wiki/entities/edward-hu.md",
+    "wiki/log.md",
+    "wiki/concepts/dpr.md",
+    "wiki/entities/patrick-lewis.md",
+    "wiki/entities/noam-shazeer.md",
+    "wiki/entities/ashish-vaswani.md",
+    "wiki/concepts/低秩分解.md",
+    "wiki/concepts/缩放点积注意力.md",
+    "wiki/concepts/多头注意力.md",
+    "extract_pdf.py",
+    "wiki/entities/google-brain.md",
+    "wiki/entities/facebook-ai-research.md",
+    "wiki/entities/microsoft.md",
+    "wiki/concepts/检索增强生成.md",
+    "wiki/concepts/transformer.md",
+    "wiki/concepts/参数高效微调.md",
     "未命名.canvas",
-    "未命名 1.canvas"
+    "raw/2005.11401v4.pdf",
+    "raw/2106.09685v2.pdf",
+    "raw/1706.03762v7.pdf",
+    "Clippings",
+    "output/graph.mmd",
+    "scripts/generate_graph_and_cache.py",
+    "output/disclosures/提示词工程之书-摘要"
   ]
 }
