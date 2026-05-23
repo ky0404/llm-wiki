@@ -1,0 +1,13 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "watcher": {
+    "ignore": [
+      "frontend/node_modules",
+      "frontend/.next",
+      ".obsidian",
+      ".gc_backups",
+      "__pycache__",
+      ".git"
+    ]
+  }
+}

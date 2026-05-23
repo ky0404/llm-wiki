@@ -1,0 +1,1407 @@
+{
+  "files": {
+    "index.md": {
+      "title": "Wiki 主目录",
+      "type": "index",
+      "tags": [
+        "wiki",
+        "directory"
+      ],
+      "summary": "- [[wiki/governance/guard-manual.md|保护策略使用手册]]"
+    },
+    "log.md": {
+      "title": "操作日志",
+      "type": "log",
+      "tags": [
+        "log",
+        "operations"
+      ],
+      "summary": "**执行操作**："
+    },
+    "concepts/agent-智能体.md": {
+      "title": "Agent 智能体",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "agent",
+        "autonomy"
+      ],
+      "summary": "具有自主决策、工具使用、多步骤任务执行能力的 AI 系统。"
+    },
+    "concepts/context-engineering.md": {
+      "title": "Context Engineering 上下文工程",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "context",
+        "engineering"
+      ],
+      "summary": "在智能体的每个步骤中填充恰好合适的信息到上下文窗口的科学与艺术。"
+    },
+    "concepts/llm-大语言模型.md": {
+      "title": "LLM 大语言模型",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "llm",
+        "model"
+      ],
+      "summary": "大型语言模型（Large Language Model）是基于大规模预训练的生成式 AI 模型。"
+    },
+    "concepts/prompt-提示工程.md": {
+      "title": "Prompt 提示工程",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "prompt",
+        "engineering"
+      ],
+      "summary": "开发和优化提示词（Prompt）的学科，帮助用户将大模型用于各种应用场景。"
+    },
+    "concepts/rag-知识库.md": {
+      "title": "RAG 知识库",
+      "type": "concept",
+      "tags": [
+        "concept",
+        "rag",
+        "knowledge-base"
+      ],
+      "summary": "检索增强生成（Retrieval-Augmented Generation）是将外部知识检索与大模型生成结合的技术架构。"
+    },
+    "entities/ai-products.md": {
+      "title": "AI 产品与服务",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "products",
+        "ai"
+      ],
+      "summary": "主流 AI 产品与模型服务。"
+    },
+    "entities/developer-tools.md": {
+      "title": "开发者工具",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "tools",
+        "developer"
+      ],
+      "summary": "AI 应用开发相关的工具与框架。"
+    },
+    "entities/key-people.md": {
+      "title": "关键人物",
+      "type": "entity",
+      "tags": [
+        "entity",
+        "people",
+        "ai"
+      ],
+      "summary": "AI 领域的重要人物与贡献者。"
+    },
+    "governance/demonstration.md": {
+      "title": "保护策略演示摘要",
+      "type": "synthesis",
+      "tags": [
+        "governance",
+        "demo",
+        "interview",
+        "security"
+      ],
+      "summary": "**核心目标**：保证治理性文件（AGENTS.md、skills等）的改动必须经过授权、可追溯、可回滚。"
+    },
+    "governance/guard-manual.md": {
+      "title": "保护策略使用手册",
+      "type": "synthesis",
+      "tags": [
+        "governance",
+        "protection",
+        "security",
+        "guide"
+      ],
+      "summary": "本手册描述如何使用路径保护工具 (`scripts/path_guard.py`) 来管理对治理性文件的修改。"
+    },
+    "governance/quick-commands.md": {
+      "title": "保护策略快速命令手册",
+      "type": "synthesis",
+      "tags": [
+        "governance",
+        "commands",
+        "quick-reference"
+      ],
+      "summary": "> 本手册收录所有常用命令，方便快速查阅"
+    },
+    "my-learning-path/fastapi-nextjs-wiki-system.md": {
+      "title": "FastAPI + Next.js Wiki 系统实现指南",
+      "type": "source",
+      "tags": [
+        "fastapi",
+        "nextjs",
+        "wiki",
+        "react",
+        "fullstack",
+        "tutorial"
+      ],
+      "summary": "```"
+    },
+    "my-learning-path/practice/fastapi-wiki-api.md": {
+      "title": "FastAPI Wiki接口实现原理与过程",
+      "type": "synthesis",
+      "tags": [
+        "fastapi",
+        "backend",
+        "api",
+        "wiki"
+      ],
+      "summary": "FastAPI是基于**Starlette（异步Web框架）** 和**Pydantic（数据验证）** 的现代Python Web框架，核心优势："
+    },
+    "sources/1706.03762-transformer.md": {
+      "title": "Attention Is All You Need (论文)",
+      "type": "source",
+      "tags": [
+        "transformer",
+        "attention",
+        "paper",
+        "arxiv"
+      ],
+      "summary": "1. **Transformer 架构**：基于自注意力的序列转换模型"
+    },
+    "sources/2005.11401-rag.md": {
+      "title": "RAG 论文 (2005.11401)",
+      "type": "source",
+      "tags": [
+        "rag",
+        "retrieval",
+        "paper",
+        "arxiv"
+      ],
+      "summary": "1. **主题**：检索增强生成相关研究"
+    },
+    "sources/2106.09685-agent.md": {
+      "title": "Agent 论文 (2106.09685)",
+      "type": "source",
+      "tags": [
+        "agent",
+        "paper",
+        "arxiv"
+      ],
+      "summary": "1. **主题**：智能体（Agent）相关研究"
+    },
+    "sources/agent-skills-overview.md": {
+      "title": "Agent Skills Overview",
+      "type": "source",
+      "tags": [
+        "agent",
+        "skills",
+        "capabilities"
+      ],
+      "summary": "1. **标准化方式**：给 AI agents 赋予新能力"
+    },
+    "sources/agent-skills.md": {
+      "title": "Agent Skills",
+      "type": "source",
+      "tags": [
+        "agent",
+        "skills",
+        "claude"
+      ],
+      "summary": "1. **定义**：模块化能力扩展，每个 Skill 打包指令、元数据和可选资源"
+    },
+    "sources/ai-agent-主流的设计模式.md": {
+      "title": "AI Agent 主流的设计模式",
+      "type": "source",
+      "tags": [
+        "agent",
+        "design-pattern",
+        "react"
+      ],
+      "summary": "1. **ReAct**：Reasoning + Acting，结合推理与执行"
+    },
+    "sources/best-practices-prompt-engineering-openai.md": {
+      "title": "Best Practices for Prompt Engineering with OpenAI API",
+      "type": "source",
+      "tags": [
+        "prompt-engineering",
+        "openai",
+        "api"
+      ],
+      "summary": "1. **清晰指令**：明确、具体的任务描述"
+    },
+    "sources/claude-code编码指南.md": {
+      "title": "CLAUDE.md (LLM 编码行为指南)",
+      "type": "source",
+      "tags": [
+        "claude",
+        "guidelines",
+        "coding"
+      ],
+      "summary": "1. **行为指南**：减少 LLM 常见编码错误"
+    },
+    "sources/context-engineering.md": {
+      "title": "Context Engineering",
+      "type": "source",
+      "tags": [
+        "context-engineering",
+        "langchain",
+        "agents"
+      ],
+      "summary": "1. **四大策略**：Write（写入）、Select（选择）、Compress（压缩）、Isolate（隔离）"
+    },
+    "sources/effective-context-engineering-ai-agents.md": {
+      "title": "Effective Context Engineering for AI Agents",
+      "type": "source",
+      "tags": [
+        "context-engineering",
+        "anthropic",
+        "agents"
+      ],
+      "summary": "1. **Anthropic 实践**：AI 安全的上下文工程方法"
+    },
+    "sources/elements-of-a-prompt.md": {
+      "title": "Elements of a Prompt",
+      "type": "source",
+      "tags": [
+        "prompt-engineering",
+        "basics"
+      ],
+      "summary": "1. **指令（Instructions）**：告诉模型要执行的任务"
+    },
+    "sources/equipping-agents-for-the-real-world.md": {
+      "title": "Equipping Agents for the Real World with Agent Skills",
+      "type": "source",
+      "tags": [
+        "agent",
+        "skills",
+        "anthropic"
+      ],
+      "summary": "1. **Anthropic 实践**：构建具有实际能力的 AI agents"
+    },
+    "sources/function-calling-openai-api.md": {
+      "title": "Function Calling | OpenAI API",
+      "type": "source",
+      "tags": [
+        "function-calling",
+        "openai",
+        "api"
+      ],
+      "summary": "1. **Function Calling**：让大模型连接外部数据和系统"
+    },
+    "sources/java-21初体验.md": {
+      "title": "Java 21 初体验",
+      "type": "source",
+      "tags": [
+        "java",
+        "jdk",
+        "programming"
+      ],
+      "summary": "1. **Java 21 LTS**：2023年9月发布的长期支持版本"
+    },
+    "sources/k8s-gpu调度.md": {
+      "title": "在 Kubernetes 中调度 GPU 资源",
+      "type": "source",
+      "tags": [
+        "kubernetes",
+        "gpu",
+        "scheduling"
+      ],
+      "summary": "1. **GPU 需求场景**：AI、深度学习、大语言模型"
+    },
+    "sources/k8s-流量管理-ingress.md": {
+      "title": "学习 Kubernetes 流量管理之 Ingress",
+      "type": "source",
+      "tags": [
+        "kubernetes",
+        "ingress",
+        "network"
+      ],
+      "summary": "1. **Ingress 定义**：HTTP/HTTPS 路由入口"
+    },
+    "sources/k8s-流量管理-service.md": {
+      "title": "学习 Kubernetes 流量管理之 Service",
+      "type": "source",
+      "tags": [
+        "kubernetes",
+        "service",
+        "network"
+      ],
+      "summary": "1. **Service 定义**：Kubernetes 中暴露应用的方式"
+    },
+    "sources/karpathy-claude-code指南.md": {
+      "title": "受 Karpathy 启发的 Claude Code 指南",
+      "type": "source",
+      "tags": [
+        "claude-code",
+        "karpathy",
+        "guidelines"
+      ],
+      "summary": "1. **来源**：Andrej Karpathy 关于 LLM 编码陷阱的观察"
+    },
+    "sources/langchain-学习笔记二.md": {
+      "title": "大模型应用开发框架 LangChain 学习笔记（二）",
+      "type": "source",
+      "tags": [
+        "langchain",
+        "agent",
+        "framework"
+      ],
+      "summary": "1. **Agent 类型**：Zero-shot ReAct、Conversational、Plan-and-Execute"
+    },
+    "sources/llm-wiki-核心思想.md": {
+      "title": "LLM Wiki 核心理念",
+      "type": "source",
+      "tags": [
+        "llm-wiki",
+        "concept",
+        "methodology"
+      ],
+      "summary": "1. **CAG vs RAG**：编译增强生成 vs 检索增强生成"
+    },
+    "sources/llm-wiki.md": {
+      "title": "LLM Wiki (English)",
+      "type": "source",
+      "tags": [
+        "llm-wiki",
+        "pattern",
+        "knowledge-base"
+      ],
+      "summary": "1. **模式定义**：使用 LLM 构建个人知识库的模式"
+    },
+    "sources/openai-codex-harness工程.md": {
+      "title": "工程技术：在智能体优先的世界中利用 Codex",
+      "type": "source",
+      "tags": [
+        "openai",
+        "codex",
+        "agent",
+        "engineering"
+      ],
+      "summary": "1. **Codex**：OpenAI 的代码生成模型"
+    },
+    "sources/prompt-engineering-tools.md": {
+      "title": "Prompt Engineering Tools",
+      "type": "source",
+      "tags": [
+        "prompt-engineering",
+        "tools"
+      ],
+      "summary": "1. **工具分类**：提示词构建、测试、优化"
+    },
+    "sources/prompt-进阶-提示链.md": {
+      "title": "Prompt 进阶 — 提示链和多提示词协同",
+      "type": "source",
+      "tags": [
+        "prompt",
+        "chain",
+        "advanced"
+      ],
+      "summary": "1. **Prompt Chain**：将复杂任务拆分为多个提示词"
+    },
+    "sources/prompted-products.md": {
+      "title": "Prompted Products",
+      "type": "source",
+      "tags": [
+        "prompt",
+        "products",
+        "ai"
+      ],
+      "summary": "1. **产品设计**：基于 Prompt 的 AI 产品"
+    },
+    "sources/understanding-model-context-protocol-mcp.md": {
+      "title": "Understanding Model Context Protocol (MCP)",
+      "type": "source",
+      "tags": [
+        "mcp",
+        "protocol",
+        "ai"
+      ],
+      "summary": "1. **MCP 定义**：模型上下文协议，AI 模型与现实世界数据/工具的通用接口"
+    },
+    "sources/你不知道的-agent.md": {
+      "title": "你不知道的 Agent：原理、架构与工程实践",
+      "type": "source",
+      "tags": [
+        "agent",
+        "architecture",
+        "engineering"
+      ],
+      "summary": "1. **Agent 底层原理**：从提示工程到自主决策"
+    },
+    "sources/使用-arthas-排查线上问题.md": {
+      "title": "使用 Arthas 排查线上问题",
+      "type": "source",
+      "tags": [
+        "arthas",
+        "java",
+        "debugging"
+      ],
+      "summary": "1. **Arthas 定位**：阿里开源的 Java 诊断工具"
+    },
+    "sources/使用-Embedding-技术打造本地知识库助手.md": {
+      "title": "使用 Embedding 技术打造本地知识库助手",
+      "type": "source",
+      "tags": [
+        "embedding",
+        "vector-database",
+        "rag"
+      ],
+      "summary": "1. **Embedding 原理**：将文本转为向量，实现语义匹配"
+    },
+    "sources/基于-LangGraph-创建智能体应用.md": {
+      "title": "基于 LangGraph 创建智能体应用",
+      "type": "source",
+      "tags": [
+        "langgraph",
+        "agent",
+        "langchain"
+      ],
+      "summary": "1. **LangGraph 定位**：LangChain 的智能体应用库，支持复杂多智能体系统"
+    },
+    "sources/基于结构化数据的文档问答.md": {
+      "title": "基于结构化数据的文档问答",
+      "type": "source",
+      "tags": [
+        "rag",
+        "structured-data",
+        "qa"
+      ],
+      "summary": "1. **场景**：利用大模型打造文档问答系统"
+    },
+    "sources/大模型应用开发框架-LangChain-学习笔记.md": {
+      "title": "大模型应用开发框架 LangChain 学习笔记",
+      "type": "source",
+      "tags": [
+        "langchain",
+        "framework",
+        "llm"
+      ],
+      "summary": "1. **LangChain 定位**：最流行的大模型应用开发框架"
+    },
+    "sources/如何写好prompt-结构化.md": {
+      "title": "如何写好Prompt：结构化",
+      "type": "source",
+      "tags": [
+        "prompt-engineering",
+        "structure"
+      ],
+      "summary": "1. **结构化方法**：从角色设定到任务分解"
+    },
+    "sources/实战-Model-Context-Protocol.md": {
+      "title": "实战 Model Context Protocol",
+      "type": "source",
+      "tags": [
+        "mcp",
+        "protocol",
+        "anthropic"
+      ],
+      "summary": "1. **发布背景**：2024年11月 Anthropic 推出"
+    },
+    "sources/容器运行时-containerd.md": {
+      "title": "容器运行时 containerd 学习笔记",
+      "type": "source",
+      "tags": [
+        "containerd",
+        "container",
+        "docker"
+      ],
+      "summary": "1. **containerd 定位**：Docker 分离出的容器运行时"
+    },
+    "sources/开源大模型-llama-实战.md": {
+      "title": "开源大模型 Llama 实战",
+      "type": "source",
+      "tags": [
+        "llama",
+        "open-source",
+        "model"
+      ],
+      "summary": "1. **Llama 背景**：Meta AI 2024年2月发布"
+    },
+    "sources/提示工程学习笔记.md": {
+      "title": "提示工程学习笔记",
+      "type": "source",
+      "tags": [
+        "prompt-engineering",
+        "learning-notes"
+      ],
+      "summary": "1. **提示工程定义**：开发和优化提示词的学科，帮助用户将大模型用于各种应用场景"
+    },
+    "sources/提示工程学习笔记（二）.md": {
+      "title": "提示工程学习笔记（二）",
+      "type": "source",
+      "tags": [
+        "prompt-engineering",
+        "advanced"
+      ],
+      "summary": "1. **进阶技巧**：思维链（CoT）、最小到最多提示（Least-to-Most）"
+    },
+    "sources/浅谈上下文工程.md": {
+      "title": "浅谈上下文工程",
+      "type": "source",
+      "tags": [
+        "context-engineering",
+        "claude",
+        "agent"
+      ],
+      "summary": "1. **从提示工程到上下文工程**：从单轮对话到多步骤任务"
+    },
+    "sources/盘点-python-pdf解析库.md": {
+      "title": "盘点 Python 中那些 PDF 解析库",
+      "type": "source",
+      "tags": [
+        "python",
+        "pdf",
+        "rag"
+      ],
+      "summary": "1. **PDF 解析**：RAG 系统中文档处理的关键环节"
+    },
+    "sources/结构化提示词知识库.md": {
+      "title": "结构化提示词知识库",
+      "type": "source",
+      "tags": [
+        "prompt",
+        "knowledge-base",
+        "collection"
+      ],
+      "summary": "1. **知识库定位**：结构化提示词集合与最佳实践"
+    },
+    "sources/结构化提示词系统论述.md": {
+      "title": "结构化提示词系统论述",
+      "type": "source",
+      "tags": [
+        "prompt",
+        "structure",
+        "system"
+      ],
+      "summary": "1. **系统化方法**：构建高性能提示词的完整方法论"
+    },
+    "sources/聊聊-deep-search和deep-research.md": {
+      "title": "聊聊 Deep Search 和 Deep Research",
+      "type": "source",
+      "tags": [
+        "deep-search",
+        "deep-research",
+        "ai"
+      ],
+      "summary": "1. **Deep Search**：深度搜索，复杂信息检索"
+    },
+    "sources/近年-ai应用技术串讲.md": {
+      "title": "近年 AI 应用技术串讲",
+      "type": "source",
+      "tags": [
+        "ai",
+        "agent",
+        "skills",
+        "overview"
+      ],
+      "summary": "1. **Agent 技术**：自主智能体设计与实现"
+    },
+    "sources/高级-RAG-技术学习笔记.md": {
+      "title": "高级 RAG 技术学习笔记",
+      "type": "source",
+      "tags": [
+        "rag",
+        "retrieval",
+        "llm"
+      ],
+      "summary": "1. **RAG 定义**：检索增强生成（Retrieval-Augmented Generation）"
+    }
+  },
+  "total_files": 60,
+  "edges": [
+    {
+      "from": "index.md",
+      "to": "wiki/governance/guard-manual.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/governance/demonstration.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/governance/quick-commands.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/my-learning-path/fastapi-nextjs-wiki-system.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/my-learning-path/practice/fastapi-wiki-api.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/concepts/prompt-提示工程.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/concepts/agent-智能体.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/concepts/rag-知识库.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/concepts/context-engineering.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/concepts/llm-大语言模型.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/entities/developer-tools.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/entities/ai-products.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/entities/key-people.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/log.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/提示工程学习笔记.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/提示工程学习笔记（二）.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/elements-of-a-prompt.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/如何写好prompt-结构化.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/best-practices-prompt-engineering-openai.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/结构化提示词系统论述.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/结构化提示词知识库.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/prompt-进阶-提示链.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/agent-skills.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/agent-skills-overview.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/equipping-agents-for-the-real-world.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/ai-agent-主流的设计模式.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/你不知道的-agent.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/浅谈上下文工程.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/context-engineering.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/effective-context-engineering-ai-agents.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/基于-LangGraph-创建智能体应用.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/高级-RAG-技术学习笔记.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/使用-Embedding-技术打造本地知识库助手.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/基于结构化数据的文档问答.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/2005.11401-rag.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/大模型应用开发框架-LangChain-学习笔记.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/langchain-学习笔记二.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/开源大模型-llama-实战.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/1706.03762-transformer.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/understanding-model-context-protocol-mcp.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/实战-Model-Context-Protocol.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/function-calling-openai-api.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/聊聊-deep-search和deep-research.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/盘点-python-pdf解析库.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/近年-ai应用技术串讲.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/prompt-engineering-tools.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/prompted-products.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/openai-codex-harness工程.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/2106.09685-agent.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/容器运行时-containerd.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/k8s-流量管理-service.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/k8s-流量管理-ingress.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/k8s-gpu调度.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/java-21初体验.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/使用-arthas-排查线上问题.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/llm-wiki-核心思想.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/llm-wiki.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/claude-code编码指南.md"
+    },
+    {
+      "from": "index.md",
+      "to": "wiki/sources/karpathy-claude-code指南.md"
+    },
+    {
+      "from": "concepts/agent-智能体.md",
+      "to": "wiki/sources/你不知道的-agent.md"
+    },
+    {
+      "from": "concepts/agent-智能体.md",
+      "to": "wiki/sources/ai-agent-主流的设计模式.md"
+    },
+    {
+      "from": "concepts/agent-智能体.md",
+      "to": "wiki/sources/浅谈上下文工程.md"
+    },
+    {
+      "from": "concepts/agent-智能体.md",
+      "to": "wiki/sources/基于-LangGraph-创建智能体应用.md"
+    },
+    {
+      "from": "concepts/agent-智能体.md",
+      "to": "wiki/sources/langchain-学习笔记二.md"
+    },
+    {
+      "from": "concepts/agent-智能体.md",
+      "to": "wiki/sources/2106.09685-agent.md"
+    },
+    {
+      "from": "concepts/agent-智能体.md",
+      "to": "wiki/sources/agent-skills.md"
+    },
+    {
+      "from": "concepts/agent-智能体.md",
+      "to": "wiki/sources/equipping-agents-for-the-real-world.md"
+    },
+    {
+      "from": "concepts/context-engineering.md",
+      "to": "wiki/sources/context-engineering.md"
+    },
+    {
+      "from": "concepts/context-engineering.md",
+      "to": "wiki/sources/effective-context-engineering-ai-agents.md"
+    },
+    {
+      "from": "concepts/context-engineering.md",
+      "to": "wiki/sources/浅谈上下文工程.md"
+    },
+    {
+      "from": "concepts/context-engineering.md",
+      "to": "wiki/sources/llm-wiki-核心思想.md"
+    },
+    {
+      "from": "concepts/context-engineering.md",
+      "to": "wiki/sources/llm-wiki.md"
+    },
+    {
+      "from": "concepts/llm-大语言模型.md",
+      "to": "wiki/sources/开源大模型-llama-实战.md"
+    },
+    {
+      "from": "concepts/llm-大语言模型.md",
+      "to": "wiki/sources/1706.03762-transformer.md"
+    },
+    {
+      "from": "concepts/llm-大语言模型.md",
+      "to": "wiki/sources/大模型应用开发框架-LangChain-学习笔记.md"
+    },
+    {
+      "from": "concepts/llm-大语言模型.md",
+      "to": "wiki/sources/langchain-学习笔记二.md"
+    },
+    {
+      "from": "concepts/llm-大语言模型.md",
+      "to": "wiki/sources/function-calling-openai-api.md"
+    },
+    {
+      "from": "concepts/prompt-提示工程.md",
+      "to": "wiki/sources/提示工程学习笔记.md"
+    },
+    {
+      "from": "concepts/prompt-提示工程.md",
+      "to": "wiki/sources/提示工程学习笔记（二）.md"
+    },
+    {
+      "from": "concepts/prompt-提示工程.md",
+      "to": "wiki/sources/elements-of-a-prompt.md"
+    },
+    {
+      "from": "concepts/prompt-提示工程.md",
+      "to": "wiki/sources/prompt-进阶-提示链.md"
+    },
+    {
+      "from": "concepts/prompt-提示工程.md",
+      "to": "wiki/sources/结构化提示词系统论述.md"
+    },
+    {
+      "from": "concepts/prompt-提示工程.md",
+      "to": "wiki/sources/结构化提示词知识库.md"
+    },
+    {
+      "from": "concepts/prompt-提示工程.md",
+      "to": "wiki/sources/best-practices-prompt-engineering-openai.md"
+    },
+    {
+      "from": "concepts/prompt-提示工程.md",
+      "to": "wiki/sources/如何写好prompt-结构化.md"
+    },
+    {
+      "from": "concepts/rag-知识库.md",
+      "to": "wiki/sources/高级-RAG-技术学习笔记.md"
+    },
+    {
+      "from": "concepts/rag-知识库.md",
+      "to": "wiki/sources/使用-Embedding-技术打造本地知识库助手.md"
+    },
+    {
+      "from": "concepts/rag-知识库.md",
+      "to": "wiki/sources/基于结构化数据的文档问答.md"
+    },
+    {
+      "from": "concepts/rag-知识库.md",
+      "to": "wiki/sources/2005.11401-rag.md"
+    },
+    {
+      "from": "entities/ai-products.md",
+      "to": "wiki/sources/claude-code编码指南.md"
+    },
+    {
+      "from": "entities/ai-products.md",
+      "to": "wiki/sources/openai-codex-harness工程.md"
+    },
+    {
+      "from": "entities/ai-products.md",
+      "to": "wiki/sources/高级-RAG-技术学习笔记.md"
+    },
+    {
+      "from": "entities/developer-tools.md",
+      "to": "wiki/sources/大模型应用开发框架-LangChain-学习笔记.md"
+    },
+    {
+      "from": "entities/developer-tools.md",
+      "to": "wiki/sources/基于-LangGraph-创建智能体应用.md"
+    },
+    {
+      "from": "entities/developer-tools.md",
+      "to": "wiki/sources/实战-Model-Context-Protocol.md"
+    },
+    {
+      "from": "entities/developer-tools.md",
+      "to": "wiki/sources/function-calling-openai-api.md"
+    },
+    {
+      "from": "entities/developer-tools.md",
+      "to": "wiki/sources/使用-arthas-排查线上问题.md"
+    },
+    {
+      "from": "entities/developer-tools.md",
+      "to": "wiki/sources/容器运行时-containerd.md"
+    },
+    {
+      "from": "entities/developer-tools.md",
+      "to": "wiki/sources/k8s-流量管理-service.md"
+    },
+    {
+      "from": "entities/key-people.md",
+      "to": "wiki/sources/karpathy-claude-code指南.md"
+    },
+    {
+      "from": "entities/key-people.md",
+      "to": "wiki/sources/1706.03762-transformer.md"
+    },
+    {
+      "from": "entities/key-people.md",
+      "to": "wiki/sources/context-engineering.md"
+    },
+    {
+      "from": "entities/key-people.md",
+      "to": "wiki/sources/effective-context-engineering-ai-agents.md"
+    },
+    {
+      "from": "entities/key-people.md",
+      "to": "wiki/sources/.md"
+    },
+    {
+      "from": "governance/demonstration.md",
+      "to": "scripts/path_guard.py.md"
+    },
+    {
+      "from": "governance/demonstration.md",
+      "to": "wiki/governance/guard-manual.md"
+    },
+    {
+      "from": "governance/demonstration.md",
+      "to": "log.md"
+    },
+    {
+      "from": "governance/guard-manual.md",
+      "to": "scripts/path_guard.py.md"
+    },
+    {
+      "from": "governance/guard-manual.md",
+      "to": "scripts/guard_tests.py.md"
+    },
+    {
+      "from": "governance/guard-manual.md",
+      "to": "AGENTS.md"
+    },
+    {
+      "from": "governance/guard-manual.md",
+      "to": "log.md"
+    },
+    {
+      "from": "governance/quick-commands.md",
+      "to": "wiki/governance/guard-manual.md"
+    },
+    {
+      "from": "governance/quick-commands.md",
+      "to": "wiki/governance/demonstration.md"
+    },
+    {
+      "from": "governance/quick-commands.md",
+      "to": "scripts/path_guard.py.md"
+    },
+    {
+      "from": "my-learning-path/practice/fastapi-wiki-api.md",
+      "to": "my-learning-path/practice/code-graph-agent/index.md"
+    },
+    {
+      "from": "my-learning-path/practice/fastapi-wiki-api.md",
+      "to": "my-learning-path/theory/rag-theory.md"
+    },
+    {
+      "from": "sources/1706.03762-transformer.md",
+      "to": "开源大模型 Llama 实战.md"
+    },
+    {
+      "from": "sources/2005.11401-rag.md",
+      "to": "高级 RAG 技术学习笔记.md"
+    },
+    {
+      "from": "sources/2005.11401-rag.md",
+      "to": "使用 Embedding 技术打造本地知识库助手.md"
+    },
+    {
+      "from": "sources/2106.09685-agent.md",
+      "to": "AI Agent 主流的设计模式.md"
+    },
+    {
+      "from": "sources/2106.09685-agent.md",
+      "to": "你不知道的 Agent.md"
+    },
+    {
+      "from": "sources/agent-skills-overview.md",
+      "to": "Agent Skills.md"
+    },
+    {
+      "from": "sources/agent-skills-overview.md",
+      "to": "Equipping agents for the real world with Agent Skills.md"
+    },
+    {
+      "from": "sources/agent-skills.md",
+      "to": "Agent Skills Overview.md"
+    },
+    {
+      "from": "sources/agent-skills.md",
+      "to": "Equipping agents for the real world with Agent Skills.md"
+    },
+    {
+      "from": "sources/ai-agent-主流的设计模式.md",
+      "to": "AI Agent Workflow Design Patterns — An Overview.md"
+    },
+    {
+      "from": "sources/ai-agent-主流的设计模式.md",
+      "to": "你不知道的 Agent：原理、架构与工程实践.md"
+    },
+    {
+      "from": "sources/best-practices-prompt-engineering-openai.md",
+      "to": "Elements of a Prompt.md"
+    },
+    {
+      "from": "sources/best-practices-prompt-engineering-openai.md",
+      "to": "提示工程学习笔记.md"
+    },
+    {
+      "from": "sources/claude-code编码指南.md",
+      "to": "浅谈上下文工程.md"
+    },
+    {
+      "from": "sources/claude-code编码指南.md",
+      "to": "Context Engineering.md"
+    },
+    {
+      "from": "sources/context-engineering.md",
+      "to": "skills/context-engineer.md"
+    },
+    {
+      "from": "sources/effective-context-engineering-ai-agents.md",
+      "to": "Context Engineering.md"
+    },
+    {
+      "from": "sources/effective-context-engineering-ai-agents.md",
+      "to": "浅谈上下文工程.md"
+    },
+    {
+      "from": "sources/elements-of-a-prompt.md",
+      "to": "提示工程学习笔记.md"
+    },
+    {
+      "from": "sources/elements-of-a-prompt.md",
+      "to": "如何写好Prompt 结构化.md"
+    },
+    {
+      "from": "sources/equipping-agents-for-the-real-world.md",
+      "to": "Agent Skills.md"
+    },
+    {
+      "from": "sources/equipping-agents-for-the-real-world.md",
+      "to": "Agent Skills Overview.md"
+    },
+    {
+      "from": "sources/function-calling-openai-api.md",
+      "to": "Understanding Model Context Protocol (MCP).md"
+    },
+    {
+      "from": "sources/function-calling-openai-api.md",
+      "to": "实战 Model Context Protocol.md"
+    },
+    {
+      "from": "sources/java-21初体验.md",
+      "to": "使用 Arthas 排查线上问题.md"
+    },
+    {
+      "from": "sources/k8s-gpu调度.md",
+      "to": "学习 Kubernetes 流量管理之 Service.md"
+    },
+    {
+      "from": "sources/k8s-gpu调度.md",
+      "to": "容器运行时 containerd.md"
+    },
+    {
+      "from": "sources/k8s-流量管理-ingress.md",
+      "to": "学习 Kubernetes 流量管理之 Service.md"
+    },
+    {
+      "from": "sources/k8s-流量管理-ingress.md",
+      "to": "在 Kubernetes 中调度 GPU 资源.md"
+    },
+    {
+      "from": "sources/k8s-流量管理-service.md",
+      "to": "学习 Kubernetes 流量管理之 Ingress.md"
+    },
+    {
+      "from": "sources/k8s-流量管理-service.md",
+      "to": "容器运行时 containerd.md"
+    },
+    {
+      "from": "sources/karpathy-claude-code指南.md",
+      "to": "CLAUDE.md"
+    },
+    {
+      "from": "sources/karpathy-claude-code指南.md",
+      "to": "浅谈上下文工程.md"
+    },
+    {
+      "from": "sources/langchain-学习笔记二.md",
+      "to": "大模型应用开发框架 LangChain 学习笔记.md"
+    },
+    {
+      "from": "sources/langchain-学习笔记二.md",
+      "to": "基于 LangGraph 创建智能体应用.md"
+    },
+    {
+      "from": "sources/llm-wiki-核心思想.md",
+      "to": "Context Engineering.md"
+    },
+    {
+      "from": "sources/llm-wiki-核心思想.md",
+      "to": "提示工程学习笔记.md"
+    },
+    {
+      "from": "sources/llm-wiki.md",
+      "to": "llm-wiki-核心思想.md"
+    },
+    {
+      "from": "sources/llm-wiki.md",
+      "to": "Context Engineering.md"
+    },
+    {
+      "from": "sources/openai-codex-harness工程.md",
+      "to": "你不知道的 Agent.md"
+    },
+    {
+      "from": "sources/openai-codex-harness工程.md",
+      "to": "Function calling.md"
+    },
+    {
+      "from": "sources/prompt-engineering-tools.md",
+      "to": "提示工程学习笔记.md"
+    },
+    {
+      "from": "sources/prompt-engineering-tools.md",
+      "to": "如何写好Prompt 结构化.md"
+    },
+    {
+      "from": "sources/prompt-进阶-提示链.md",
+      "to": "提示工程学习笔记（二）.md"
+    },
+    {
+      "from": "sources/prompt-进阶-提示链.md",
+      "to": "如何写好Prompt 结构化.md"
+    },
+    {
+      "from": "sources/prompted-products.md",
+      "to": "Prompt Engineering Tools.md"
+    },
+    {
+      "from": "sources/understanding-model-context-protocol-mcp.md",
+      "to": "实战 Model Context Protocol.md"
+    },
+    {
+      "from": "sources/understanding-model-context-protocol-mcp.md",
+      "to": "Function calling.md"
+    },
+    {
+      "from": "sources/你不知道的-agent.md",
+      "to": "AI Agent 主流的设计模式.md"
+    },
+    {
+      "from": "sources/你不知道的-agent.md",
+      "to": "基于 LangGraph 创建智能体应用.md"
+    },
+    {
+      "from": "sources/使用-arthas-排查线上问题.md",
+      "to": "Java 21 初体验.md"
+    },
+    {
+      "from": "sources/使用-Embedding-技术打造本地知识库助手.md",
+      "to": "高级 RAG 技术学习笔记.md"
+    },
+    {
+      "from": "sources/使用-Embedding-技术打造本地知识库助手.md",
+      "to": "基于结构化数据的文档问答.md"
+    },
+    {
+      "from": "sources/基于-LangGraph-创建智能体应用.md",
+      "to": "大模型应用开发框架 LangChain 学习笔记（二）.md"
+    },
+    {
+      "from": "sources/基于-LangGraph-创建智能体应用.md",
+      "to": "Context Engineering.md"
+    },
+    {
+      "from": "sources/基于结构化数据的文档问答.md",
+      "to": "高级 RAG 技术学习笔记.md"
+    },
+    {
+      "from": "sources/基于结构化数据的文档问答.md",
+      "to": "使用 Embedding 技术打造本地知识库助手.md"
+    },
+    {
+      "from": "sources/大模型应用开发框架-LangChain-学习笔记.md",
+      "to": "大模型应用开发框架 LangChain 学习笔记（二）.md"
+    },
+    {
+      "from": "sources/大模型应用开发框架-LangChain-学习笔记.md",
+      "to": "基于 LangGraph 创建智能体应用.md"
+    },
+    {
+      "from": "sources/如何写好prompt-结构化.md",
+      "to": "Elements of a Prompt.md"
+    },
+    {
+      "from": "sources/如何写好prompt-结构化.md",
+      "to": "结构化提示词系统论述.md"
+    },
+    {
+      "from": "sources/实战-Model-Context-Protocol.md",
+      "to": "Understanding Model Context Protocol (MCP).md"
+    },
+    {
+      "from": "sources/实战-Model-Context-Protocol.md",
+      "to": "Function calling.md"
+    },
+    {
+      "from": "sources/容器运行时-containerd.md",
+      "to": "Kubernetes.md"
+    },
+    {
+      "from": "sources/开源大模型-llama-实战.md",
+      "to": "大模型应用开发框架 LangChain 学习笔记.md"
+    },
+    {
+      "from": "sources/提示工程学习笔记.md",
+      "to": "提示工程学习笔记（二）.md"
+    },
+    {
+      "from": "sources/提示工程学习笔记.md",
+      "to": "大模型应用开发框架 LangChain 学习笔记.md"
+    },
+    {
+      "from": "sources/提示工程学习笔记（二）.md",
+      "to": "提示工程学习笔记.md"
+    },
+    {
+      "from": "sources/提示工程学习笔记（二）.md",
+      "to": "Elements of a Prompt.md"
+    },
+    {
+      "from": "sources/浅谈上下文工程.md",
+      "to": "Context Engineering.md"
+    },
+    {
+      "from": "sources/浅谈上下文工程.md",
+      "to": "Effective context engineering for AI agents.md"
+    },
+    {
+      "from": "sources/盘点-python-pdf解析库.md",
+      "to": "高级 RAG 技术学习笔记.md"
+    },
+    {
+      "from": "sources/盘点-python-pdf解析库.md",
+      "to": "使用 Embedding 技术打造本地知识库助手.md"
+    },
+    {
+      "from": "sources/结构化提示词知识库.md",
+      "to": "结构化提示词系统论述.md"
+    },
+    {
+      "from": "sources/结构化提示词知识库.md",
+      "to": "如何写好Prompt 结构化.md"
+    },
+    {
+      "from": "sources/结构化提示词系统论述.md",
+      "to": "如何写好Prompt 结构化.md"
+    },
+    {
+      "from": "sources/结构化提示词系统论述.md",
+      "to": "Elements of a Prompt.md"
+    },
+    {
+      "from": "sources/聊聊-deep-search和deep-research.md",
+      "to": "高级 RAG 技术学习笔记.md"
+    },
+    {
+      "from": "sources/聊聊-deep-search和deep-research.md",
+      "to": "AI Agent 主流的设计模式.md"
+    },
+    {
+      "from": "sources/近年-ai应用技术串讲.md",
+      "to": "Agent Skills.md"
+    },
+    {
+      "from": "sources/近年-ai应用技术串讲.md",
+      "to": "你不知道的 Agent.md"
+    },
+    {
+      "from": "sources/高级-RAG-技术学习笔记.md",
+      "to": "使用 Embedding 技术打造本地知识库助手.md"
+    },
+    {
+      "from": "sources/高级-RAG-技术学习笔记.md",
+      "to": "基于结构化数据的文档问答.md"
+    }
+  ],
+  "last_updated": "2026-05-22T23:52:13.016486"
+}

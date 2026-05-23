@@ -1,0 +1,12 @@
+output/
+raw/
+archives/
+03-practice-logs/
+04-project-archives/
+Clippings/
+*.db
+*.db-wal
+*.db-shm
+*.canvas
+*.base
+*.sh

@@ -1,0 +1,176 @@
+{
+  "guard-20260501-780a9509": {
+    "path": "AGENTS.md",
+    "reason": "测试授权",
+    "created_at": "2026-05-01T22:45:56.614730",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T22:45:56.629581"
+  },
+  "guard-20260501-0a4efc73": {
+    "path": "AGENTS.md",
+    "reason": "拦截测试",
+    "created_at": "2026-05-01T22:45:56.644678",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T22:45:56.658667"
+  },
+  "guard-20260501-81112f7c": {
+    "path": "AGENTS.md",
+    "reason": "集成测试",
+    "created_at": "2026-05-01T22:45:56.669175",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T22:45:56.683429"
+  },
+  "guard-20260501-39547f07": {
+    "path": "AGENTS.md",
+    "reason": "测试授权",
+    "created_at": "2026-05-01T22:49:18.742598",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T22:49:18.777003"
+  },
+  "guard-20260501-a0922464": {
+    "path": "AGENTS.md",
+    "reason": "测试授权",
+    "created_at": "2026-05-01T22:49:31.974822",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T22:49:32.009461"
+  },
+  "guard-20260501-12b3bfa0": {
+    "path": "AGENTS.md",
+    "reason": "测试CLI授权",
+    "created_at": "2026-05-01T22:49:32.021059",
+    "status": "active"
+  },
+  "guard-20260501-3bf5cfd2": {
+    "path": "AGENTS.md",
+    "reason": "测试授权",
+    "created_at": "2026-05-01T22:49:38.261136",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T22:49:38.298683"
+  },
+  "guard-20260501-2a97f259": {
+    "path": "AGENTS.md",
+    "reason": "测试授权",
+    "created_at": "2026-05-01T22:54:24.246335",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T22:54:24.260946"
+  },
+  "guard-20260501-63affa87": {
+    "path": "AGENTS.md",
+    "reason": "拦截测试",
+    "created_at": "2026-05-01T22:54:24.274764",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T22:54:24.290762"
+  },
+  "guard-20260501-dbf1c46c": {
+    "path": "AGENTS.md",
+    "reason": "集成测试",
+    "created_at": "2026-05-01T22:54:24.302883",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T22:54:24.318313"
+  },
+  "guard-20260501-de6f8918": {
+    "path": "AGENTS.md",
+    "reason": "测试授权",
+    "created_at": "2026-05-01T22:55:47.220250",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T22:55:47.234664"
+  },
+  "guard-20260501-1c340dde": {
+    "path": "AGENTS.md",
+    "reason": "拦截测试",
+    "created_at": "2026-05-01T22:55:47.248216",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T22:55:47.264557"
+  },
+  "guard-20260501-28bf534c": {
+    "path": "AGENTS.md",
+    "reason": "集成测试",
+    "created_at": "2026-05-01T22:55:47.275617",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T22:55:47.291028"
+  },
+  "guard-20260501-8febd45d": {
+    "path": "AGENTS.md",
+    "reason": "测试授权",
+    "created_at": "2026-05-01T22:58:28.140087",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T22:58:28.155567"
+  },
+  "guard-20260501-b19e4cfd": {
+    "path": "AGENTS.md",
+    "reason": "拦截测试",
+    "created_at": "2026-05-01T22:58:28.170792",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T22:58:28.185225"
+  },
+  "guard-20260501-2a8ae7cb": {
+    "path": "AGENTS.md",
+    "reason": "集成测试",
+    "created_at": "2026-05-01T22:58:28.197086",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T22:58:28.211844"
+  },
+  "guard-20260501-b0621b9f": {
+    "path": "AGENTS.md",
+    "reason": "测试授权",
+    "created_at": "2026-05-01T23:11:47.386999",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T23:11:47.423065"
+  },
+  "guard-20260501-aba9fce9": {
+    "path": "AGENTS.md",
+    "reason": "测试授权",
+    "created_at": "2026-05-01T23:11:59.872327",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T23:11:59.908749"
+  },
+  "guard-20260501-ac53134a": {
+    "path": "AGENTS.md",
+    "reason": "测试授权",
+    "created_at": "2026-05-01T23:12:44.162562",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T23:12:44.196549"
+  },
+  "guard-20260501-ecce8062": {
+    "path": "AGENTS.md",
+    "reason": "测试授权",
+    "created_at": "2026-05-01T23:13:00.409559",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T23:13:00.446685"
+  },
+  "guard-20260501-2836b536": {
+    "path": "AGENTS.md",
+    "reason": "测试授权",
+    "created_at": "2026-05-01T23:15:29.623499",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T23:15:29.660050"
+  },
+  "guard-20260501-34084808": {
+    "path": "AGENTS.md",
+    "reason": "测试授权",
+    "created_at": "2026-05-01T23:15:29.671239",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T23:15:29.711743"
+  },
+  "guard-20260501-9a081495": {
+    "path": "AGENTS.md",
+    "reason": "测试授权",
+    "created_at": "2026-05-01T23:15:58.926335",
+    "status": "revoked",
+    "revoked_at": "2026-05-01T23:15:58.964147"
+  },
+  "guard-20260505-72d49cde": {
+    "path": "AGENTS.md",
+    "reason": "测试授权",
+    "created_at": "2026-05-05T11:02:38.802853",
+    "status": "revoked",
+    "revoked_at": "2026-05-05T11:02:38.839911"
+  },
+  "guard-20260505-46558664": {
+    "path": "AGENTS.md",
+    "reason": "测试授权",
+    "created_at": "2026-05-05T11:02:52.016341",
+    "status": "revoked",
+    "revoked_at": "2026-05-05T11:02:52.052765"
+  }
+}

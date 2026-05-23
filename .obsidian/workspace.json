@@ -11,14 +11,10 @@
             "id": "99d95b49a3ff461a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "my-learning-path/theory.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "theory"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "ea4f04c247333004",
@@ -94,17 +90,16 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "my-learning-path/theory.md",
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "theory 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -163,7 +158,8 @@
               "title": "大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -182,43 +178,55 @@
   },
   "active": "99d95b49a3ff461a",
   "lastOpenFiles": [
-    "wiki/api/routes/__pycache__/wiki_route.cpython-310.pyc",
-    "wiki/api/__pycache__/__init__.cpython-310.pyc.126427747868848",
-    "wiki/api/routes/__pycache__/__init__.cpython-310.pyc",
-    "wiki/api/routes/__pycache__",
-    "wiki/api/__pycache__/__init__.cpython-310.pyc",
-    "wiki/api/__pycache__",
-    "wiki/api/routes/__init__.py",
-    "wiki/api/__init__.py",
-    "wiki/api/main.py",
-    "docker-compose.yml",
-    "wiki/api/routes/wiki_route.py",
-    "my-learning-path/index.md",
-    "my-learning-path/interview/index.md",
-    "my-learning-path/interview/technical-questions/rag-hybrid-retrieval.md",
-    "Andrej Karpathy.md",
-    "未命名 1.canvas",
-    "未命名.canvas",
-    "提示词工程之书-摘要.md",
+    "未命名 4.canvas",
+    "未命名 3.canvas",
+    "docs/pages/api-reference/components/head.md",
+    "docs/pages/api-reference/components",
+    "docs/pages/api-reference",
+    "concepts/agent-skills.md",
+    "容器运行时 containerd.md",
+    "docs/app/api-reference/functions/use-pathname.md",
+    "sources/best-practices-prompt-engineering-openai.md",
+    "frontend/node_modules/lru-cache/README.md",
+    "index.md",
+    "docs/app/getting-started/layouts-and-pages.md",
+    "wiki/api/routes/__pycache__/wiki_route.cpython-310.pyc.137952086760496",
+    "docs/messages/no-duplicate-head.md",
+    "docs/messages",
+    "wiki/sources/使用-arthas-排查线上问题.md",
+    "README.md",
+    "wiki/sources/2106.09685-agent.md",
+    "frontend/node_modules/next/dist/docs/01-app/01-getting-started/02-project-structure.md",
+    "log.md",
+    "docs/app/api-reference/config/eslint.md",
+    "docs/app/api-reference/config",
+    "docs/app/getting-started/fetching-data.md",
+    "docs/app/api-reference/functions/use-router.md",
+    "docs/app/api-reference/file-conventions/metadata/manifest.md",
+    "docs/pages/building-your-application/routing/dynamic-routes.md",
+    "AGENTS.md",
+    "docs/app/api-reference/file-conventions/metadata",
+    "docs/app/api-reference/file-conventions",
+    "frontend/node_modules/eslint-config-next/node_modules/eslint-plugin-import/docs/rules/order.md",
+    "docs/app/getting-started",
+    "my-learning-path/practice.md",
     "skills/wiki-maintainer.md",
     "skills/prompt-structurer.md",
     "skills/context-engineer.md",
-    "wiki/sources/2106.09685v2.md",
-    "raw/1706.03762v7.md",
-    "wiki/concepts/注意力机制.md",
-    "wiki/sources/近年-ai-应用技术串讲与优质文档分享.md",
-    "wiki/concepts/llm.md",
-    "wiki/concepts/rag.md",
-    "wiki/concepts/llm-wiki.md",
-    "wiki/entities/dataview.md",
-    "wiki/index.md",
-    "wiki/synthesis/llm-工作流对比.md",
-    "wiki/entities/edward-hu.md",
-    "wiki/log.md",
-    "wiki/concepts/dpr.md",
-    "wiki/entities/patrick-lewis.md",
-    "wiki/entities/noam-shazeer.md",
-    "wiki/entities/ashish-vaswani.md",
-    "wiki/concepts/低秩分解.md"
+    "docs/pages/building-your-application/routing",
+    "docs/pages/building-your-application",
+    "未命名 2.canvas",
+    "未命名.canvas",
+    "未命名 1.canvas",
+    "frontend/node_modules/force-graph/example/medium-graph/preview.png",
+    "frontend/node_modules/force-graph/example/img-nodes/imgs/whale.jpg",
+    "frontend/node_modules/force-graph/example/img-nodes/imgs/tiger.jpg",
+    "frontend/node_modules/force-graph/example/img-nodes/imgs/squirrel.jpg",
+    "frontend/node_modules/force-graph/example/img-nodes/imgs/panda.jpg",
+    "frontend/node_modules/force-graph/example/img-nodes/imgs/owl.jpg",
+    "frontend/node_modules/force-graph/example/img-nodes/imgs/octopus.jpg",
+    "frontend/node_modules/force-graph/example/img-nodes/imgs/grasshopper.jpg",
+    "frontend/node_modules/force-graph/example/img-nodes/imgs/elephant.jpg",
+    "frontend/node_modules/force-graph/example/img-nodes/imgs/eagle.jpg"
   ]
 }

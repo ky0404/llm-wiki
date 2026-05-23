@@ -19,6 +19,7 @@ updated: 2026-04-29
 - Log: wiki/log.md
 - Agent Spec: wiki/AGENTS.md
 - My Learning: wiki/my-learning-path/
+  - [[my-learning-path/fastapi-nextjs-wiki-system.md]] - FastAPI + Next.js Wiki 系统实现指南
 
 ## 源文件 (Sources)
 - [[sources/CLAUDE.md]] - CLAUDE.md 行为指南摘要
