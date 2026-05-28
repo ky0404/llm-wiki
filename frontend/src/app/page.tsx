@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState, Suspense, useCallback } from "react"
+import { useEffect, useState, useCallback, useRef } from "react"
 import { 
   FileText, 
   GitBranch, 
@@ -10,25 +10,9 @@ import {
   PieChart,
   RefreshCw,
   AlertCircle,
-  Wifi,
-  WifiOff,
-  Pause,
-  Play
+  Zap
 } from "lucide-react"
-import { getWikiStats } from "@/lib/api"
-
-interface WikiStats {
-  total_files: number
-  total_edges: number
-  health_score: number
-  type_distribution: Record<string, number>
-  recent_pages: Array<{
-    path: string
-    title: string
-    type: string
-    tags: string[]
-  }>
-}
+import { getWikiStats, createSSEConnection, WikiStats } from "@/lib/api"
 
 function StatsCard({ 
   title, 
@@ -65,12 +49,12 @@ function StatsCard({
     <div className={`
       relative overflow-hidden rounded-2xl border bg-gradient-to-br ${colors[color]} p-5
       hover:shadow-lg transition-all duration-300 group
-      ${changed ? 'ring-2 ring-blue-400 ring-opacity-50 animate-pulse' : ''}
+      ${changed ? 'ring-2 ring-blue-400 ring-opacity-80 animate-pulse' : ''}
     `}>
       <div className="flex items-start justify-between">
         <div>
           <p className="text-sm font-medium text-slate-500">{title}</p>
-          <p className={`mt-2 text-3xl font-bold text-slate-800 ${changed ? 'transition-all duration-300' : ''}`}>
+          <p className={`mt-2 text-3xl font-bold text-slate-800 ${changed ? 'scale-110 transition-transform duration-300' : ''}`}>
             {value}
           </p>
           {trend && (
@@ -160,12 +144,32 @@ export default function DashboardPage() {
   const [prevStats, setPrevStats] = useState<WikiStats | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
-  const [lastUpdated, setLastUpdated] = useState<Date | null>(null)
-  const [isLive, setIsLive] = useState(true)
-  const [refreshInterval, setRefreshInterval] = useState(10)
   const [dataChanged, setDataChanged] = useState<Record<string, boolean>>({})
+  const [isConnected, setIsConnected] = useState(false)
+  const retryCount = useRef(0)
 
-  // Track data changes
+  const fetchStats = useCallback(async (showLoading = false) => {
+    let cancelled = false
+    if (showLoading) setLoading(true)
+    setError(null)
+    try {
+      const data = await getWikiStats()
+      if (!cancelled) {
+        setStats(data)
+      }
+    } catch (err) {
+      if (!cancelled) setError('无法加载数据，请确保后端服务已启动')
+      console.error(err)
+    } finally {
+      if (!cancelled) setLoading(false)
+    }
+    return () => { cancelled = true }
+  }, [])
+
+  useEffect(() => {
+    fetchStats(true)
+  }, [fetchStats])
+
   useEffect(() => {
     if (prevStats && stats) {
       const changes: Record<string, boolean> = {}
@@ -182,38 +186,23 @@ export default function DashboardPage() {
     setPrevStats(stats)
   }, [stats, prevStats])
 
-  const fetchStats = useCallback(async (showLoading = false) => {
-    let cancelled = false
-    if (showLoading) setLoading(true)
-    setError(null)
-    try {
-      const data = await getWikiStats()
-      if (!cancelled) {
-        setStats(data)
-        setLastUpdated(new Date())
-      }
-    } catch (err) {
-      if (!cancelled) setError('无法加载数据，请确保后端服务已启动')
-      console.error(err)
-    } finally {
-      if (!cancelled) setLoading(false)
-    }
-    return () => { cancelled = true }
-  }, [])
-
-  // Auto-refresh
   useEffect(() => {
-    if (!isLive) return
-    
-    const interval = setInterval(() => {
-      fetchStats(false)
-    }, refreshInterval * 1000)
-    
-    // Initial fetch
-    fetchStats(true)
-    
-    return () => clearInterval(interval)
-  }, [isLive, refreshInterval, fetchStats])
+    const cleanup = createSSEConnection(async (data) => {
+      if (data.type === 'wiki_change') {
+        await fetchStats(false)
+      }
+    })
+
+    const checkConnection = setInterval(() => {
+      setIsConnected(true)
+      retryCount.current = 0
+    }, 5000)
+
+    return () => {
+      cleanup()
+      clearInterval(checkConnection)
+    }
+  }, [fetchStats])
 
   if (loading) return <LoadingSpinner />
   if (error) return <ErrorMessage message={error} onRetry={fetchStats} />
@@ -221,79 +210,34 @@ export default function DashboardPage() {
 
   const typeEntries = Object.entries(stats.type_distribution || {}).sort((a, b) => b[1] - a[1])
 
-  const formatTime = (date: Date) => {
-    return date.toLocaleTimeString('zh-CN', { 
-      hour: '2-digit', 
-      minute: '2-digit', 
-      second: '2-digit' 
-    })
-  }
-
   return (
     <div className="space-y-6">
-      {/* Header */}
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-2xl font-bold text-slate-800">仪表盘</h1>
           <p className="text-slate-500 mt-1">知识库实时状态</p>
         </div>
-        <div className="flex items-center gap-2">
-          {/* Live Indicator */}
+        <div className="flex items-center gap-3">
           <div className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-medium ${
-            isLive 
+            isConnected 
               ? 'bg-green-100 text-green-700' 
-              : 'bg-slate-100 text-slate-500'
+              : 'bg-amber-100 text-amber-700'
           }`}>
-            {isLive ? (
+            {isConnected ? (
               <>
-                <Wifi className="w-3.5 h-3.5" />
+                <Zap className="w-3.5 h-3.5" />
                 <span className="flex items-center gap-1">
                   <span className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></span>
-                  实时
+                  实时同步中
                 </span>
               </>
             ) : (
               <>
-                <WifiOff className="w-3.5 h-3.5" />
-                已暂停
+                <RefreshCw className="w-3.5 h-3.5 animate-spin" />
+                连接中...
               </>
             )}
           </div>
-          
-          {/* Last Updated */}
-          {lastUpdated && (
-            <span className="text-xs text-slate-400">
-              更新: {formatTime(lastUpdated)}
-            </span>
-          )}
-          
-          {/* Refresh Interval Selector */}
-          <select
-            value={refreshInterval}
-            onChange={(e) => setRefreshInterval(Number(e.target.value))}
-            className="text-xs border border-slate-200 rounded-lg px-2 py-1.5 bg-white text-slate-600"
-            disabled={!isLive}
-          >
-            <option value={5}>5秒</option>
-            <option value={10}>10秒</option>
-            <option value={30}>30秒</option>
-            <option value={60}>1分钟</option>
-          </select>
-          
-          {/* Toggle Live */}
-          <button
-            onClick={() => setIsLive(!isLive)}
-            className={`p-2 rounded-lg transition-colors ${
-              isLive 
-                ? 'hover:bg-red-50 text-red-500' 
-                : 'hover:bg-green-50 text-green-500'
-            }`}
-            title={isLive ? "暂停实时更新" : "开启实时更新"}
-          >
-            {isLive ? <Pause className="w-5 h-5" /> : <Play className="w-5 h-5" />}
-          </button>
-          
-          {/* Manual Refresh */}
           <button
             onClick={() => fetchStats(false)}
             className="p-2 rounded-lg hover:bg-slate-100 transition-colors"
@@ -304,7 +248,6 @@ export default function DashboardPage() {
         </div>
       </div>
 
-      {/* Stats Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <StatsCard
           title="总文件数"
@@ -337,9 +280,7 @@ export default function DashboardPage() {
         />
       </div>
 
-      {/* Content Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Type Distribution */}
         <div className="bg-white rounded-2xl border border-slate-200/80 p-5">
           <div className="flex items-center gap-2 mb-4">
             <PieChart className="w-5 h-5 text-slate-400" />
@@ -358,7 +299,6 @@ export default function DashboardPage() {
           </div>
         </div>
 
-        {/* Recent Pages */}
         <div className="lg:col-span-2 bg-white rounded-2xl border border-slate-200/80 overflow-hidden">
           <div className="flex items-center justify-between px-5 py-4 border-b border-slate-100">
             <h2 className="font-semibold text-slate-800">最近更新</h2>

@@ -34,3 +34,213 @@
 [2026-05-28 15:47:35,631] INFO - [BACKEND] 启动后端服务: http://localhost:8000
 [2026-05-28 15:47:35,633] INFO - [FRONTEND] 启动前端服务: http://localhost:3000
 [2026-05-28 15:47:35,633] INFO - [LOG] 日志文件: /home/dukkha/wiki/logs/run.log
+[2026-05-28 16:30:15,873] WARNING - watchdog not installed, using polling fallback
+[2026-05-28 16:30:15,938] INFO - [FRONTEND] 启动前端: /home/dukkha/wiki/frontend
+[2026-05-28 16:30:15,938] INFO - [BACKEND] 启动后端服务: http://localhost:8000
+[2026-05-28 16:30:15,939] INFO - [FRONTEND] 启动前端服务: http://localhost:3000
+[2026-05-28 16:30:15,939] INFO - [LOG] 日志文件: /home/dukkha/wiki/logs/run.log
+[2026-05-28 16:32:46,421] WARNING - watchdog not installed, using polling fallback
+[2026-05-28 16:32:46,482] INFO - [FRONTEND] 启动前端: /home/dukkha/wiki/frontend
+[2026-05-28 16:32:46,483] INFO - [BACKEND] 启动后端服务: http://localhost:8000
+[2026-05-28 16:32:46,484] INFO - [FRONTEND] 启动前端服务: http://localhost:3000
+[2026-05-28 16:32:46,484] INFO - [LOG] 日志文件: /home/dukkha/wiki/logs/run.log
+[2026-05-28 17:00:45,468] [main] WARNING - watchdog not installed, using polling fallback
+[2026-05-28 17:03:00,815] [main] WARNING - watchdog not installed, using polling fallback
+[2026-05-28 17:03:13,131] [main] WARNING - watchdog not installed, using polling fallback
+[2026-05-28 17:19:49,216] [__main__] WARNING - watchdog not installed, using polling fallback
+[2026-05-28 17:19:49,356] [__main__] INFO - [APP] 启动 Wiki API 服务
+[2026-05-28 17:19:49,356] [__main__] INFO - [APP] Watcher 任务已启动
+[2026-05-28 17:19:49,358] [__main__] INFO - [ProcessManager] 启动进程 frontend (PID: 98850)
+[2026-05-28 17:19:49,359] [__main__] INFO - [APP] 前端服务已启动 (http://localhost:3000)
+[2026-05-28 17:19:49,359] [__main__] INFO - [APP] 后端服务启动于 http://127.0.0.1:8000
+[2026-05-28 17:19:49,359] [__main__] INFO - [APP] 日志文件: /home/dukkha/wiki/logs/run.log
+[2026-05-28 17:19:49,359] [__main__] INFO - [Watcher] 使用轮询模式
+[2026-05-28 17:19:49,359] [__main__] INFO - [Watcher] 启动轮询模式，监控目录: /home/dukkha/wiki/wiki
+[2026-05-28 17:19:49,360] [__main__] INFO - [APP] 关闭 Wiki API 服务
+[2026-05-28 17:19:49,360] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 17:19:49,360] [__main__] INFO - [ProcessManager] 停止进程 frontend (PID: 98850)
+[2026-05-28 17:19:49,362] [__main__] INFO - [ProcessManager] 进程 frontend 已优雅退出
+[2026-05-28 17:20:26,112] [__main__] WARNING - watchdog not installed, using polling fallback
+[2026-05-28 17:20:26,193] [__main__] INFO - [APP] 启动 Wiki API 服务
+[2026-05-28 17:20:26,193] [__main__] INFO - [APP] Watcher 任务已启动
+[2026-05-28 17:20:26,194] [__main__] INFO - [ProcessManager] 启动进程 frontend (PID: 98871)
+[2026-05-28 17:20:26,195] [__main__] INFO - [APP] 前端服务已启动 (http://localhost:3000)
+[2026-05-28 17:20:26,195] [__main__] INFO - [APP] 后端服务启动于 http://127.0.0.1:8000
+[2026-05-28 17:20:26,195] [__main__] INFO - [APP] 日志文件: /home/dukkha/wiki/logs/run.log
+[2026-05-28 17:20:26,195] [__main__] INFO - [Watcher] 使用轮询模式
+[2026-05-28 17:20:26,195] [__main__] INFO - [Watcher] 启动轮询模式，监控目录: /home/dukkha/wiki/wiki
+[2026-05-28 17:20:26,438] [__main__] INFO - [frontend_stdout] 
+[2026-05-28 17:20:26,438] [__main__] INFO - [frontend_stdout] > wiki-frontend@0.1.0 dev
+[2026-05-28 17:20:26,438] [__main__] INFO - [frontend_stdout] > next dev
+[2026-05-28 17:20:26,438] [__main__] INFO - [frontend_stdout] 
+[2026-05-28 17:20:27,019] [__main__] INFO - [frontend_stderr]  ⨯ Failed to start server
+[2026-05-28 17:20:27,022] [__main__] INFO - [frontend_stderr] Error: listen EADDRINUSE: address already in use :::3000
+[2026-05-28 17:20:27,022] [__main__] INFO - [frontend_stderr]     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+[2026-05-28 17:20:27,022] [__main__] INFO - [frontend_stderr]     at listenInCluster (node:net:1965:12)
+[2026-05-28 17:20:27,022] [__main__] INFO - [frontend_stderr]     at Server.listen (node:net:2067:7)
+[2026-05-28 17:20:27,022] [__main__] INFO - [frontend_stderr]     at /home/dukkha/wiki/frontend/node_modules/next/dist/server/lib/start-server.js:278:16
+[2026-05-28 17:20:27,022] [__main__] INFO - [frontend_stderr]     at new Promise (<anonymous>)
+[2026-05-28 17:20:27,022] [__main__] INFO - [frontend_stderr]     at startServer (/home/dukkha/wiki/frontend/node_modules/next/dist/server/lib/start-server.js:190:11)
+[2026-05-28 17:20:27,022] [__main__] INFO - [frontend_stderr]     at /home/dukkha/wiki/frontend/node_modules/next/dist/server/lib/start-server.js:308:52
+[2026-05-28 17:20:27,022] [__main__] INFO - [frontend_stderr]     at Span.traceAsyncFn (/home/dukkha/wiki/frontend/node_modules/next/dist/trace/trace.js:151:26)
+[2026-05-28 17:20:27,022] [__main__] INFO - [frontend_stderr]     at process.<anonymous> (/home/dukkha/wiki/frontend/node_modules/next/dist/server/lib/start-server.js:308:35)
+[2026-05-28 17:20:27,022] [__main__] INFO - [frontend_stderr]     at process.emit (node:events:524:28) {
+[2026-05-28 17:20:27,022] [__main__] INFO - [frontend_stderr]   code: 'EADDRINUSE',
+[2026-05-28 17:20:27,022] [__main__] INFO - [frontend_stderr]   errno: -98,
+[2026-05-28 17:20:27,022] [__main__] INFO - [frontend_stderr]   syscall: 'listen',
+[2026-05-28 17:20:27,022] [__main__] INFO - [frontend_stderr]   address: '::',
+[2026-05-28 17:20:27,022] [__main__] INFO - [frontend_stderr]   port: 3000
+[2026-05-28 17:20:27,023] [__main__] INFO - [frontend_stderr] }
+[2026-05-28 17:20:27,038] [__main__] INFO - [frontend_stdout] [?25h
+[2026-05-28 17:21:52,720] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 17:21:52,720] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 17:21:52,720] [__main__] INFO - [ProcessManager] 进程 frontend 已退出
+[2026-05-28 17:21:55,262] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 17:21:55,262] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 17:21:56,243] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 17:21:56,243] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 17:21:56,867] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 17:21:56,867] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 17:21:58,789] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 17:21:58,789] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 17:22:00,415] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 17:22:00,416] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 17:22:25,981] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 17:22:25,982] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:26:47,893] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:26:47,894] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:43,541] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:43,541] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:43,775] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:43,775] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:43,958] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:43,958] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:44,126] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:44,126] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:44,292] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:44,293] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:44,455] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:44,455] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:44,634] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:44,634] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:44,802] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:44,802] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:44,973] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:44,973] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:45,148] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:45,148] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:45,314] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:45,314] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:45,497] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:45,497] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:45,691] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:45,691] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:45,871] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:45,871] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:46,066] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:46,066] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:46,252] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:46,252] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:46,443] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:46,443] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:46,629] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:46,629] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:46,816] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:46,817] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:47,015] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:47,015] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:47,198] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:47,199] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:28:47,397] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:28:47,398] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:29:17,847] [main] WARNING - watchdog not installed, using polling fallback
+[2026-05-28 21:30:29,670] [main] WARNING - watchdog not installed, using polling fallback
+[2026-05-28 21:30:43,307] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:30:43,308] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:30:43,773] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:30:43,773] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:30:43,992] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:30:43,992] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:30:44,155] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:30:44,156] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:30:44,446] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:30:44,446] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:30:44,633] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:30:44,633] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:30:44,798] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:30:44,798] [__main__] INFO - [ProcessManager] 停止所有子进程
+[2026-05-28 21:30:59,043] [__main__] WARNING - watchdog not installed, using polling fallback
+[2026-05-28 21:30:59,116] [__main__] INFO - [APP] 启动 Wiki API 服务
+[2026-05-28 21:30:59,116] [__main__] INFO - [APP] Watcher 任务已启动
+[2026-05-28 21:30:59,118] [__main__] INFO - [ProcessManager] 启动进程 frontend (PID: 101106)
+[2026-05-28 21:30:59,118] [__main__] INFO - [APP] 前端服务已启动
+[2026-05-28 21:30:59,118] [__main__] INFO - [APP] 后端服务启动于 http://127.0.0.1:8000
+[2026-05-28 21:30:59,118] [__main__] INFO - [APP] 日志文件: /home/dukkha/wiki/logs/run.log
+[2026-05-28 21:30:59,119] [__main__] INFO - [Watcher] 使用轮询模式
+[2026-05-28 21:30:59,119] [__main__] INFO - [Watcher] 启动轮询模式，监控目录: /home/dukkha/wiki/wiki
+[2026-05-28 21:30:59,250] [__main__] INFO - [frontend_stdout] 
+[2026-05-28 21:30:59,250] [__main__] INFO - [frontend_stdout] > wiki-frontend@0.1.0 dev
+[2026-05-28 21:30:59,250] [__main__] INFO - [frontend_stdout] > next dev
+[2026-05-28 21:30:59,250] [__main__] INFO - [frontend_stdout] 
+[2026-05-28 21:30:59,721] [__main__] INFO - [frontend_stderr]  ⨯ Failed to start server
+[2026-05-28 21:30:59,723] [__main__] INFO - [frontend_stderr] Error: listen EADDRINUSE: address already in use :::3000
+[2026-05-28 21:30:59,723] [__main__] INFO - [frontend_stderr]     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+[2026-05-28 21:30:59,723] [__main__] INFO - [frontend_stderr]     at listenInCluster (node:net:1965:12)
+[2026-05-28 21:30:59,723] [__main__] INFO - [frontend_stderr]     at Server.listen (node:net:2067:7)
+[2026-05-28 21:30:59,723] [__main__] INFO - [frontend_stderr]     at /home/dukkha/wiki/frontend/node_modules/next/dist/server/lib/start-server.js:278:16
+[2026-05-28 21:30:59,723] [__main__] INFO - [frontend_stderr]     at new Promise (<anonymous>)
+[2026-05-28 21:30:59,723] [__main__] INFO - [frontend_stderr]     at startServer (/home/dukkha/wiki/frontend/node_modules/next/dist/server/lib/start-server.js:190:11)
+[2026-05-28 21:30:59,723] [__main__] INFO - [frontend_stderr]     at /home/dukkha/wiki/frontend/node_modules/next/dist/server/lib/start-server.js:308:52
+[2026-05-28 21:30:59,723] [__main__] INFO - [frontend_stderr]     at Span.traceAsyncFn (/home/dukkha/wiki/frontend/node_modules/next/dist/trace/trace.js:151:26)
+[2026-05-28 21:30:59,723] [__main__] INFO - [frontend_stderr]     at process.<anonymous> (/home/dukkha/wiki/frontend/node_modules/next/dist/server/lib/start-server.js:308:35)
+[2026-05-28 21:30:59,723] [__main__] INFO - [frontend_stderr]     at process.emit (node:events:524:28) {
+[2026-05-28 21:30:59,723] [__main__] INFO - [frontend_stderr]   code: 'EADDRINUSE',
+[2026-05-28 21:30:59,723] [__main__] INFO - [frontend_stderr]   errno: -98,
+[2026-05-28 21:30:59,724] [__main__] INFO - [frontend_stderr]   syscall: 'listen',
+[2026-05-28 21:30:59,724] [__main__] INFO - [frontend_stderr]   address: '::',
+[2026-05-28 21:30:59,724] [__main__] INFO - [frontend_stderr]   port: 3000
+[2026-05-28 21:30:59,724] [__main__] INFO - [frontend_stderr] }
+[2026-05-28 21:30:59,736] [__main__] INFO - [frontend_stdout] [?25h
+[2026-05-28 21:31:46,631] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:31:47,374] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:31:47,792] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:31:48,020] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:31:48,195] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:31:48,374] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:31:48,562] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:31:48,741] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:31:48,901] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:31:49,069] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:31:49,260] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:31:49,451] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:31:49,639] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:31:49,846] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:31:50,051] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:31:50,265] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:31:50,446] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:31:50,616] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:31:50,811] [__main__] INFO - [APP] 收到信号 2，开始优雅关闭
+[2026-05-28 21:31:56,712] [__main__] WARNING - watchdog not installed, using polling fallback
+[2026-05-28 21:31:56,792] [__main__] INFO - [APP] 启动 Wiki API 服务
+[2026-05-28 21:31:56,792] [__main__] INFO - [APP] Watcher 任务已启动
+[2026-05-28 21:31:56,794] [__main__] INFO - [ProcessManager] 启动进程 frontend (PID: 101459)
+[2026-05-28 21:31:56,794] [__main__] INFO - [APP] 前端服务已启动
+[2026-05-28 21:31:56,794] [__main__] INFO - [APP] 后端服务启动于 http://127.0.0.1:8000
+[2026-05-28 21:31:56,794] [__main__] INFO - [APP] 日志文件: /home/dukkha/wiki/logs/run.log
+[2026-05-28 21:31:56,794] [__main__] INFO - [Watcher] 使用轮询模式
+[2026-05-28 21:31:56,794] [__main__] INFO - [Watcher] 启动轮询模式，监控目录: /home/dukkha/wiki/wiki
+[2026-05-28 21:31:56,895] [__main__] INFO - [frontend_stdout] 
+[2026-05-28 21:31:56,895] [__main__] INFO - [frontend_stdout] > wiki-frontend@0.1.0 dev
+[2026-05-28 21:31:56,895] [__main__] INFO - [frontend_stdout] > next dev
+[2026-05-28 21:31:56,895] [__main__] INFO - [frontend_stdout] 
+[2026-05-28 21:31:57,419] [__main__] INFO - [frontend_stdout]    ▲ Next.js 14.1.0
+[2026-05-28 21:31:57,419] [__main__] INFO - [frontend_stdout]    - Local:        http://localhost:3000
+[2026-05-28 21:31:57,419] [__main__] INFO - [frontend_stdout] 
+[2026-05-28 21:32:01,199] [__main__] INFO - [frontend_stdout]  ✓ Ready in 3.9s
+[2026-05-28 21:32:01,757] [__main__] INFO - [frontend_stdout]  ○ Compiling / ...
+[2026-05-28 21:32:02,668] [__main__] INFO - [frontend_stdout]  ✓ Compiled / in 1415ms (507 modules)
+[2026-05-28 21:32:10,162] [__main__] INFO - [frontend_stdout]  ○ Compiling /graph ...
+[2026-05-28 21:32:10,356] [__main__] INFO - [frontend_stdout]  ✓ Compiled /graph in 752ms (1347 modules)
+[2026-05-28 21:32:13,067] [__main__] INFO - [frontend_stdout]  ✓ Compiled /search in 285ms (1359 modules)
+[2026-05-28 21:32:16,732] [__main__] INFO - [frontend_stdout]  ✓ Compiled /about in 188ms (1375 modules)
+[2026-05-28 21:32:32,425] [__main__] INFO - [frontend_stdout]  ✓ Compiled /wiki/[...slug] in 434ms (1381 modules)

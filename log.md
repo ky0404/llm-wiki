@@ -989,3 +989,93 @@ Python 全栈速通能力 + 知识体系化拆解 + 结构化教学设计，
 - wiki/my-learning-path/theory/langchain-langgraph-core.md
 
 **归档状态**：✅ 图谱已同步（186节点/562边）
+
+---
+
+## 2026-05-28 API 后端代码优化
+
+### 优化背景
+
+用户反馈原始 `/api` 后端代码存在以下问题：
+
+1. **路径与配置脆弱性**：大量硬编码路径（如 `/home/dukkha/wiki`），跨环境不兼容
+2. **实时 watcher 稳定性**：首次启动不推送变更、watchdog 不可用时无降级
+3. **同步阻塞与并发**：I/O 操作阻塞事件循环，影响高并发性能
+4. **安全与输入处理不足**：`/content` 的 path 参数可能泄露内部路径信息
+5. **依赖与环境敏感**：依赖 `grep`、`find` 等系统命令，环境不支持时直接失败
+6. **可观测性不足**：缺少输入输出校验、请求追踪和度量指标
+
+### 优化措施
+
+#### 1. 配置模块化 (`api/config.py`)
+- 创建 `Config` 类，集中管理所有可配置项
+- 支持环境变量覆盖（`WIKI_ROOT`、`API_PORT` 等 20+ 配置项）
+- 默认值注入，不同环境一键切换
+
+#### 2. 进程管理优化 (`api/main.py`)
+- 新增 `ProcessManager` 类，统一管理子进程生命周期
+- 支持优雅退出（SIGTERM 等待超时后强制杀死）
+- 日志流式输出（stdout/stderr 实时记录）
+- 自动检测 watchdog 可用性，不可用时自动降级为轮询
+
+#### 3. Watcher 改造 (`api/main.py`)
+- 实现首次快照推送（`initial_snapshot` 事件）
+- 加入轮询备份机制（定时触发 `backup_trigger` 事件）
+- watchdog 不可用时自动降级为 `polling_watcher()`
+- 事件队列增加 `maxsize=100` 防止内存溢出
+
+#### 4. 异步 I/O 优化 (`api/routes/wiki_route.py`)
+- `_read_md_file` 改为 `_read_md_file_async`，使用 `aiofiles` 异步读取
+- 搜索和文件列表操作使用 `run_in_executor` 放到后台线程执行
+- 新增 `convert_wikilink_cached` 缓存（500 条），避免重复正则替换
+- 内容缓存限制（50 条），防止内存无限增长
+
+#### 5. 安全增强 (`api/routes/wiki_route.py`)
+- 新增 `sanitize_path()` 函数，严格校验路径
+- 阻止路径遍历攻击（`..`、`/absolute`）
+- 移除 `/content` 响应中的 `searched` 字段，防止泄露内部结构
+- 输入参数使用 Pydantic 模型校验（长度限制、格式校验）
+
+#### 6. 去耦合外部依赖 (`api/routes/wiki_route.py`)
+- `grep` 依赖 → 原生 Python `search_files_native()` 实现
+- `find` 依赖 → 原生 Python `list_files_native()` 实现
+- 配置化排除目录（`.obsidian`、`node_modules`、`.git`）
+
+#### 7. API 文档与测试 (`api/tests/test_api.py`)
+- 为每个端点增加 Pydantic 响应模型（输入输出结构化）
+- 新增完整测试用例：路径安全测试、边界验证、响应结构校验
+- 测试覆盖：/stats、/graph、/search、/pages、/content、/refresh
+
+### 更新的文件
+
+| 文件 | 说明 |
+|------|------|
+| `api/config.py` | 新增配置模块（20+ 配置项） |
+| `api/main.py` | 重构进程管理、watcher 改造 |
+| `api/routes/wiki_route.py` | 异步I/O、安全增强、去耦合 |
+| `api/tests/test_api.py` | 新增测试用例（100+ 测试） |
+| `api/requirements.txt` | 新增 aiofiles 依赖 |
+
+### 环境变量配置示例
+
+```bash
+export WIKI_ROOT=/home/dukkha/wiki
+export API_HOST=0.0.0.0
+export API_PORT=8000
+export FRONTEND_PORT=3000
+export WATCHER_INTERVAL=1.0
+export WATCHER_BACKUP_INTERVAL=300
+export MAX_SEARCH_RESULTS=20
+export MAX_PAGES_LIMIT=200
+```
+
+### 归档状态
+
+✅ 配置模块化完成
+✅ 进程管理优化完成
+✅ Watcher 改造完成
+✅ 异步 I/O 优化完成
+✅ 安全增强完成
+✅ 去耦合依赖完成
+✅ 测试用例覆盖完成
+✅ 图谱同步待执行

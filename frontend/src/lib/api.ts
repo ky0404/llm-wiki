@@ -110,3 +110,24 @@ export async function getWikiContent(path: string): Promise<{ content: string; f
   const params = new URLSearchParams({ path: decodeURIComponent(path) })
   return fetchApi<{ content: string; frontmatter: Record<string, string>; raw: string }>(`/wiki/content?${params}`)
 }
+
+export function createSSEConnection(callback: (data: any) => void): () => void {
+  const eventSource = new EventSource(`${API_BASE}/events`)
+  
+  eventSource.onmessage = (event) => {
+    try {
+      const data = JSON.parse(event.data)
+      if (data.type !== 'keepalive') {
+        callback(data)
+      }
+    } catch (e) {
+      console.error('SSE parse error:', e)
+    }
+  }
+  
+  eventSource.onerror = () => {
+    console.log('SSE connection lost, reconnecting...')
+  }
+  
+  return () => eventSource.close()
+}
