@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[高级 RAG 技术学习笔记]]
-- [[基于结构化数据的文档问答]]
+- [[wiki/sources/高级-RAG-技术学习笔记]]
+- [[wiki/sources/基于结构化数据的文档问答]]
 
 ## References
 

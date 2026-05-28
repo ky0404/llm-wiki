@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[Elements of a Prompt]]
-- [[结构化提示词系统论述]]
+- [[wiki/sources/elements-of-a-prompt]]
+- [[wiki/sources/结构化提示词系统论述]]
 
 ## References
 

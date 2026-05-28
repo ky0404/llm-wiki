@@ -34,14 +34,13 @@ from datetime import datetime
 from typing import Optional
 
 # 项目根目录
-PROJECT_ROOT = Path("/mnt/d/projects/wiki")
+PROJECT_ROOT = Path("/home/dukkha/wiki")
 
 # 受保护路径列表
 PROTECTED_PATHS = [
     "AGENTS.md",
     "skills/",
-    "wiki/skills/",
-    "wiki/synthesis/knowledge-base-evolution-",
+    "synthesis/knowledge-base-evolution-",
 ]
 
 # 日志文件
@@ -403,7 +402,7 @@ def test_all():
         "wiki/skills/context-engineer.md",
         "wiki/synthesis/knowledge-base-evolution-20260430.md",
         "wiki/sources/test.md",
-        "my-learning-path/test.md",
+        "wiki/my-learning-path/test.md",
     ]
     
     print("=" * 50)

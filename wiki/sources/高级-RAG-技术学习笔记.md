@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[使用 Embedding 技术打造本地知识库助手]]
-- [[基于结构化数据的文档问答]]
+- [[wiki/sources/使用-Embedding-技术打造本地知识库助手]]
+- [[wiki/sources/基于结构化数据的文档问答]]
 
 ## References
 

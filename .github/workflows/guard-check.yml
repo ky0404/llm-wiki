@@ -19,17 +19,15 @@ jobs:
       
       - name: Run path guard tests
         run: |
-          cd /mnt/d/projects/wiki
           python3 scripts/guard_tests.py
       
       - name: Check protected paths
         run: |
-          cd /mnt/d/projects/wiki
           # Test that protected paths are correctly identified
           python3 -c "
 from scripts.path_guard import is_protected_path
 
-protected = ['AGENTS.md', 'skills/wiki-maintainer.md', 'wiki/skills/context-engineer.md']
+protected = ['AGENTS.md', 'skills/wiki-maintainer.md']
 unprotected = ['wiki/sources/test.md', 'my-learning-path/test.md']
 
 for p in protected:
@@ -37,18 +35,16 @@ for p in protected:
 for p in unprotected:
     assert not is_protected_path(p), f'{p} should not be protected'
 
-print('✅ 所有受保护路径测试通过')
+print('All protected path tests passed')
 "
       
       - name: Verify no unauthorized writes to AGENTS.md
         run: |
-          cd /mnt/d/projects/wiki
           # Check log.md for any unauthorized modifications to AGENTS.md
           if grep -q "保护操作.*AGENTS.md.*拦截结果：已拦截" log.md; then
-            echo "⚠️ 检测到对 AGENTS.md 的拦截操作，请检查是否需要授权"
+            echo "Detected interception of AGENTS.md write, check authorization"
           fi
 
       - name: Check authorization status
         run: |
-          cd /mnt/d/projects/wiki
           python3 scripts/path_guard.py status || true

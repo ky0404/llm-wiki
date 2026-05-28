@@ -18,7 +18,7 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[Prompt Engineering Tools]]
+- [[wiki/sources/prompt-engineering-tools]]
 
 ## References
 

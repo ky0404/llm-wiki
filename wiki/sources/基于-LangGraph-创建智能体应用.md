@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[大模型应用开发框架 LangChain 学习笔记（二）]]
-- [[Context Engineering]]
+- [[wiki/sources/langchain-学习笔记二]]
+- [[wiki/sources/context-engineering]]
 
 ## References
 

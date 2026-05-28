@@ -243,7 +243,7 @@ write_text("my-learning-path/new-file.md", "# 新内容")
 
 ## References
 
-- [[scripts/path_guard.py|路径保护工具源码]]
-- [[scripts/guard_tests.py|测试套件]]
+- `scripts/path_guard.py`
+- `scripts/guard_tests.py`
 - [[AGENTS.md|最高规则文档]]
 - [[log|操作日志]]

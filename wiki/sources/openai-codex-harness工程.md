@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[你不知道的 Agent]]
-- [[Function calling]]
+- [[wiki/sources/你不知道的-agent]]
+- [[wiki/sources/function-calling-openai-api]]
 
 ## References
 

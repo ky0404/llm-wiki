@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[Agent Skills]]
-- [[Agent Skills Overview]]
+- [[wiki/sources/agent-skills]]
+- [[wiki/sources/agent-skills-overview]]
 
 ## References
 

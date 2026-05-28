@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[提示工程学习笔记]]
-- [[如何写好Prompt 结构化]]
+- [[wiki/sources/提示工程学习笔记]]
+- [[wiki/sources/如何写好prompt-结构化]]
 
 ## References
 

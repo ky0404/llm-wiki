@@ -103,6 +103,6 @@ $ python scripts/path_guard.py authorize "AGENTS.md" "再次修改"
 
 ## References
 
-- [[scripts/path_guard.py|路径保护工具源码]]
+- `scripts/path_guard.py`
 - [[wiki/governance/guard-manual.md|完整使用手册]]
 - [[log|操作日志]]

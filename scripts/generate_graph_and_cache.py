@@ -3,10 +3,10 @@ import os, re, json, yaml, sys
 from pathlib import Path
 from datetime import datetime
 
-ROOT = Path("/mnt/d/projects/wiki")
+ROOT = Path("/home/dukkha/wiki")
 WIKI = ROOT / "wiki"
 OUTPUT = ROOT / "output"
-CACHE_FILE = ROOT / "index-cache.json"
+CACHE_FILE = ROOT / "wiki" / "index-cache.json"
 
 def load_cache():
     if CACHE_FILE.exists():
@@ -33,8 +33,7 @@ def parse_frontmatter(text):
 PROTECTED_PATHS = [
     'AGENTS.md',
     'skills/',
-    'wiki/skills/',
-    'wiki/synthesis/knowledge-base-evolution-',
+    'synthesis/knowledge-base-evolution-',
 ]
 
 # 排除的目录（Obsidian vault 中无关的目录）
@@ -57,14 +56,15 @@ EXCLUDED_DIRS = [
 
 def gather_pages():
     pages = []
-    if not WIKI.exists():
-        return pages
-    for root, dirs, files in os.walk(WIKI):
-        # 排除受保护的目录
-        dirs[:] = [d for d in dirs if not d.startswith('.') and not _is_protected_dir(d)]
-        for f in files:
-            if f.endswith('.md') and not _is_protected_file(f):
-                pages.append(Path(root) / f)
+    scan_dirs = [WIKI]
+    for scan_dir in scan_dirs:
+        if not scan_dir.exists():
+            continue
+        for root, dirs, files in os.walk(scan_dir):
+            dirs[:] = [d for d in dirs if not d.startswith('.') and not _is_protected_dir(d)]
+            for f in files:
+                if f.endswith('.md') and not _is_protected_file(f):
+                    pages.append(Path(root) / f)
     return pages
 
 def _is_protected_dir(name):
@@ -85,13 +85,20 @@ def _is_protected_file(name):
             return True
     return False
 
+def _rel_path(p):
+    if str(p).startswith(str(WIKI)):
+        return str(p.relative_to(WIKI))
+    elif str(p).startswith(str(ROOT)):
+        return str(p.relative_to(ROOT))
+    return p.name
+
 def extract_edges(pages):
     edges = []
     seen = set()
     pat = re.compile(r'\[\[([^\[\]]+?)\]\]')
     for p in pages:
         text = p.read_text(encoding='utf-8')
-        src = str(p.relative_to(WIKI))
+        src = _rel_path(p)
         for m in pat.findall(text):
             target = m.split('|')[0].strip()
             if not target.endswith('.md'):
@@ -124,7 +131,7 @@ def build_cache(pages):
         except Exception:
             continue
         fm, body = parse_frontmatter(raw)
-        rel = str(p.relative_to(WIKI))
+        rel = _rel_path(p)
         title = fm.get('title', p.stem)
         typ = fm.get('type', 'unknown')
         tags = fm.get('tags', [])
@@ -159,7 +166,7 @@ def main():
     node_by_name = {}
     node_by_path = {}
     for p in pages:
-        rel = str(p.relative_to(WIKI))
+        rel = _rel_path(p)
         try:
             content = p.read_text(encoding='utf-8')
             if len(content.strip()) < 100:
@@ -206,14 +213,14 @@ def main():
     # 2. 创建语义连接 - 基于话题聚类
     # 定义话题关键词到核心页面的映射
     topic_cores = {
-        'prompt': ['sources/提示工程学习笔记.md', 'sources/如何写好prompt-结构化.md', 'sources/prompt-进阶-提示链.md'],
-        'agent': ['sources/你不知道的-agent.md', 'sources/基于-LangGraph-创建智能体应用.md', 'sources/agent-skills.md'],
-        'rag': ['sources/高级-RAG-技术学习笔记.md', 'sources/使用-Embedding-技术打造本地知识库助手.md'],
-        'context': ['sources/浅谈上下文工程.md', 'sources/context-engineering.md', 'sources/effective-context-engineering-ai-agents.md'],
-        'llm': ['sources/大模型应用开发框架-LangChain-学习笔记.md', 'sources/开源大模型-llama-实战.md'],
-        'k8s': ['sources/k8s-流量管理-service.md', 'sources/k8s-流量管理-ingress.md', 'sources/k8s-gpu调度.md'],
-        'mcp': ['sources/understanding-model-context-protocol-mcp.md', 'sources/实战-Model-Context-Protocol.md'],
-        'codex': ['sources/openai-codex-harness工程.md', 'sources/karpathy-claude-code指南.md'],
+        'prompt': ['wiki/sources/提示工程学习笔记.md', 'wiki/sources/如何写好prompt-结构化.md', 'wiki/sources/prompt-进阶-提示链.md'],
+        'agent': ['wiki/sources/你不知道的-agent.md', 'wiki/sources/基于-LangGraph-创建智能体应用.md', 'wiki/sources/agent-skills.md'],
+        'rag': ['wiki/sources/高级-RAG-技术学习笔记.md', 'wiki/sources/使用-Embedding-技术打造本地知识库助手.md'],
+        'context': ['wiki/sources/浅谈上下文工程.md', 'wiki/sources/context-engineering.md', 'wiki/sources/effective-context-engineering-ai-agents.md'],
+        'llm': ['wiki/sources/大模型应用开发框架-LangChain-学习笔记.md', 'wiki/sources/开源大模型-llama-实战.md'],
+        'k8s': ['wiki/sources/k8s-流量管理-service.md', 'wiki/sources/k8s-流量管理-ingress.md', 'wiki/sources/k8s-gpu调度.md'],
+        'mcp': ['wiki/sources/understanding-model-context-protocol-mcp.md', 'wiki/sources/实战-Model-Context-Protocol.md'],
+        'codex': ['wiki/sources/openai-codex-harness工程.md', 'wiki/sources/karpathy-claude-code指南.md'],
     }
     
     # 为每个话题创建一个中心节点作为桥梁
@@ -227,7 +234,7 @@ def main():
     
     # 为每个 sources 页找到其话题并连接到对应 core
     for src in valid_nodes:
-        if not src.startswith('sources/'):
+        if not src.startswith('wiki/sources/'):
             continue
         src_lower = src.lower()
         
@@ -242,16 +249,16 @@ def main():
     
     # 3. 添加 index -> 所有 sources 的入口（保持可发现性）
     for src in valid_nodes:
-        if src.startswith('sources/') and ('index.md', src) not in seen_edges:
+        if src.startswith('wiki/sources/') and ('index.md', src) not in seen_edges:
             # 只对核心 sources 添加入口边，避免太密
             if any(k in src.lower() for k in ['prompt', 'agent', 'rag', 'context', 'llm', 'langchain']):
                 normalized_edges.append(('index.md', src))
     
     # 4. 添加 entities -> 相关 sources
     entity_refs = {
-        'entities/ai-products.md': ['sources/prompted-products.md', 'sources/聊聊-deep-search和deep-research.md'],
-        'entities/developer-tools.md': ['sources/function-calling-openai-api.md', 'sources/claude-code编码指南.md'],
-        'entities/key-people.md': ['sources/karpathy-claude-code指南.md'],
+        'wiki/entities/ai-products.md': ['wiki/sources/prompted-products.md', 'wiki/sources/聊聊-deep-search和deep-research.md'],
+        'wiki/entities/developer-tools.md': ['wiki/sources/function-calling-openai-api.md', 'wiki/sources/claude-code编码指南.md'],
+        'wiki/entities/key-people.md': ['wiki/sources/karpathy-claude-code指南.md'],
     }
     for ent, refs in entity_refs.items():
         if ent in valid_nodes:
@@ -262,9 +269,9 @@ def main():
     
     # 5. 添加 my-learning-path -> 相关 sources
     for mlp in valid_nodes:
-        if mlp.startswith('my-learning-path/'):
+        if mlp.startswith('wiki/my-learning-path/'):
             for src in valid_nodes:
-                if src.startswith('sources/'):
+                if src.startswith('wiki/sources/'):
                     # 基于关键词匹配
                     mlp_lower = mlp.lower()
                     src_lower = src.lower()

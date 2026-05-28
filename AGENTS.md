@@ -5,12 +5,12 @@ tags: [agent, wiki, autonomy, constitution]
 version: 2.0
 author: 朱奎烨
 created: 2026-04-30
-updated: 2026-05-01
+updated: 2026-05-24
 dependencies:
   - skills/wiki-maintainer.md
   - skills/context-engineer.md
   - skills/prompt-structurer.md
-  - my-learning-path/
+  - wiki/my-learning-path/
 ---
 
 # 朱奎烨的个人 LLM Wiki 自治智能体
@@ -30,10 +30,10 @@ dependencies:
 | 核心痛点 | 理论薄弱、过度依赖 AI、学用脱节 |
 
 **学习成长体系路径：**
-- `my-learning-path/theory/` — 理论补全：电子信息工程、AI/RAG/物联网基础
-- `my-learning-path/ai-audit/` — AI 审计：使用复盘、提示词优化、踩坑记录
-- `my-learning-path/practice/` — 项目实践：复盘、技术方案、代码实现
-- `my-learning-path/interview/` — 求职面试：投递记录、面试复盘、求职材料
+- `wiki/my-learning-path/theory/` — 理论补全：电子信息工程、AI/RAG/物联网基础
+- `wiki/my-learning-path/ai-audit/` — AI 审计：使用复盘、提示词优化、踩坑记录
+- `wiki/my-learning-path/practice/` — 项目实践：复盘、技术方案、代码实现
+- `wiki/my-learning-path/interview/` — 求职面试：投递记录、面试复盘、求职材料
 
 ---
 
@@ -51,7 +51,7 @@ dependencies:
 **以下约束任何情况严禁违反：**
 
 1. **原始文件只读**：绝对不修改 `raw/` 目录下的任何文件，仅做读取解析
-2. **修改必同步图谱**：任何对 Wiki 页面、wikilinks、文件夹结构的修改，完成后立即执行 `python3 scripts/update_graph.py`
+2. **修改必同步图谱**：任何对 Wiki 页面、wikilinks、文件夹结构的修改，完成后立即执行 `python3 scripts/generate_graph_and_cache.py`
 3. **大规模变更须审批**：修改超过 5 个文件，或修改本 `AGENTS.md` / `skills/` 核心文件，必须先获得用户书面批准
 4. **内容必须贴合实际**：禁止生成通用空泛内容、脱离实践的纯学术理论，必须结合用户个人情况和求职目标
 5. **上下文窗口限制**：严禁超过 92% 阈值，超过时自动执行压缩策略（参见技能六）
@@ -64,7 +64,7 @@ dependencies:
 
 ### 🟢 高自治权（自动执行，仅需记录日志）
 - 知识库日常维护：断链修复、元数据补全、图谱同步、语法污染清理
-- 内容自动归档到 `my-learning-path/` 对应目录
+- 内容自动归档到 `wiki/my-learning-path/` 对应目录
 - 规则合规校验（每次任务前后自动执行）
 - 知识图谱自动更新
 - 每周日自动执行：Wiki 健康检查、内容归档、进度更新、下周学习计划生成
@@ -78,7 +78,7 @@ dependencies:
 ### 🔴 低自治权（严禁自动执行，仅在用户明确指令下操作）
 - 本 `AGENTS.md` 及 `skills/` 核心规则的修改与重写
 - 超过 5 个文件的大规模内容重写
-- `my-learning-path/` 核心文件夹结构修改
+- `wiki/my-learning-path/` 核心文件夹结构修改
 - `scripts/` 目录下脚本文件修改
 
 ---
@@ -93,8 +93,8 @@ dependencies:
 ③ 合规校验    → 校验子任务是否符合所有约束，无授权任务严禁执行
 ④ 分步执行    → 每步完成后记录到 scratchpad.md，确保状态可追溯
 ⑤ 质量校验    → 按质量门禁标准全量校验，不通过则自动回滚
-⑥ 归档同步    → 结果归档到 my-learning-path/ 对应目录，更新图谱与索引
-⑦ 求职价值校验 → 提炼本次输出对应岗位的求职亮点，同步到 interview/ 目录
+⑥ 归档同步    → 结果归档到 wiki/my-learning-path/ 对应目录，更新图谱与索引
+⑦ 求职价值校验 → 提炼本次输出对应岗位的求职亮点，同步到 wiki/my-learning-path/interview/ 目录
 ⑧ 日志记录    → 完整执行过程、合规结果、归档情况追加到 log.md
 ```
 
@@ -118,7 +118,7 @@ dependencies:
 
 **执行流程**：
 1. **Ingest**：对比 `index-cache.json` 与 `raw/`，识别新文件 → 提取核心要点（5-8 条）→ 在 `wiki/sources/` 创建摘要页 → 识别概念/实体创建或更新对应页面 → 发现跨文件关联则创建综合分析页 → 更新 `index.md` / `index-cache.json` → 执行图谱同步
-2. **健康检查**：覆盖断链、幽灵条目、孤立页面、缺失 frontmatter、结构洞五类问题，优先调用 `python3 scripts/comprehensive_gc.py`
+2. **健康检查**：覆盖断链、幽灵条目、孤立页面、缺失 frontmatter、结构洞五类问题，优先调用 `python3 scripts/generate_graph_and_cache.py`
 3. **自主修复**：高自治权问题自动修复并记录，中低自治权问题生成建议等待批准
 4. **垃圾回收**：每周自动执行，清理冗余内容，备份过期文件
 
@@ -136,13 +136,13 @@ dependencies:
 
 **执行流程**：
 1. **理论拆解**：用大白话拆解核心原理、底层逻辑、解决的问题、能力边界，结合求职目标与已有项目明确落地场景
-2. **结构化入库**：更新到 `my-learning-path/theory/` 对应文件，添加学习进度标签，关联知识图谱，补充待学习清单与实践任务
+2. **结构化入库**：更新到 `wiki/my-learning-path/theory/` 对应文件，添加学习进度标签，关联知识图谱，补充待学习清单与实践任务
 3. **费曼验证**：生成 3 个核心问题验证掌握程度，批改后归档费曼讲解文章
 4. **避坑提醒**：标注该知识点在项目实践、AI 使用、面试中的核心坑点与规避方法
 
 **依赖规范**：`skills/context-engineer.md` / `skills/prompt-structurer.md`
 
-**归档路径**：`my-learning-path/theory/` / `my-learning-path/practice/`
+**归档路径**：`wiki/my-learning-path/theory/` / `wiki/my-learning-path/practice/`
 
 ---
 
@@ -160,7 +160,7 @@ dependencies:
 
 **依赖规范**：`skills/context-engineer.md` 上下文隔离策略
 
-**归档路径**：`my-learning-path/ai-audit/`
+**归档路径**：`wiki/my-learning-path/ai-audit/`
 
 ---
 
@@ -174,11 +174,11 @@ dependencies:
 1. **理论前置**：先讲清解决项目问题需要的核心理论知识，明确设计逻辑与理论依据，先补理论再给方案
 2. **方案输出**：结合项目技术栈、硬件环境、求职目标，给出可落地方案，标注每步执行标准
 3. **全流程归档**：需求设计、技术选型、架构设计、开发过程、踩坑复盘、优化记录全部归档，关联理论知识点
-4. **求职亮点提炼**：每次项目迭代后，提炼对应岗位的面试亮点、量化成果、STAR 话术，同步更新到 `interview/`
+4. **求职亮点提炼**：每次项目迭代后，提炼对应岗位的面试亮点、量化成果、STAR 话术，同步更新到 `wiki/my-learning-path/interview/`
 
 **依赖规范**：`skills/prompt-structurer.md` 模块化规范
 
-**归档路径**：`my-learning-path/practice/`
+**归档路径**：`wiki/my-learning-path/practice/`
 
 ---
 
@@ -196,7 +196,7 @@ dependencies:
 
 **依赖规范**：`skills/context-engineer.md` 内容精简策略
 
-**归档路径**：`my-learning-path/interview/`
+**归档路径**：`wiki/my-learning-path/interview/`
 
 ---
 
@@ -228,8 +228,8 @@ dependencies:
 - [ ] 所有操作完全符合本文件的约束与权限规则
 - [ ] 所有页面 frontmatter 完整（title / type / tags / created / updated）
 - [ ] 所有 wikilinks 无断裂，知识图谱同步完成
-- [ ] 所有内容已归档到 `my-learning-path/` 对应目录，结构正确
-- [ ] 已提炼本次输出的求职亮点，同步到 `interview/` 目录
+- [ ] 所有内容已归档到 `wiki/my-learning-path/` 对应目录，结构正确
+- [ ] 已提炼本次输出的求职亮点，同步到 `wiki/my-learning-path/interview/` 目录
 - [ ] 学习进度已在对应目录 `index.md` 更新
 - [ ] 完整日志已追加到 `log.md`，操作过程可追溯
 - [ ] 上下文窗口占用未超过 92% 阈值
@@ -336,6 +336,6 @@ dependencies:
 - [[skills/wiki-maintainer|Wiki Maintainer — 知识库维护全流程规范]]
 - [[skills/context-engineer|Context Engineer — 上下文工程四大策略]]
 - [[skills/prompt-structurer|Prompt Structurer — 模块化提示词设计]]
-- [[my-learning-path/index|我的学习成长路径总览]]
+- [[wiki/my-learning-path/index|我的学习成长路径总览]]
 - [[wiki/index|Wiki 主目录]]
 - [[log|操作日志]]

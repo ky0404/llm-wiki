@@ -1,0 +1,27 @@
+---
+title: "工程技术：在智能体优先的世界中利用 Codex"
+type: source
+tags: [codex, agent, engineering, openai, context-engineering]
+sources: [工程技术：在智能体优先的世界中利用 Codex.md]
+created: 2026-04-30
+updated: 2026-04-30
+---
+
+## 核心要点
+OpenAI 团队分享了使用 Codex 智能体从零开始构建并交付一款软件产品内部 beta 版的经验，整个过程没有一行代码是人工编写的。
+- **人类掌舵，智能体执行**：工程师工作重点转向系统设计、架构和杠杆作用。采用深度优先工作方式，将大目标拆解为小模块。
+- **提高应用程序的可读性**：为智能体增加功能的关键是令应用 UI、日志和指标对 Codex 直接可读。将可观测性工具接入智能体运行时。
+- **代码仓库作为记录系统**：
+  - 不依赖单一的巨型 `AGENTS.md`，而是将其视为内容目录。
+  - 知识库位于结构化的 `docs/` 目录中，作为记录系统。实现**渐进式披露**：智能体从小而稳定的切入点开始，被指导下一步去哪里查看。
+  - 专职 linter 和 CI 作业验证知识库的更新状态和结构。
+- **目标是智能体的可读性**：针对 Codex 的可读性进行优化。存储在 Google Docs 或聊天记录中的知识对智能体不可见，必须将情境推送到仓库中。
+- **规范架构与品味**：通过强制执行不变量（invariants）而非微观管理实施过程。使用自定义 linter 和结构测试机械地强制执行架构规则。
+- **吞吐量改变了合并理念**：纠错成本低，等待成本高。尽量减少阻塞合并门。
+- **熵与垃圾收集**：完全自主的智能体会复现不理想模式，导致漂移。将“黄金原则”编码到仓库中，建立循环清理流程，功能类似于垃圾回收。
+
+## References
+- [[wiki/entities/openai]]
+- [[wiki/concepts/context-engineering]]
+- [[wiki/concepts/agent-智能体]]
+- [[wiki/sources/equipping-agents-for-the-real-world-with-agent-skills]]

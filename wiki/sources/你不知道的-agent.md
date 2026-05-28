@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[AI Agent 主流的设计模式]]
-- [[基于 LangGraph 创建智能体应用]]
+- [[wiki/sources/ai-agent-主流的设计模式]]
+- [[wiki/sources/基于-LangGraph-创建智能体应用]]
 
 ## References
 

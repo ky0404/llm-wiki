@@ -3,9 +3,9 @@ import os
 import re
 import sys
 
-WIKI_DIR = '/mnt/d/projects/wiki/wiki'
-RAW_DIR = '/mnt/d/projects/wiki/raw'
-LOG_FILE = '/mnt/d/projects/wiki/wiki/log.md'
+WIKI_DIR = '/home/dukkha/wiki/wiki'
+RAW_DIR = '/home/dukkha/wiki/raw'
+LOG_FILE = '/home/dukkha/wiki/wiki/log.md'
 
 # 1. Collect all existing wiki pages (without .md, relative to wiki)
 existing_pages = set()

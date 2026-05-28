@@ -77,6 +77,45 @@ updated: 2026-05-01
 
 ---
 
+## 2026-05-25
+
+### Python-100-Days 教程 Ingest（03-20章）
+
+**执行操作**：
+1. 读取 `raw/Python-100-Days/` 下18篇教程文件（03-20章）
+2. 创建 `my-learning-path/theory/python-foundation.md` — Python速通体系主页
+3. 批量创建 `wiki/sources/` 下18篇Python摘要页：
+   - python-03-变量和数据类型.md
+   - python-04-运算符和表达式.md
+   - python-05-分支结构.md
+   - python-06-循环结构.md
+   - python-07-分支循环实战.md
+   - python-08-列表基础.md
+   - python-09-列表进阶.md
+   - python-10-元组.md
+   - python-11-字符串.md
+   - python-12-集合.md
+   - python-13-字典.md
+   - python-14-函数和模块.md
+   - python-15-函数实战.md
+   - python-16-函数进阶.md
+   - python-17-函数高级应用.md
+   - python-18-面向对象入门.md
+   - python-19-面向对象进阶.md
+   - python-20-面向对象应用.md
+4. 创建 `wiki/concepts/python-面向对象.md` — 面向对象概念页
+5. 更新 `wiki/index.md` 添加Python分类索引（62个摘要页）
+6. 更新 `my-learning-path/theory/index.md` 添加Python条目与学习进度
+7. 执行 `python3 scripts/generate_graph_and_cache.py` 图谱同步（113节点，456边）
+
+**合规校验**：✓ 用户已批准批量操作｜✓ 图谱已同步｜✓ 归档到my-learning-path/theory/｜✓ 日志已记录
+
+**求职价值**：Python基础能力是AI应用开发/物联网AI系统集成的必备技能，18篇摘要页覆盖变量→运算符→流程控制→数据结构→函数→面向对象全链路
+
+**结果**：wiki/sources/ 现有 61 个摘要页，wiki/concepts/ 新增1个概念页
+
+---
+
 ## 早期操作（详见 git log）
 
 - 保护系统实现

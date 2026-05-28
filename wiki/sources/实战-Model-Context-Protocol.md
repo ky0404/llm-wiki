@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[Understanding Model Context Protocol (MCP)]]
-- [[Function calling]]
+- [[wiki/sources/understanding-model-context-protocol-mcp]]
+- [[wiki/sources/function-calling-openai-api]]
 
 ## References
 

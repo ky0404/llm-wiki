@@ -18,7 +18,7 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[Java 21 初体验]]
+- [[wiki/sources/java-21初体验]]
 
 ## References
 

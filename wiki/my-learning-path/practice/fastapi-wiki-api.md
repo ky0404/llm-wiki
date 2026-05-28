@@ -122,5 +122,5 @@ curl http://localhost:8000/wiki/pages
 
 ## References
 
-- [[my-learning-path/practice/code-graph-agent/index|Code Graph Agent项目]]
-- [[my-learning-path/theory/rag-theory|RAG技术原理]]
+- [[wiki/my-learning-path/practice/code-graph-agent/index|Code Graph Agent项目]]
+- [[wiki/my-learning-path/theory/rag-theory|RAG技术原理]]

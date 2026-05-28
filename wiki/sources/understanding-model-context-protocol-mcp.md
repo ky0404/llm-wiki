@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[实战 Model Context Protocol]]
-- [[Function calling]]
+- [[wiki/sources/实战-Model-Context-Protocol]]
+- [[wiki/sources/function-calling-openai-api]]
 
 ## References
 

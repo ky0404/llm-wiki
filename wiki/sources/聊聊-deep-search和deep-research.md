@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[高级 RAG 技术学习笔记]]
-- [[AI Agent 主流的设计模式]]
+- [[wiki/sources/高级-RAG-技术学习笔记]]
+- [[wiki/sources/ai-agent-主流的设计模式]]
 
 ## References
 

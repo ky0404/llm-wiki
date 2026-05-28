@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[Agent Skills]]
-- [[你不知道的 Agent]]
+- [[wiki/sources/agent-skills]]
+- [[wiki/sources/你不知道的-agent]]
 
 ## References
 

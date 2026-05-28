@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[Agent Skills]]
-- [[Equipping agents for the real world with Agent Skills]]
+- [[wiki/sources/agent-skills]]
+- [[wiki/sources/equipping-agents-for-the-real-world]]
 
 ## References
 

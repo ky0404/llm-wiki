@@ -18,8 +18,6 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[Kubernetes]]
-
 ## References
 
 - [containerd 笔记](https://www.aneasystone.com/archives/2023/06/containerd-notes.html)

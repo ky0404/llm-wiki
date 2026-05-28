@@ -4,1008 +4,1008 @@
       "id": "module:graph_highlighter",
       "type": "module",
       "name": "graph_highlighter",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
-      "doc": "Code Graph Agent - \u56fe\u8c31\u8def\u5f84\u9ad8\u4eae\u6a21\u5757\n\u529f\u80fd\uff1a\u6839\u636e\u95ee\u9898\u63a8\u7406\u56fe\u8c31\u8def\u5f84\uff0c\u751f\u6210\u5e26\u9ad8\u4eae\u6837\u5f0f\u7684Mermaid\u4ee3\u7801\n\n\u9ad8\u4eae\u89c4\u5219\uff1a\n- \u6838\u5fc3\u8282\u70b9\uff1a\u7ea2\u8272\u586b\u5145 (#ffcccc)\n- \u8def\u5f84\u8282\u70b9\uff1a\u9ec4\u8272\u586b\u5145"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
+      "doc": "Code Graph Agent - 图谱路径高亮模块\n功能：根据问题推理图谱路径，生成带高亮样式的Mermaid代码\n\n高亮规则：\n- 核心节点：红色填充 (#ffcccc)\n- 路径节点：黄色填充"
     },
     {
       "id": "class:graph_highlighter.GraphPath",
       "type": "class",
       "name": "GraphPath",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
-      "doc": "\u56fe\u8c31\u8def\u5f84"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
+      "doc": "图谱路径"
     },
     {
       "id": "class:graph_highlighter.GraphHighlighter",
       "type": "class",
       "name": "GraphHighlighter",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
-      "doc": "\u56fe\u8c31\u8def\u5f84\u9ad8\u4eae\u5668"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
+      "doc": "图谱路径高亮器"
     },
     {
       "id": "method:graph_highlighter.GraphHighlighter.__init__",
       "type": "method",
       "name": "__init__",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
       "doc": ""
     },
     {
       "id": "method:graph_highlighter.GraphHighlighter.match_question_type",
       "type": "method",
       "name": "match_question_type",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
-      "doc": "\u5339\u914d\u95ee\u9898\u7c7b\u578b"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
+      "doc": "匹配问题类型"
     },
     {
       "id": "method:graph_highlighter.GraphHighlighter.generate_highlighted_mermaid",
       "type": "method",
       "name": "generate_highlighted_mermaid",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
-      "doc": "\u751f\u6210\u5e26\u9ad8\u4eae\u7684Mermaid\u56fe\u8c31"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
+      "doc": "生成带高亮的Mermaid图谱"
     },
     {
       "id": "method:graph_highlighter.GraphHighlighter.get_answer",
       "type": "method",
       "name": "get_answer",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
-      "doc": "\u83b7\u53d6\u95ee\u9898\u7b54\u6848"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
+      "doc": "获取问题答案"
     },
     {
       "id": "function:graph_highlighter.main",
       "type": "function",
       "name": "main",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
-      "doc": "\u6d4b\u8bd5\u9ad8\u4eae\u529f\u80fd"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
+      "doc": "测试高亮功能"
     },
     {
       "id": "function:graph_highlighter.__init__",
       "type": "function",
       "name": "__init__",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
       "doc": ""
     },
     {
       "id": "function:graph_highlighter.match_question_type",
       "type": "function",
       "name": "match_question_type",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
-      "doc": "\u5339\u914d\u95ee\u9898\u7c7b\u578b"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
+      "doc": "匹配问题类型"
     },
     {
       "id": "function:graph_highlighter.generate_highlighted_mermaid",
       "type": "function",
       "name": "generate_highlighted_mermaid",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
-      "doc": "\u751f\u6210\u5e26\u9ad8\u4eae\u7684Mermaid\u56fe\u8c31"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
+      "doc": "生成带高亮的Mermaid图谱"
     },
     {
       "id": "function:graph_highlighter.get_answer",
       "type": "function",
       "name": "get_answer",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
-      "doc": "\u83b7\u53d6\u95ee\u9898\u7b54\u6848"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/highlight/graph_highlighter.py",
+      "doc": "获取问题答案"
     },
     {
       "id": "module:qa_interface",
       "type": "module",
       "name": "qa_interface",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
-      "doc": "Code Graph Agent - \u6781\u7b80\u95ee\u7b54\u63a5\u53e3 V2\n\u57fa\u4e8eWiki\u77e5\u8bc6\u5e93\u7684\u68c0\u7d22\u589e\u5f3a\u95ee\u7b54\n\n\u529f\u80fd\uff1a\n1. \u63a5\u6536\u7528\u6237\u95ee\u9898\n2. \u4eceWiki\u77e5\u8bc6\u5e93\u68c0\u7d22\u76f8\u5173\u5185\u5bb9\n3. \u57fa\u4e8e\u68c0\u7d22\u7ed3\u679c\u751f\u6210\u7b54\u6848\n4. \u7b54\u684810"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
+      "doc": "Code Graph Agent - 极简问答接口 V2\n基于Wiki知识库的检索增强问答\n\n功能：\n1. 接收用户问题\n2. 从Wiki知识库检索相关内容\n3. 基于检索结果生成答案\n4. 答案10"
     },
     {
       "id": "class:qa_interface.QAResult",
       "type": "class",
       "name": "QAResult",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
-      "doc": "\u95ee\u7b54\u7ed3\u679c"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
+      "doc": "问答结果"
     },
     {
       "id": "class:qa_interface.SimpleQASystem",
       "type": "class",
       "name": "SimpleQASystem",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
-      "doc": "\u6781\u7b80\u95ee\u7b54\u7cfb\u7edf - \u57fa\u4e8e\u5185\u5bb9\u63d0\u53d6"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
+      "doc": "极简问答系统 - 基于内容提取"
     },
     {
       "id": "method:qa_interface.SimpleQASystem.__init__",
       "type": "method",
       "name": "__init__",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
       "doc": ""
     },
     {
       "id": "method:qa_interface.SimpleQASystem._load_knowledge_base",
       "type": "method",
       "name": "_load_knowledge_base",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
-      "doc": "\u52a0\u8f7d\u77e5\u8bc6\u5e93\u6587\u6863"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
+      "doc": "加载知识库文档"
     },
     {
       "id": "method:qa_interface.SimpleQASystem._extract_answer_from_content",
       "type": "method",
       "name": "_extract_answer_from_content",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
-      "doc": "\u4ece\u5185\u5bb9\u4e2d\u63d0\u53d6\u7b54\u6848"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
+      "doc": "从内容中提取答案"
     },
     {
       "id": "method:qa_interface.SimpleQASystem._generate_fallback_answer",
       "type": "method",
       "name": "_generate_fallback_answer",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
-      "doc": "\u751f\u6210\u5907\u9009\u7b54\u6848"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
+      "doc": "生成备选答案"
     },
     {
       "id": "method:qa_interface.SimpleQASystem.answer",
       "type": "method",
       "name": "answer",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
-      "doc": "\u56de\u7b54\u95ee\u9898"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
+      "doc": "回答问题"
     },
     {
       "id": "method:qa_interface.SimpleQASystem._get_preset_answer",
       "type": "method",
       "name": "_get_preset_answer",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
-      "doc": "\u9884\u8bbe\u6807\u51c6\u7b54\u6848 - \u76f4\u63a5\u4ece\u77e5\u8bc6\u5e93\u5185\u5bb9\u63d0\u53d6"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
+      "doc": "预设标准答案 - 直接从知识库内容提取"
     },
     {
       "id": "function:qa_interface.run_tests",
       "type": "function",
       "name": "run_tests",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
-      "doc": "\u8fd0\u884c\u6d4b\u8bd5"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
+      "doc": "运行测试"
     },
     {
       "id": "function:qa_interface.save_results",
       "type": "function",
       "name": "save_results",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
-      "doc": "\u4fdd\u5b58\u6d4b\u8bd5\u7ed3\u679c"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
+      "doc": "保存测试结果"
     },
     {
       "id": "function:qa_interface.__init__",
       "type": "function",
       "name": "__init__",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
       "doc": ""
     },
     {
       "id": "function:qa_interface._load_knowledge_base",
       "type": "function",
       "name": "_load_knowledge_base",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
-      "doc": "\u52a0\u8f7d\u77e5\u8bc6\u5e93\u6587\u6863"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
+      "doc": "加载知识库文档"
     },
     {
       "id": "function:qa_interface._extract_answer_from_content",
       "type": "function",
       "name": "_extract_answer_from_content",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
-      "doc": "\u4ece\u5185\u5bb9\u4e2d\u63d0\u53d6\u7b54\u6848"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
+      "doc": "从内容中提取答案"
     },
     {
       "id": "function:qa_interface._generate_fallback_answer",
       "type": "function",
       "name": "_generate_fallback_answer",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
-      "doc": "\u751f\u6210\u5907\u9009\u7b54\u6848"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
+      "doc": "生成备选答案"
     },
     {
       "id": "function:qa_interface.answer",
       "type": "function",
       "name": "answer",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
-      "doc": "\u56de\u7b54\u95ee\u9898"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
+      "doc": "回答问题"
     },
     {
       "id": "function:qa_interface._get_preset_answer",
       "type": "function",
       "name": "_get_preset_answer",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
-      "doc": "\u9884\u8bbe\u6807\u51c6\u7b54\u6848 - \u76f4\u63a5\u4ece\u77e5\u8bc6\u5e93\u5185\u5bb9\u63d0\u53d6"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/qa/qa_interface.py",
+      "doc": "预设标准答案 - 直接从知识库内容提取"
     },
     {
       "id": "module:hybrid_retriever",
       "type": "module",
       "name": "hybrid_retriever",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
-      "doc": "Code Graph Agent - 3\u8def\u6df7\u5408\u68c0\u7d22\u811a\u672c\n\u57fa\u4e8eRAG\u6df7\u5408\u68c0\u7d22\u6280\u672f\uff0c\u589e\u52a0\u56fe\u8c31\u68c0\u7d22\u9002\u914d\u903b\u8f91\n\n\u68c0\u7d22\u901a\u9053\uff1a\n1. \u5411\u91cf\u68c0\u7d22\uff1a\u8bed\u4e49\u7406\u89e3\n2. BM25\u68c0\u7d22\uff1a\u5173\u952e\u8bcd\u5339\u914d\n3. \u56fe\u8c31\u68c0\u7d22\uff1a\u7ed3\u6784\u5173\u7cfb"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "doc": "Code Graph Agent - 3路混合检索脚本\n基于RAG混合检索技术，增加图谱检索适配逻辑\n\n检索通道：\n1. 向量检索：语义理解\n2. BM25检索：关键词匹配\n3. 图谱检索：结构关系"
     },
     {
       "id": "class:hybrid_retriever.CodeSearchResult",
       "type": "class",
       "name": "CodeSearchResult",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
-      "doc": "\u4ee3\u7801\u641c\u7d22\u7ed3\u679c"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "doc": "代码搜索结果"
     },
     {
       "id": "class:hybrid_retriever.CodeGraphHybridRetriever",
       "type": "class",
       "name": "CodeGraphHybridRetriever",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
-      "doc": "\u4ee3\u7801\u4ed3\u5e933\u8def\u6df7\u5408\u68c0\u7d22\u5668"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "doc": "代码仓库3路混合检索器"
     },
     {
       "id": "method:hybrid_retriever.CodeGraphHybridRetriever.__init__",
       "type": "method",
       "name": "__init__",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
       "doc": ""
     },
     {
       "id": "method:hybrid_retriever.CodeGraphHybridRetriever._init_indexes",
       "type": "method",
       "name": "_init_indexes",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
-      "doc": "\u521d\u59cb\u5316\u5404\u68c0\u7d22\u901a\u9053\u7684\u7d22\u5f15"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "doc": "初始化各检索通道的索引"
     },
     {
       "id": "method:hybrid_retriever.CodeGraphHybridRetriever._collect_code_files",
       "type": "method",
       "name": "_collect_code_files",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
-      "doc": "\u6536\u96c6\u4ee3\u7801\u4ed3\u5e93\u4e2d\u7684\u6240\u6709\u4ee3\u7801\u6587\u4ef6"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "doc": "收集代码仓库中的所有代码文件"
     },
     {
       "id": "method:hybrid_retriever.CodeGraphHybridRetriever._init_bm25",
       "type": "method",
       "name": "_init_bm25",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
-      "doc": "\u521d\u59cb\u5316BM25\u7d22\u5f15"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "doc": "初始化BM25索引"
     },
     {
       "id": "method:hybrid_retriever.CodeGraphHybridRetriever._init_vectorstore",
       "type": "method",
       "name": "_init_vectorstore",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
-      "doc": "\u521d\u59cb\u5316\u5411\u91cf\u7d22\u5f15"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "doc": "初始化向量索引"
     },
     {
       "id": "method:hybrid_retriever.CodeGraphHybridRetriever._init_graph_index",
       "type": "method",
       "name": "_init_graph_index",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
-      "doc": "\u521d\u59cb\u5316\u56fe\u8c31\u7d22\u5f15\uff08\u7b80\u5316\u7248\uff1a\u4ece\u6587\u4ef6\u8def\u5f84\u548c\u51fd\u6570\u540d\u6784\u5efa\uff09"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "doc": "初始化图谱索引（简化版：从文件路径和函数名构建）"
     },
     {
       "id": "method:hybrid_retriever.CodeGraphHybridRetriever.search",
       "type": "method",
       "name": "search",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
-      "doc": "\u6267\u884c3\u8def\u6df7\u5408\u68c0\u7d22"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "doc": "执行3路混合检索"
     },
     {
       "id": "method:hybrid_retriever.CodeGraphHybridRetriever._graph_search",
       "type": "method",
       "name": "_graph_search",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
-      "doc": "\u56fe\u8c31\u68c0\u7d22\uff1a\u57fa\u4e8e\u51fd\u6570\u540d/\u7c7b\u540d\u5339\u914d"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "doc": "图谱检索：基于函数名/类名匹配"
     },
     {
       "id": "method:hybrid_retriever.CodeGraphHybridRetriever._rrf_fusion",
       "type": "method",
       "name": "_rrf_fusion",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
-      "doc": "RRF\u878d\u5408\uff1a\u5408\u5e763\u8def\u68c0\u7d22\u7ed3\u679c"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "doc": "RRF融合：合并3路检索结果"
     },
     {
       "id": "function:hybrid_retriever.main",
       "type": "function",
       "name": "main",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
-      "doc": "\u6d4b\u8bd5\u811a\u672c"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "doc": "测试脚本"
     },
     {
       "id": "function:hybrid_retriever.__init__",
       "type": "function",
       "name": "__init__",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
       "doc": ""
     },
     {
       "id": "function:hybrid_retriever._init_indexes",
       "type": "function",
       "name": "_init_indexes",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
-      "doc": "\u521d\u59cb\u5316\u5404\u68c0\u7d22\u901a\u9053\u7684\u7d22\u5f15"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "doc": "初始化各检索通道的索引"
     },
     {
       "id": "function:hybrid_retriever._collect_code_files",
       "type": "function",
       "name": "_collect_code_files",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
-      "doc": "\u6536\u96c6\u4ee3\u7801\u4ed3\u5e93\u4e2d\u7684\u6240\u6709\u4ee3\u7801\u6587\u4ef6"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "doc": "收集代码仓库中的所有代码文件"
     },
     {
       "id": "function:hybrid_retriever._init_bm25",
       "type": "function",
       "name": "_init_bm25",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
-      "doc": "\u521d\u59cb\u5316BM25\u7d22\u5f15"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "doc": "初始化BM25索引"
     },
     {
       "id": "function:hybrid_retriever._init_vectorstore",
       "type": "function",
       "name": "_init_vectorstore",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
-      "doc": "\u521d\u59cb\u5316\u5411\u91cf\u7d22\u5f15"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "doc": "初始化向量索引"
     },
     {
       "id": "function:hybrid_retriever._init_graph_index",
       "type": "function",
       "name": "_init_graph_index",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
-      "doc": "\u521d\u59cb\u5316\u56fe\u8c31\u7d22\u5f15\uff08\u7b80\u5316\u7248\uff1a\u4ece\u6587\u4ef6\u8def\u5f84\u548c\u51fd\u6570\u540d\u6784\u5efa\uff09"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "doc": "初始化图谱索引（简化版：从文件路径和函数名构建）"
     },
     {
       "id": "function:hybrid_retriever.search",
       "type": "function",
       "name": "search",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
-      "doc": "\u6267\u884c3\u8def\u6df7\u5408\u68c0\u7d22"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "doc": "执行3路混合检索"
     },
     {
       "id": "function:hybrid_retriever._graph_search",
       "type": "function",
       "name": "_graph_search",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
-      "doc": "\u56fe\u8c31\u68c0\u7d22\uff1a\u57fa\u4e8e\u51fd\u6570\u540d/\u7c7b\u540d\u5339\u914d"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "doc": "图谱检索：基于函数名/类名匹配"
     },
     {
       "id": "function:hybrid_retriever._rrf_fusion",
       "type": "function",
       "name": "_rrf_fusion",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
-      "doc": "RRF\u878d\u5408\uff1a\u5408\u5e763\u8def\u68c0\u7d22\u7ed3\u679c"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/scripts/hybrid_retriever.py",
+      "doc": "RRF融合：合并3路检索结果"
     },
     {
       "id": "module:code_graph_system",
       "type": "module",
       "name": "code_graph_system",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
-      "doc": "Code Graph Agent - \u4ee3\u7801\u4ed3\u5e93\u77e5\u8bc6\u56fe\u8c31\u7cfb\u7edf\uff08\u5347\u7ea7\u7248\uff09\n\u529f\u80fd\uff1a\u96c6\u6210GitHub\u62c9\u53d6\u3001\u4ee3\u7801\u89e3\u6790\u3001\u6df7\u5408\u68c0\u7d22\u3001\u8def\u5f84\u63a8\u7406\u3001\u56fe\u8c31\u9ad8\u4eae"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
+      "doc": "Code Graph Agent - 代码仓库知识图谱系统（升级版）\n功能：集成GitHub拉取、代码解析、混合检索、路径推理、图谱高亮"
     },
     {
       "id": "class:code_graph_system.CodeGraphSystem",
       "type": "class",
       "name": "CodeGraphSystem",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
-      "doc": "\u4ee3\u7801\u4ed3\u5e93\u77e5\u8bc6\u56fe\u8c31\u7cfb\u7edf"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
+      "doc": "代码仓库知识图谱系统"
     },
     {
       "id": "method:code_graph_system.CodeGraphSystem.__init__",
       "type": "method",
       "name": "__init__",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
       "doc": ""
     },
     {
       "id": "method:code_graph_system.CodeGraphSystem.load_repository",
       "type": "method",
       "name": "load_repository",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
-      "doc": "\u52a0\u8f7d\u4ed3\u5e93\uff08\u672c\u5730\u8def\u5f84\uff09"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
+      "doc": "加载仓库（本地路径）"
     },
     {
       "id": "method:code_graph_system.CodeGraphSystem.answer_question",
       "type": "method",
       "name": "answer_question",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
-      "doc": "\u56de\u7b54\u95ee\u9898\u5e76\u751f\u6210\u56fe\u8c31"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
+      "doc": "回答问题并生成图谱"
     },
     {
       "id": "method:code_graph_system.CodeGraphSystem._generate_answer",
       "type": "method",
       "name": "_generate_answer",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
-      "doc": "\u751f\u6210\u7b54\u6848"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
+      "doc": "生成答案"
     },
     {
       "id": "method:code_graph_system.CodeGraphSystem._generate_path_mermaid",
       "type": "method",
       "name": "_generate_path_mermaid",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
-      "doc": "\u751f\u6210\u8def\u5f84\u9ad8\u4eaeMermaid\u56fe\u8c31"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
+      "doc": "生成路径高亮Mermaid图谱"
     },
     {
       "id": "function:code_graph_system.main",
       "type": "function",
       "name": "main",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
-      "doc": "\u7aef\u5230\u7aef\u6d4b\u8bd5"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
+      "doc": "端到端测试"
     },
     {
       "id": "function:code_graph_system.__init__",
       "type": "function",
       "name": "__init__",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
       "doc": ""
     },
     {
       "id": "function:code_graph_system.load_repository",
       "type": "function",
       "name": "load_repository",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
-      "doc": "\u52a0\u8f7d\u4ed3\u5e93\uff08\u672c\u5730\u8def\u5f84\uff09"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
+      "doc": "加载仓库（本地路径）"
     },
     {
       "id": "function:code_graph_system.answer_question",
       "type": "function",
       "name": "answer_question",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
-      "doc": "\u56de\u7b54\u95ee\u9898\u5e76\u751f\u6210\u56fe\u8c31"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
+      "doc": "回答问题并生成图谱"
     },
     {
       "id": "function:code_graph_system._generate_answer",
       "type": "function",
       "name": "_generate_answer",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
-      "doc": "\u751f\u6210\u7b54\u6848"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
+      "doc": "生成答案"
     },
     {
       "id": "function:code_graph_system._generate_path_mermaid",
       "type": "function",
       "name": "_generate_path_mermaid",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
-      "doc": "\u751f\u6210\u8def\u5f84\u9ad8\u4eaeMermaid\u56fe\u8c31"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_graph_system.py",
+      "doc": "生成路径高亮Mermaid图谱"
     },
     {
       "id": "module:code_hybrid_retriever",
       "type": "module",
       "name": "code_hybrid_retriever",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
-      "doc": "Code Graph Agent - \u4ee3\u7801\u4ed3\u5e933\u8def\u6df7\u5408\u68c0\u7d22\u5f15\u64ce\uff08\u5347\u7ea7\u7248\uff09\n\u529f\u80fd\uff1a\u9002\u914d\u4ee3\u7801\u4ed3\u5e93\u7684\u68c0\u7d22\u573a\u666f\uff0c\u4f18\u5316\u4ee3\u7801\u7247\u6bb5\u7684\u5411\u91cf\u5316\u3001\u5173\u952e\u8bcd\u68c0\u7d22\u3001\u56fe\u8c31\u68c0\u7d22\u903b\u8f91"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "doc": "Code Graph Agent - 代码仓库3路混合检索引擎（升级版）\n功能：适配代码仓库的检索场景，优化代码片段的向量化、关键词检索、图谱检索逻辑"
     },
     {
       "id": "class:code_hybrid_retriever.CodeSearchResult",
       "type": "class",
       "name": "CodeSearchResult",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
-      "doc": "\u4ee3\u7801\u641c\u7d22\u7ed3\u679c"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "doc": "代码搜索结果"
     },
     {
       "id": "class:code_hybrid_retriever.CodeHybridRetriever",
       "type": "class",
       "name": "CodeHybridRetriever",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
-      "doc": "\u4ee3\u7801\u4ed3\u5e933\u8def\u6df7\u5408\u68c0\u7d22\u5668"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "doc": "代码仓库3路混合检索器"
     },
     {
       "id": "method:code_hybrid_retriever.CodeHybridRetriever.__init__",
       "type": "method",
       "name": "__init__",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
       "doc": ""
     },
     {
       "id": "method:code_hybrid_retriever.CodeHybridRetriever._load_code_files",
       "type": "method",
       "name": "_load_code_files",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
-      "doc": "\u52a0\u8f7d\u4ee3\u7801\u6587\u4ef6"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "doc": "加载代码文件"
     },
     {
       "id": "method:code_hybrid_retriever.CodeHybridRetriever._extract_code_chunks",
       "type": "method",
       "name": "_extract_code_chunks",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
-      "doc": "\u63d0\u53d6\u4ee3\u7801\u5757\uff08\u51fd\u6570\u3001\u7c7b\uff09"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "doc": "提取代码块（函数、类）"
     },
     {
       "id": "method:code_hybrid_retriever.CodeHybridRetriever._load_graph_data",
       "type": "method",
       "name": "_load_graph_data",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
-      "doc": "\u52a0\u8f7d\u56fe\u8c31\u6570\u636e\uff08\u4ece\u4ee3\u7801\u89e3\u6790\u7ed3\u679c\uff09"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "doc": "加载图谱数据（从代码解析结果）"
     },
     {
       "id": "method:code_hybrid_retriever.CodeHybridRetriever.search",
       "type": "method",
       "name": "search",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
-      "doc": "\u6267\u884c3\u8def\u6df7\u5408\u68c0\u7d22"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "doc": "执行3路混合检索"
     },
     {
       "id": "method:code_hybrid_retriever.CodeHybridRetriever._keyword_search",
       "type": "method",
       "name": "_keyword_search",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
-      "doc": "\u5173\u952e\u8bcd\u641c\u7d22"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "doc": "关键词搜索"
     },
     {
       "id": "method:code_hybrid_retriever.CodeHybridRetriever._graph_search",
       "type": "method",
       "name": "_graph_search",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
-      "doc": "\u56fe\u8c31\u68c0\u7d22\uff1a\u57fa\u4e8e\u51fd\u6570\u540d/\u7c7b\u540d\u5339\u914d"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "doc": "图谱检索：基于函数名/类名匹配"
     },
     {
       "id": "method:code_hybrid_retriever.CodeHybridRetriever._semantic_search",
       "type": "method",
       "name": "_semantic_search",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
-      "doc": "\u8bed\u4e49\u68c0\u7d22\uff08\u7b80\u5316\u7248\uff09"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "doc": "语义检索（简化版）"
     },
     {
       "id": "method:code_hybrid_retriever.CodeHybridRetriever._rrf_fusion",
       "type": "method",
       "name": "_rrf_fusion",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
-      "doc": "RRF\u878d\u5408"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "doc": "RRF融合"
     },
     {
       "id": "function:code_hybrid_retriever.main",
       "type": "function",
       "name": "main",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
-      "doc": "\u6d4b\u8bd5\u4ee3\u7801\u68c0\u7d22\u529f\u80fd"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "doc": "测试代码检索功能"
     },
     {
       "id": "function:code_hybrid_retriever.__init__",
       "type": "function",
       "name": "__init__",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
       "doc": ""
     },
     {
       "id": "function:code_hybrid_retriever._load_code_files",
       "type": "function",
       "name": "_load_code_files",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
-      "doc": "\u52a0\u8f7d\u4ee3\u7801\u6587\u4ef6"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "doc": "加载代码文件"
     },
     {
       "id": "function:code_hybrid_retriever._extract_code_chunks",
       "type": "function",
       "name": "_extract_code_chunks",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
-      "doc": "\u63d0\u53d6\u4ee3\u7801\u5757\uff08\u51fd\u6570\u3001\u7c7b\uff09"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "doc": "提取代码块（函数、类）"
     },
     {
       "id": "function:code_hybrid_retriever._load_graph_data",
       "type": "function",
       "name": "_load_graph_data",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
-      "doc": "\u52a0\u8f7d\u56fe\u8c31\u6570\u636e\uff08\u4ece\u4ee3\u7801\u89e3\u6790\u7ed3\u679c\uff09"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "doc": "加载图谱数据（从代码解析结果）"
     },
     {
       "id": "function:code_hybrid_retriever.search",
       "type": "function",
       "name": "search",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
-      "doc": "\u6267\u884c3\u8def\u6df7\u5408\u68c0\u7d22"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "doc": "执行3路混合检索"
     },
     {
       "id": "function:code_hybrid_retriever._keyword_search",
       "type": "function",
       "name": "_keyword_search",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
-      "doc": "\u5173\u952e\u8bcd\u641c\u7d22"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "doc": "关键词搜索"
     },
     {
       "id": "function:code_hybrid_retriever._graph_search",
       "type": "function",
       "name": "_graph_search",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
-      "doc": "\u56fe\u8c31\u68c0\u7d22\uff1a\u57fa\u4e8e\u51fd\u6570\u540d/\u7c7b\u540d\u5339\u914d"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "doc": "图谱检索：基于函数名/类名匹配"
     },
     {
       "id": "function:code_hybrid_retriever._semantic_search",
       "type": "function",
       "name": "_semantic_search",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
-      "doc": "\u8bed\u4e49\u68c0\u7d22\uff08\u7b80\u5316\u7248\uff09"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "doc": "语义检索（简化版）"
     },
     {
       "id": "function:code_hybrid_retriever._rrf_fusion",
       "type": "function",
       "name": "_rrf_fusion",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
-      "doc": "RRF\u878d\u5408"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_hybrid_retriever.py",
+      "doc": "RRF融合"
     },
     {
       "id": "module:code_parser",
       "type": "module",
       "name": "code_parser",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
-      "doc": "Code Graph Agent - Python\u4ee3\u7801\u89e3\u6790\u5f15\u64ce\n\u529f\u80fd\uff1a\u89e3\u6790Python\u4ee3\u7801\uff0c\u63d0\u53d6\u6a21\u5757\u3001\u7c7b\u3001\u51fd\u6570\u3001\u8c03\u7528\u5173\u7cfb\uff0c\u751f\u6210\u77e5\u8bc6\u56fe\u8c31\u8282\u70b9\u4e0e\u8fb9"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
+      "doc": "Code Graph Agent - Python代码解析引擎\n功能：解析Python代码，提取模块、类、函数、调用关系，生成知识图谱节点与边"
     },
     {
       "id": "class:code_parser.CodeNode",
       "type": "class",
       "name": "CodeNode",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
-      "doc": "\u4ee3\u7801\u8282\u70b9"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
+      "doc": "代码节点"
     },
     {
       "id": "class:code_parser.CodeEdge",
       "type": "class",
       "name": "CodeEdge",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
-      "doc": "\u4ee3\u7801\u8fb9"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
+      "doc": "代码边"
     },
     {
       "id": "class:code_parser.PythonParser",
       "type": "class",
       "name": "PythonParser",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
-      "doc": "Python\u4ee3\u7801\u89e3\u6790\u5668"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
+      "doc": "Python代码解析器"
     },
     {
       "id": "method:code_parser.PythonParser.__init__",
       "type": "method",
       "name": "__init__",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
       "doc": ""
     },
     {
       "id": "method:code_parser.PythonParser.parse_file",
       "type": "method",
       "name": "parse_file",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
-      "doc": "\u89e3\u6790\u5355\u4e2aPython\u6587\u4ef6"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
+      "doc": "解析单个Python文件"
     },
     {
       "id": "method:code_parser.PythonParser._extract_calls",
       "type": "method",
       "name": "_extract_calls",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
-      "doc": "\u63d0\u53d6\u51fd\u6570\u8c03\u7528"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
+      "doc": "提取函数调用"
     },
     {
       "id": "method:code_parser.PythonParser.parse_directory",
       "type": "method",
       "name": "parse_directory",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
-      "doc": "\u89e3\u6790\u6574\u4e2a\u76ee\u5f55"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
+      "doc": "解析整个目录"
     },
     {
       "id": "method:code_parser.PythonParser.get_graph_data",
       "type": "method",
       "name": "get_graph_data",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
-      "doc": "\u83b7\u53d6\u56fe\u8c31\u6570\u636e"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
+      "doc": "获取图谱数据"
     },
     {
       "id": "function:code_parser.main",
       "type": "function",
       "name": "main",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
-      "doc": "\u6d4b\u8bd5\u4ee3\u7801\u89e3\u6790\u529f\u80fd"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
+      "doc": "测试代码解析功能"
     },
     {
       "id": "function:code_parser.__init__",
       "type": "function",
       "name": "__init__",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
       "doc": ""
     },
     {
       "id": "function:code_parser.parse_file",
       "type": "function",
       "name": "parse_file",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
-      "doc": "\u89e3\u6790\u5355\u4e2aPython\u6587\u4ef6"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
+      "doc": "解析单个Python文件"
     },
     {
       "id": "function:code_parser._extract_calls",
       "type": "function",
       "name": "_extract_calls",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
-      "doc": "\u63d0\u53d6\u51fd\u6570\u8c03\u7528"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
+      "doc": "提取函数调用"
     },
     {
       "id": "function:code_parser.parse_directory",
       "type": "function",
       "name": "parse_directory",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
-      "doc": "\u89e3\u6790\u6574\u4e2a\u76ee\u5f55"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
+      "doc": "解析整个目录"
     },
     {
       "id": "function:code_parser.get_graph_data",
       "type": "function",
       "name": "get_graph_data",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
-      "doc": "\u83b7\u53d6\u56fe\u8c31\u6570\u636e"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/code_parser.py",
+      "doc": "获取图谱数据"
     },
     {
       "id": "module:github_cloner",
       "type": "module",
       "name": "github_cloner",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
-      "doc": "Code Graph Agent - GitHub\u4ed3\u5e93\u81ea\u52a8\u62c9\u53d6\u6a21\u5757\n\u529f\u80fd\uff1a\u652f\u6301\u8f93\u5165GitHub\u4ed3\u5e93\u5730\u5740\uff0c\u81ea\u52a8\u62c9\u53d6main\u5206\u652f\u7684\u4ee3\u7801\u6587\u4ef6"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
+      "doc": "Code Graph Agent - GitHub仓库自动拉取模块\n功能：支持输入GitHub仓库地址，自动拉取main分支的代码文件"
     },
     {
       "id": "class:github_cloner.GitHubCloner",
       "type": "class",
       "name": "GitHubCloner",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
-      "doc": "GitHub\u4ed3\u5e93\u62c9\u53d6\u5668"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
+      "doc": "GitHub仓库拉取器"
     },
     {
       "id": "method:github_cloner.GitHubCloner.__init__",
       "type": "method",
       "name": "__init__",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
       "doc": ""
     },
     {
       "id": "method:github_cloner.GitHubCloner.parse_github_url",
       "type": "method",
       "name": "parse_github_url",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
-      "doc": "\u89e3\u6790GitHub URL"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
+      "doc": "解析GitHub URL"
     },
     {
       "id": "method:github_cloner.GitHubCloner.clone_repo",
       "type": "method",
       "name": "clone_repo",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
-      "doc": "\u514b\u9686\u4ed3\u5e93"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
+      "doc": "克隆仓库"
     },
     {
       "id": "method:github_cloner.GitHubCloner.list_code_files",
       "type": "method",
       "name": "list_code_files",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
-      "doc": "\u5217\u51fa\u4ed3\u5e93\u4e2d\u7684\u4ee3\u7801\u6587\u4ef6"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
+      "doc": "列出仓库中的代码文件"
     },
     {
       "id": "method:github_cloner.GitHubCloner.filter_core_files",
       "type": "method",
       "name": "filter_core_files",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
-      "doc": "\u8fc7\u6ee4\u6838\u5fc3\u6587\u4ef6\uff08\u6392\u9664\u7a7a\u6587\u4ef6\u548c\u6d4b\u8bd5\u6587\u4ef6\uff09"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
+      "doc": "过滤核心文件（排除空文件和测试文件）"
     },
     {
       "id": "function:github_cloner.main",
       "type": "function",
       "name": "main",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
-      "doc": "\u6d4b\u8bd5GitHub\u62c9\u53d6\u529f\u80fd"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
+      "doc": "测试GitHub拉取功能"
     },
     {
       "id": "function:github_cloner.__init__",
       "type": "function",
       "name": "__init__",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
       "doc": ""
     },
     {
       "id": "function:github_cloner.parse_github_url",
       "type": "function",
       "name": "parse_github_url",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
-      "doc": "\u89e3\u6790GitHub URL"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
+      "doc": "解析GitHub URL"
     },
     {
       "id": "function:github_cloner.clone_repo",
       "type": "function",
       "name": "clone_repo",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
-      "doc": "\u514b\u9686\u4ed3\u5e93"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
+      "doc": "克隆仓库"
     },
     {
       "id": "function:github_cloner.list_code_files",
       "type": "function",
       "name": "list_code_files",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
-      "doc": "\u5217\u51fa\u4ed3\u5e93\u4e2d\u7684\u4ee3\u7801\u6587\u4ef6"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
+      "doc": "列出仓库中的代码文件"
     },
     {
       "id": "function:github_cloner.filter_core_files",
       "type": "function",
       "name": "filter_core_files",
-      "file": "/mnt/d/projects/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
-      "doc": "\u8fc7\u6ee4\u6838\u5fc3\u6587\u4ef6\uff08\u6392\u9664\u7a7a\u6587\u4ef6\u548c\u6d4b\u8bd5\u6587\u4ef6\uff09"
+      "file": "/home/dukkha/wiki/wiki/my-learning-path/practice/code-graph-agent/upgrade/github_cloner.py",
+      "doc": "过滤核心文件（排除空文件和测试文件）"
     },
     {
       "id": "module:comprehensive_gc",
       "type": "module",
       "name": "comprehensive_gc",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/comprehensive_gc.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/comprehensive_gc.py",
       "doc": "Comprehensive Garbage Collection for Knowledge Base\nDetects and (optionally) auto-fixes common garba"
     },
     {
       "id": "function:comprehensive_gc.load_cache",
       "type": "function",
       "name": "load_cache",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/comprehensive_gc.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/comprehensive_gc.py",
       "doc": ""
     },
     {
       "id": "function:comprehensive_gc.detect_issues",
       "type": "function",
       "name": "detect_issues",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/comprehensive_gc.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/comprehensive_gc.py",
       "doc": ""
     },
     {
       "id": "function:comprehensive_gc.generate_report",
       "type": "function",
       "name": "generate_report",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/comprehensive_gc.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/comprehensive_gc.py",
       "doc": ""
     },
     {
       "id": "function:comprehensive_gc.apply_auto_fix",
       "type": "function",
       "name": "apply_auto_fix",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/comprehensive_gc.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/comprehensive_gc.py",
       "doc": "Very conservative auto-fix: remove ghost files and related edges only."
     },
     {
       "id": "function:comprehensive_gc.main",
       "type": "function",
       "name": "main",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/comprehensive_gc.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/comprehensive_gc.py",
       "doc": ""
     },
     {
       "id": "module:extract_links",
       "type": "module",
       "name": "extract_links",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/extract_links.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/extract_links.py",
       "doc": "Wiki Link Extractor\nReads a specified .md file, strips code blocks (inline and fenced), \nand extract"
     },
     {
       "id": "function:extract_links.extract_links_from_file",
       "type": "function",
       "name": "extract_links_from_file",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/extract_links.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/extract_links.py",
       "doc": ""
     },
     {
       "id": "module:generate_graph",
       "type": "module",
       "name": "generate_graph",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/generate_graph.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/generate_graph.py",
       "doc": "Knowledge Graph Generator for LLM Wiki\nReads index-cache.json and generates graph visualizations in "
     },
     {
       "id": "function:generate_graph.load_cache",
       "type": "function",
       "name": "load_cache",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/generate_graph.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/generate_graph.py",
       "doc": "Load and validate index-cache.json"
     },
     {
       "id": "function:generate_graph.compute_metrics",
       "type": "function",
       "name": "compute_metrics",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/generate_graph.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/generate_graph.py",
       "doc": "Compute graph metrics: in-degree, out-degree, total connections"
     },
     {
       "id": "function:generate_graph.generate_mermaid",
       "type": "function",
       "name": "generate_mermaid",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/generate_graph.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/generate_graph.py",
       "doc": "Generate Mermaid graph diagram"
     },
     {
       "id": "function:generate_graph.generate_markdown_report",
       "type": "function",
       "name": "generate_markdown_report",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/generate_graph.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/generate_graph.py",
       "doc": "Generate Markdown graph report"
     },
     {
       "id": "function:generate_graph.main",
       "type": "function",
       "name": "main",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/generate_graph.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/generate_graph.py",
       "doc": ""
     },
     {
       "id": "module:rule_auto_preload",
       "type": "module",
       "name": "rule_auto_preload",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/rule_auto_preload.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/rule_auto_preload.py",
       "doc": ""
     },
     {
       "id": "function:rule_auto_preload.preload_core_rules",
       "type": "function",
       "name": "preload_core_rules",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/rule_auto_preload.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/rule_auto_preload.py",
       "doc": ""
     },
     {
       "id": "module:rule_compliance_verify",
       "type": "module",
       "name": "rule_compliance_verify",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/rule_compliance_verify.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/rule_compliance_verify.py",
       "doc": ""
     },
     {
       "id": "function:rule_compliance_verify.verify_rule_compliance",
       "type": "function",
       "name": "verify_rule_compliance",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/rule_compliance_verify.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/rule_compliance_verify.py",
       "doc": ""
     },
     {
       "id": "function:rule_compliance_verify.get_file_md5",
       "type": "function",
       "name": "get_file_md5",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/rule_compliance_verify.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/rule_compliance_verify.py",
       "doc": ""
     },
     {
       "id": "module:update_graph",
       "type": "module",
       "name": "update_graph",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/update_graph.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/update_graph.py",
       "doc": "Full Graph Updater for LLM Wiki\nTraverses all .md files, extracts [[wikilinks]], rewrites index-cach"
     },
     {
       "id": "function:update_graph.extract_wikilinks",
       "type": "function",
       "name": "extract_wikilinks",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/update_graph.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/update_graph.py",
       "doc": "Extract all valid [[wikilinks]] from markdown content, ignoring code blocks."
     },
     {
       "id": "function:update_graph.parse_frontmatter",
       "type": "function",
       "name": "parse_frontmatter",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/update_graph.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/update_graph.py",
       "doc": "Extract YAML frontmatter as a dictionary."
     },
     {
       "id": "function:update_graph.scan_md_files",
       "type": "function",
       "name": "scan_md_files",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/update_graph.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/update_graph.py",
       "doc": "Recursively find all .md files, excluding hidden, output, raw, scripts, templates."
     },
     {
       "id": "function:update_graph.resolve_link",
       "type": "function",
       "name": "resolve_link",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/update_graph.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/update_graph.py",
       "doc": "Normalize wikilink text to a relative file path."
     },
     {
       "id": "function:update_graph.main",
       "type": "function",
       "name": "main",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/update_graph.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/update_graph.py",
       "doc": ""
     },
     {
       "id": "module:verify_tools",
       "type": "module",
       "name": "verify_tools",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/verify_tools.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/verify_tools.py",
       "doc": "Tool Verification Framework - verify_tools.py\nComprehensive testing suite for Wiki tooling.\n\nVerifie"
     },
     {
       "id": "function:verify_tools.extract_links_from_file",
       "type": "function",
       "name": "extract_links_from_file",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/verify_tools.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/verify_tools.py",
       "doc": "Extract valid wikilinks from markdown file, ignoring code blocks and inline code."
     },
     {
       "id": "function:verify_tools.verify_extract_links",
       "type": "function",
       "name": "verify_extract_links",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/verify_tools.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/verify_tools.py",
       "doc": "Verify extract_links.py on all .md files under root"
     },
     {
       "id": "function:verify_tools.run_update_graph",
       "type": "function",
       "name": "run_update_graph",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/verify_tools.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/verify_tools.py",
       "doc": "Run update_graph.py and collect basic results"
     },
     {
       "id": "function:verify_tools.main",
       "type": "function",
       "name": "main",
-      "file": "/mnt/d/projects/wiki/wiki/scripts/verify_tools.py",
+      "file": "/home/dukkha/wiki/wiki/scripts/verify_tools.py",
       "doc": ""
     }
   ],

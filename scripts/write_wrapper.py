@@ -10,7 +10,7 @@
     write_file("wiki/sources/test.md", content)  # 不需要授权
     
     # 写入文件（简化版）
-    write_text("my-learning-path/test.md", "内容")
+    write_text("wiki/my-learning-path/test.md", "内容")
 
 注意：此模块会自动加载 path_guard 的所有功能
 """
@@ -54,7 +54,7 @@ def write_file(path: str, content: str, authorized: bool = False, auth_version: 
         write_file("AGENTS.md", new_content, authorized=True, auth_version=auth_version)
         
         # 普通写入（不需要授权）
-        write_file("my-learning-path/test.md", "内容")
+        write_file("wiki/my-learning-path/test.md", "内容")
     """
     return safe_write(path, content, authorized, auth_version)
 
@@ -93,7 +93,7 @@ def write_text(path: str, content: str) -> bool:
     
     try:
         path_obj = Path(path)
-        PROJECT_ROOT = Path("/mnt/d/projects/wiki")
+        PROJECT_ROOT = Path("/home/dukkha/wiki")
         
         if not path_obj.is_absolute():
             full_path = PROJECT_ROOT / path_obj

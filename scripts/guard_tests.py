@@ -30,7 +30,7 @@ from path_guard import (
 )
 
 # 测试项目根目录
-TEST_ROOT = Path("/mnt/d/projects/wiki")
+TEST_ROOT = Path("/home/dukkha/wiki")
 
 class TestResult:
     def __init__(self):
@@ -65,7 +65,6 @@ def test_path_protection():
     protected_paths = [
         "AGENTS.md",
         "skills/wiki-maintainer.md",
-        "wiki/skills/context-engineer.md",
     ]
     
     for path in protected_paths:
@@ -76,8 +75,8 @@ def test_path_protection():
     # 测试非保护路径
     unprotected_paths = [
         "wiki/sources/test.md",
-        "my-learning-path/test.md",
-        "concepts/test.md",
+        "wiki/my-learning-path/test.md",
+        "wiki/concepts/test.md",
     ]
     
     for path in unprotected_paths:

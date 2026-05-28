@@ -18,7 +18,7 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[使用 Arthas 排查线上问题]]
+- [[wiki/sources/使用-arthas-排查线上问题]]
 
 ## References
 

@@ -220,4 +220,4 @@ ALLOW_GUARD_OVERRIDE=true python scripts/path_guard.py authorize "AGENTS.md" "�
 
 - [[wiki/governance/guard-manual.md|完整使用手册]]
 - [[wiki/governance/demonstration.md|演示摘要]]
-- [[scripts/path_guard.py|路径保护工具源码]]
+- `scripts/path_guard.py`

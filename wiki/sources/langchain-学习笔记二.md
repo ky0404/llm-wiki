@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[大模型应用开发框架 LangChain 学习笔记]]
-- [[基于 LangGraph 创建智能体应用]]
+- [[wiki/sources/大模型应用开发框架-LangChain-学习笔记]]
+- [[wiki/sources/基于-LangGraph-创建智能体应用]]
 
 ## References
 

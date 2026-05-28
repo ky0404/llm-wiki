@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[llm-wiki-核心思想]]
-- [[Context Engineering]]
+- [[wiki/sources/llm-wiki-核心思想]]
+- [[wiki/sources/context-engineering]]
 
 ## References
 

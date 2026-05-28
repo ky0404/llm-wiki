@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[Elements of a Prompt]]
-- [[提示工程学习笔记]]
+- [[wiki/sources/elements-of-a-prompt]]
+- [[wiki/sources/提示工程学习笔记]]
 
 ## References
 

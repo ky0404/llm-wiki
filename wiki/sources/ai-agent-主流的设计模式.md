@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[AI Agent Workflow Design Patterns — An Overview]]
-- [[你不知道的 Agent：原理、架构与工程实践]]
+- [[wiki/sources/ai-agent-主流的设计模式]]
+- [[wiki/sources/你不知道的-agent]]
 
 ## References
 

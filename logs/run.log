@@ -1,0 +1,36 @@
+[2026-05-28 15:12:18,049] INFO - [FRONTEND] 启动前端: /home/dukkha/wiki/frontend
+[2026-05-28 15:12:18,049] INFO - [BACKEND] 启动后端服务: http://localhost:8000
+[2026-05-28 15:12:18,050] INFO - [FRONTEND] 启动前端服务: http://localhost:3000
+[2026-05-28 15:12:18,050] INFO - [LOG] 日志文件: /home/dukkha/wiki/logs/run.log
+[2026-05-28 15:23:55,590] INFO - [FRONTEND] 启动前端: /home/dukkha/wiki/frontend
+[2026-05-28 15:23:55,590] INFO - [BACKEND] 启动后端服务: http://localhost:8000
+[2026-05-28 15:23:55,591] INFO - [FRONTEND] 启动前端服务: http://localhost:3000
+[2026-05-28 15:23:55,591] INFO - [LOG] 日志文件: /home/dukkha/wiki/logs/run.log
+[2026-05-28 15:28:20,889] ERROR - [FRONTEND] 启动失败: Command '['npm', 'run', 'dev']' died with <Signals.SIGINT: 2>.
+[2026-05-28 15:29:31,329] INFO - [FRONTEND] 启动前端: /home/dukkha/wiki/frontend
+[2026-05-28 15:29:31,329] INFO - [BACKEND] 启动后端服务: http://localhost:8000
+[2026-05-28 15:29:31,330] INFO - [FRONTEND] 启动前端服务: http://localhost:3000
+[2026-05-28 15:29:31,331] INFO - [LOG] 日志文件: /home/dukkha/wiki/logs/run.log
+[2026-05-28 15:31:37,493] ERROR - [FRONTEND] 启动失败: Command '['npm', 'run', 'dev']' died with <Signals.SIGTERM: 15>.
+[2026-05-28 15:32:07,435] INFO - [FRONTEND] 启动前端: /home/dukkha/wiki/frontend
+[2026-05-28 15:32:07,436] INFO - [BACKEND] 启动后端服务: http://localhost:8000
+[2026-05-28 15:32:07,436] INFO - [FRONTEND] 启动前端服务: http://localhost:3000
+[2026-05-28 15:32:07,436] INFO - [LOG] 日志文件: /home/dukkha/wiki/logs/run.log
+[2026-05-28 15:32:29,647] ERROR - [FRONTEND] 启动失败: Command '['npm', 'run', 'dev']' died with <Signals.SIGTERM: 15>.
+[2026-05-28 15:33:44,294] INFO - [FRONTEND] 启动前端: /home/dukkha/wiki/frontend
+[2026-05-28 15:33:44,294] INFO - [BACKEND] 启动后端服务: http://localhost:8000
+[2026-05-28 15:33:44,295] INFO - [FRONTEND] 启动前端服务: http://localhost:3000
+[2026-05-28 15:33:44,295] INFO - [LOG] 日志文件: /home/dukkha/wiki/logs/run.log
+[2026-05-28 15:34:16,652] ERROR - [FRONTEND] 启动失败: Command '['npm', 'run', 'dev']' died with <Signals.SIGTERM: 15>.
+[2026-05-28 15:35:13,056] INFO - [FRONTEND] 启动前端: /home/dukkha/wiki/frontend
+[2026-05-28 15:35:13,057] INFO - [BACKEND] 启动后端服务: http://localhost:8000
+[2026-05-28 15:35:13,058] INFO - [FRONTEND] 启动前端服务: http://localhost:3000
+[2026-05-28 15:35:13,058] INFO - [LOG] 日志文件: /home/dukkha/wiki/logs/run.log
+[2026-05-28 15:41:48,607] INFO - [FRONTEND] 启动前端: /home/dukkha/wiki/frontend
+[2026-05-28 15:41:48,608] INFO - [BACKEND] 启动后端服务: http://localhost:8000
+[2026-05-28 15:41:48,609] INFO - [FRONTEND] 启动前端服务: http://localhost:3000
+[2026-05-28 15:41:48,609] INFO - [LOG] 日志文件: /home/dukkha/wiki/logs/run.log
+[2026-05-28 15:47:35,631] INFO - [FRONTEND] 启动前端: /home/dukkha/wiki/frontend
+[2026-05-28 15:47:35,631] INFO - [BACKEND] 启动后端服务: http://localhost:8000
+[2026-05-28 15:47:35,633] INFO - [FRONTEND] 启动前端服务: http://localhost:3000
+[2026-05-28 15:47:35,633] INFO - [LOG] 日志文件: /home/dukkha/wiki/logs/run.log

@@ -1,5 +1,0 @@
-# wiki/entities/ai-products.md - Level 2
-
-核心节点：wiki/entities/ai-products.md
-简要摘要：2-3 条要点。
-邻居精选：

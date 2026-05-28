@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[学习 Kubernetes 流量管理之 Service]]
-- [[在 Kubernetes 中调度 GPU 资源]]
+- [[wiki/sources/k8s-流量管理-service]]
+- [[wiki/sources/k8s-gpu调度]]
 
 ## References
 

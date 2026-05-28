@@ -21,8 +21,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[Context Engineering]]
-- [[提示工程学习笔记]]
+- [[wiki/sources/context-engineering]]
+- [[wiki/sources/提示工程学习笔记]]
 
 ## References
 

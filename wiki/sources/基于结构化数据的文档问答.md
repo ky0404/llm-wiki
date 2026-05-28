@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[高级 RAG 技术学习笔记]]
-- [[使用 Embedding 技术打造本地知识库助手]]
+- [[wiki/sources/高级-RAG-技术学习笔记]]
+- [[wiki/sources/使用-Embedding-技术打造本地知识库助手]]
 
 ## References
 

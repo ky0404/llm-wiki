@@ -80,6 +80,20 @@ input:focus-visible, button:focus-visible {
 .wiki-content th, .wiki-content td { border: 1px solid #e2e8f0; padding: 0.5rem 0.75rem; text-align: left; }
 .wiki-content th { background: #f8fafc; font-weight: 600; }
 .wiki-content a { color: #3b82f6; text-decoration: underline; }
+.wiki-content a.wiki-link {
+  color: #6366f1;
+  text-decoration: none;
+  background: #eef2ff;
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  margin: 0 0.125rem;
+  transition: background 0.2s, color 0.2s;
+}
+.wiki-content a.wiki-link:hover {
+  background: #c7d2fe;
+  color: #4f46e5;
+}
 .wiki-content strong { font-weight: 600; color: #1e293b; }
 .wiki-content hr { border: none; border-top: 1px solid #e2e8f0; margin: 1.5rem 0; }
 .wiki-content img { max-width: 100%; border-radius: 0.5rem; margin: 1rem 0; }

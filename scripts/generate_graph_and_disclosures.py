@@ -4,7 +4,7 @@ from pathlib import Path
 from datetime import datetime
 from collections import Counter
 
-WIKI_ROOT = "/mnt/d/projects/wiki"
+WIKI_ROOT = "/home/dukkha/wiki"
 WIKI_DIR = Path(WIKI_ROOT) / "wiki"
 OUTPUT_DIR = Path(WIKI_ROOT) / "output"
 CACHE_FILE = WIKI_DIR / "index-cache.json"

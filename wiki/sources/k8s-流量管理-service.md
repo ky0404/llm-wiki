@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[学习 Kubernetes 流量管理之 Ingress]]
-- [[容器运行时 containerd]]
+- [[wiki/sources/k8s-流量管理-ingress]]
+- [[wiki/sources/容器运行时-containerd]]
 
 ## References
 

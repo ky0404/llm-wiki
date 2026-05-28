@@ -1,0 +1,23 @@
+[[filter]]
+command_pattern = "fts_index.py"
+strategy = "smart_filter"
+keep_patterns  = ["✓", "完成", "已索引", "ERROR", "警告"]
+drop_patterns  = ["跳过", "未变化"]
+max_lines      = 50
+
+[[filter]]
+command_pattern = "update_graph.py"
+strategy = "tail"
+tail_lines = 20
+
+[[filter]]
+command_pattern = "comprehensive_gc.py"
+strategy = "smart_filter"
+keep_patterns  = ["发现", "修复", "ERROR", "孤立", "断链", "结构洞"]
+drop_patterns  = ["检查中", "扫描", "..."]
+max_lines      = 100
+
+[[filter]]
+command_pattern = "generate_graph_and_cache.py"
+strategy = "tail"
+tail_lines = 15

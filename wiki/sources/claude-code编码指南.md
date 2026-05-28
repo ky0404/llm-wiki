@@ -18,8 +18,8 @@ updated: 2026-05-01
 
 ## 关键概念
 
-- [[浅谈上下文工程]]
-- [[Context Engineering]]
+- [[wiki/sources/浅谈上下文工程]]
+- [[wiki/sources/context-engineering]]
 
 ## References
 
